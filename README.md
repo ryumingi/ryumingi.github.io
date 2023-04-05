@@ -1,7 +1,15 @@
-[travel](travel.md)
-
-[bookmarks](bookmarks)
-
-[software](software)
-
-[life](life)
+* [bookmarks](./bookmarks)
+  * [archive.md](./bookmarks/archive.md)
+  * [favorites.md](./bookmarks/favorites.md)
+  * [index.md](./bookmarks/index.md)
+  * [music.md](./bookmarks/music.md)
+* [life](./life)
+  * [residency.md](./life/residency.md)
+* [software](./software)
+  * [django.md](./software/django.md)
+  * [random.md](./software/random.md)
+* [travel](./travel)
+  * [flight.md](./travel/flight.md)
+  * [onebag.md](./travel/onebag.md)
+* [tree.sh](./tree.sh)
+* [README.md](./README.md)
