@@ -1,1 +1,7 @@
-# ryumingi.github.io
+[travel](travel.md)
+
+[bookmarks](bookmarks)
+
+[software](software)
+
+[life](life)
