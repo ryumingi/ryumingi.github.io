@@ -23,3 +23,18 @@ Clair de Lune
 
 [Leo Brouwer- Un Dia De Noviembre](https://www.songsterr.com/a/wsa/leo-brouwer-un-dia-de-noviembre-tab-s3376t0)
 
+---
+
+- Taeyeon (11:11)
+- Pentatonix (If I ever fall in love)
+- Ed Sheeren (A team)
+- Jason Mraz (I'm yours)
+- Cynthia Erivo (Anything worth holding onto)
+- Ben Fankhauser (Over the mountain)
+- Elvis Presley (Can't help falling in love)
+- Dua Lipa (Scared to be lonely)
+- Andrea Bocelli (The prayer)
+- Geeks (Officially missing you)
+- Gym Class Heroes (Stereo hearts)
+- Black Eyed Peas (Where is the love)
+- Younha (Comet)
