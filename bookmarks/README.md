@@ -5,6 +5,8 @@
 
 [Open Syllabus](https://nitter.net/search?f=tweets\&q=from%3Aclured+OR+from%3Aopensyllabus\&e-nativeretweets=on\&e-replies=on)
 
+[Qiskit Translations](https://github.com/qiskit-community/qiskit-translations/projects/2#column-16059157)
+
 ---
 
 [r/Bogleheads](https://reddi.tk/r/bogleheads)
