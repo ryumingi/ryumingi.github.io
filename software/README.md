@@ -6,4 +6,7 @@
 
 [Shtetl-Optimized (Scott Aaronson)](https://scottaaronson.blog/)
 
+[Snowden](https://nitter.net/search?f=tweets\&q=from%3Asnowden\&e-nativeretweets=on\&e-replies=on)
+
+
 ---
