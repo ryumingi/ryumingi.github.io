@@ -1,6 +1,8 @@
 
 [Hacker News](https://news.ycombinator.com/)
 
+[Memeorandom](https://www.memeorandum.com/)
+
 [Open Syllabus](https://nitter.net/search?f=tweets\&q=from%3Aclured+OR+from%3Aopensyllabus\&e-nativeretweets=on\&e-replies=on)
 
 ---
