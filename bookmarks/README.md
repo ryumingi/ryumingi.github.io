@@ -3,8 +3,6 @@
 
 [Open Syllabus](https://nitter.net/search?f=tweets\&q=from%3Aclured+OR+from%3Aopensyllabus\&e-nativeretweets=on\&e-replies=on)
 
-[Snowden](https://nitter.net/search?f=tweets\&q=from%3Asnowden\&e-nativeretweets=on\&e-replies=on)
-
 ---
 
 [r/Bogleheads](https://reddi.tk/r/bogleheads)
