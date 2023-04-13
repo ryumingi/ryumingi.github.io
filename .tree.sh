@@ -6,4 +6,4 @@ tree=$(tree -tf --noreport -I '*~' --charset ascii $1 |
 
 printf "${tree}" > README.md
 
-sed '/README.md/d' README.md > README.md
+sed -i '/README.md/d' README.md
