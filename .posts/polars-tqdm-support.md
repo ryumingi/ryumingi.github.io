@@ -1,5 +1,5 @@
 ---
-title: "Polars doesn't support TQDM"
+title: "Polars doesn't support tqdm"
 tags: ["polars", "tqdm"]
 date: 20230412
 ---
