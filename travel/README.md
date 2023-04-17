@@ -5,6 +5,8 @@
 
 ---
 
+[Weather Spark](https://weatherspark.com)
+
 [Speeddeets](https://speeddeets.com)
 
 [Frugalvagabond](https://frugalvagabond.com/)
