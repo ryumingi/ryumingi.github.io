@@ -5,6 +5,7 @@
 
 ---
 
+[Speeddeets](https://speeddeets.com)
 
 [Frugalvagabond](https://frugalvagabond.com/)
 
