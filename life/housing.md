@@ -3,6 +3,8 @@
 
 ---
 
+[spotahome](https://www.spotahome.com)
+
 [Vive Apartments](https://www.viveapartmenthomes.com/?rcstdid=Mg%253D%253D-YRjTEizZPgM%253D)
 
 [aPodment](https://www.apodment.com)
