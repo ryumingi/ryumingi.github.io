@@ -30,12 +30,6 @@
 
 ---
 
-[r/Skiing](http://reddi.tk/r/skiing/)
-
-[r/Backcountry](https://reddi.tk/r/backcountry)
-
----
-
 [Radio France](https://www.radiofrance.fr)
 
 [RFI](https://www.rfi.fr/en/)
