@@ -1,0 +1,88 @@
+---
+title: "Working with ISBN"
+tags: ["isbn", "isbnlib"]
+---
+
+Given a masked ISBN such as `978-958-5522-34-3`, which one of the [Main Functions](https://github.com/xlcnd/isbnlib#main-functions) are the most useful for working with ISBN?
+
+`to_isbn13(isbn10)` - Transforms isbn-10 to isbn-13.
+
+```py
+to_isbn13('978-958-5522-34-3')
+```
+> '9789585522343'
+
+`canonical(isbnlike)` - Keeps only digits and X. You will get strings like 9780321534965 and 954430603X.
+
+```py
+canonical('978-958-5522-34-3')
+```
+> '9789585522343'
+    
+`clean(isbnlike)` - Cleans ISBN (only legal characters).
+
+```py
+clean('978-958-5522-34-3')
+```
+> '978-958-5522-34-3'
+
+`get_isbnlike(text, level='normal')` - Extracts all substrings that seem like ISBNs (very useful for scraping).
+
+```py
+get_isbnlike('978-958-5522-34-3')
+```
+> ['978-958-5522-34-3']
+    
+`get_canonical_isbn(isbnlike, output='bouth')` - Extracts ISBNs and transform them to the canonical form.
+
+```py
+get_canonical_isbn('978-958-5522-34-3')
+```
+> '9789585522343'
+    
+`ean13(isbnlike)` - Transforms an isbnlike string into an EAN13 number (validated canonical ISBN-13).
+
+```py
+ean13('978-958-5522-34-3')
+```
+> '9789585522343'
+
+The useful ones are: `to_isbn13(isbn10)`, `canonical(isbnlike)`, and `ean13(isbnlike)`
+
+
+According to the source code on the [repo](https://github.com/xlcnd/isbnlib/blob/dev/isbnlib/_core.py), `ean13(isbnlike)` is the most comprehensive.
+```py
+def to_isbn13(isbn10):
+    """Transform isbn-10 to isbn-13."""
+    isbn10 = canonical(isbn10)
+    if len(isbn10) == 13 and is_isbn13(isbn10):
+        return isbn10
+    if not is_isbn10(isbn10):
+        return ''
+    isbn13 = ISBN13_PREFIX + isbn10[:-1]
+    check = check_digit13(isbn13)
+    return isbn13 + check if check else ''
+
+
+def canonical(isbnlike):
+    """Keep only numbers and X."""
+    numb = [c for c in isbnlike if c in '0123456789Xx']
+    if numb and numb[-1] == 'x':
+        numb[-1] = 'X'
+    isbn = ''.join(numb)
+    # Filter some special cases
+    if (isbn and len(isbn) not in (10, 13)
+            or isbn in ('0000000000', '0000000000000', '000000000X')
+            or isbn.find('X') not in (9, -1) or isbn.find('x') != -1):
+        return ''
+    return isbn
+    
+def ean13(isbnlike):
+    """Transform an `isbnlike` string in an EAN number (canonical ISBN-13)."""
+    ib = canonical(isbnlike)
+    if len(ib) == 13:
+        return ib if is_isbn13(ib) else ''
+    if len(ib) == 10:
+        return to_isbn13(ib) if is_isbn10(ib) else ''
+    return ''
+```
