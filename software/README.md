@@ -11,4 +11,3 @@
 
 ---
 
-[Amazon SES Sender Display Name](https://stackoverflow.com/questions/70390924/aws-ses-how-to-set-the-display-name-for-the-sender-address)
