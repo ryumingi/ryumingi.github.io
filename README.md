@@ -1,3 +1,4 @@
+
 .
  * [bookmarks](./bookmarks)
    * [archive.md](./bookmarks/archive.md)
@@ -11,6 +12,13 @@
    * [movies.md](./media/movies.md)
    * [music.md](./media/music.md)
    * [shows.md](./media/shows.md)
+ * [posts](./posts)
+   * [cluster.md](./posts/cluster.md)
+   * [expat-fire.md](./posts/expat-fire.md)
+   * [hsa.md](./posts/hsa.md)
+   * [isbnlib.md](./posts/isbnlib.md)
+   * [polars-tqdm-support.md](./posts/polars-tqdm-support.md)
+   * [setup.md](./posts/setup.md)
  * [software](./software)
    * [django.md](./software/django.md)
    * [ml.md](./software/ml.md)
@@ -22,5 +30,5 @@
    * [onebag.md](./travel/onebag.md)
    * [skiing.md](./travel/skiing.md)
  * [research](./research)
-     * [digital-nomad.md](./research/digital-nomad.md)
-     * [gender.md](./research/gender.md)
+   * [digital-nomad.md](./research/digital-nomad.md)
+   * [gender.md](./research/gender.md)

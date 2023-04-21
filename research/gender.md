@@ -117,7 +117,7 @@ We exploit the phenomena of homophily in communication pat- terns to learn name 
 
 We collected 74M labeled names come from 118 different countries, containing over 90% of world’s population.
 
-example, a name wrien in “Hangul”, “HKÜ” . It is very likely to be a Korean name because most names in “Hangul” are Korean names. Therefore, for a name vi ∈ Vch , we use the average of names in same characters to estimate its likelihood.
+example, a name wrien in “Hangul”, “HKÜ” . It is very likely to be a Korean name because most names in “Hangul” are Korean names. Therefore, for a name vi ∈ Vch , we use the average of names in same characters to estimate its likelihood.
 
 Figure 5: Treemap of nationality taxonomy. Nested blocks within a larger block are its child nodes. 118 countries/regions, covering over 90% world population, are assigned to 39 leaf nationalities. e taxonomy is constructed based on Cultural, Ethnic and Linguist (CEL) similarities.
 
