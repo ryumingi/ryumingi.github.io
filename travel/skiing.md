@@ -63,6 +63,79 @@ French Alps
 
 ---
 
+# Skiing: Hostels in North America
+
+#### United States
+
+[Park City Hostel, Utah](https://parkcityhostel.com/)
+
+[The PAD, Summit County, Colorado](https://thepadlife.com/silverthorne/)
+
+[The BIVVI, Breckenridge, Colorado](https://www.thebivvi.com/home)
+
+[Mellow Mountain Hostel, South Lake Tahoe, CA](https://mellowmountainhostel.com/)
+
+[Treasure State Hostel, Bozeman, MT](https://www.treasurestatehostel.com/)
+
+
+#### Canada
+
+[Hi Whistler, British Columbia](https://hihostels.ca/en/destinations/british-columbia/hi-whistler)
+
+[Whistler Lodge Hostel, British Columbia](https://whistlerlodgehostel.com/)
+
+[Samsun, Banff, Alberta](https://samesun.com/banff-book-now/)
+
+[Banff International Hostel, Alberta](https://www.banffinternationalhostel.com/)
+
+[Hi Banff, Alberta](https://hihostels.ca/en/destinations/alberta/hi-banff)
+
+[Hi Lake Louise, Alberta](https://hihostels.ca/en/destinations/alberta/hi-lake-louise)
+
+
+---
+
+### Public Transportation
+
+
+**Grandvalira**
+
+[Andbus](https://www.andorrabybus.com/en)
+
+[Andorra Bus System](https://visitandorra.com/en/visitor-information/before-you-arrive/public-transport-national-regular-lines/)
+
+[Grandvalira Bus System](https://www.grandvalira.com/en/how-get-there)
+
+**Chamonix**
+
+[Swiss Tour](https://www.swisstours-office.ch/EN/Uncategorized/Regular-Line/CT5301BT/easy-bus-transfers-regular-line-from-chamonix-to-geneva-from-7.-euro-544.html)
+
+[FlixBus](https://global.flixbus.com/)
+
+[Chamonix Bus System](https://www.chamonix.net/english/transport/bus)
+
+**Denver**
+
+[Snowstang - Arapahoe Basin](https://ridebustang.com/snowstang-mountain-service/schedules/arapahoe-basin/) (weekends)
+
+[Snowstang - Copper Mountain](https://ridebustang.com/snowstang-mountain-service/schedules/copper-mountain-ski-area/) (weekends)
+
+[Snowstang - Breckenridge](https://ridebustang.com/snowstang-mountain-service/schedules/breckenridge-schedule/) (weekends)
+
+[Snowstang - Loveland Ski Area](https://ridebustang.com/snowstang-mountain-service/schedules/loveland-ski-area/) (weekends)
+
+[Snowstang - Steamboat Springs](https://ridebustang.com/snowstang-mountain-service/schedules/steamboat-springs/) (weekends, overnight)
+
+[Pegasus - Vail](https://ridebustang.com/pegasus-shuttle-van/schedules/denver-avon/) (weekdays, weekends)
+
+[Pegasus - Beaver Creek](https://ridebustang.com/pegasus-shuttle-van/schedules/denver-avon/) (weekdays, weekends)
+
+[Bustang - Vail](https://ridebustang.com/bustang/schedules/west/) (weekdays, weekends)
+
+[Amtrak - Winter Park](https://www.amtrak.com/winter-park-express) (weekends)
+
+---
+
 ### Skiing: 2022-2023
 
 #### IKON Base Pass ($469 via Boulder Freeride)
