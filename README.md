@@ -1,7 +1,5 @@
 [source](https://github.com/ryumingi)
 .
- * [bookmarks](./bookmarks)
-   * [archive.md](./bookmarks/archive.md)
  * [life](./life)
    * [residency.md](./life/residency.md)
    * [housing.md](./life/housing.md)
@@ -32,3 +30,4 @@
  * [research](./research)
    * [digital-nomad.md](./research/digital-nomad.md)
    * [gender.md](./research/gender.md)
+ * [bookmarks](./bookmarks)
