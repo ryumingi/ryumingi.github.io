@@ -1,7 +1,4 @@
 
-[Total Real Returns](https://totalrealreturns.com/)
-
----
 
 [Sci-Hub](https://sci-hub.se/)
 
