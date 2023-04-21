@@ -1,4 +1,4 @@
-[Early retired mechanical engineer onebag setup](https://reddi.tk/r/onebag/comments/11pny00/145lbs_30l_indefinite_travel_setup_1year_update/)
+
 
 [Travel Stack Exchange](https://travel.stackexchange.com)
 
@@ -7,7 +7,7 @@
 
 [Weather Spark](https://weatherspark.com)
 
-[Speeddeets](https://speeddeets.com)
+[Speed Deets](https://speeddeets.com)
 
 [Frugalvagabond](https://frugalvagabond.com/)
 

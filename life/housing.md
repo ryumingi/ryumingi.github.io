@@ -3,7 +3,9 @@
 
 ---
 
-[spotahome](https://www.spotahome.com)
+[Judgemental Maps](https://judgmentalmaps.com)
+
+[Spot a Home](https://www.spotahome.com)
 
 [Vive Apartments](https://www.viveapartmenthomes.com/?rcstdid=Mg%253D%253D-YRjTEizZPgM%253D)
 
