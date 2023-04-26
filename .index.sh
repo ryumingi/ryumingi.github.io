@@ -9,5 +9,5 @@ tree=$(tree -tf --noreport -I '*~' --charset ascii $1 |
 
 printf "${bookmarks}\n\n${source}\n\n${tree}" > README.md
 
-sed -i '/README.md/d' README.md
-sed -i '/bookmarks.md/d' README.md
+sed -i '/[README.md]/d' README.md
+sed -i '/[bookmarks.md]/d' README.md
