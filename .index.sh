@@ -1,7 +1,7 @@
 #!/bin/bash
 
 source="[source](https://github.com/ryumingi)"
-bookmarks="[bookmarks](bookmarks.md]"
+bookmarks="[bookmarks](bookmarks.md)"
 
 # Generate tree representation of the directory w/ hyperlink
 tree=$(tree -tf --noreport -I '*~' --charset ascii $1 |
