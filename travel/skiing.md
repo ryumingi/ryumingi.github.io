@@ -95,7 +95,7 @@ French Alps
 
 ---
 
-### Public Transportation
+### Transit
 
 
 **Grandvalira**
