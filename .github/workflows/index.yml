@@ -1,4 +1,4 @@
-name: Tree
+name: index
 
 on:
   workflow_dispatch:
@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Update README.md
-        run: ./.tree.sh
+        run: ./.index.sh
       - name: Commit README.md
         run: |
           git config --global user.name 'Mingi Ryu'
