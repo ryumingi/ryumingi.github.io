@@ -40,6 +40,7 @@
 
 ---
 
+[2ft](https://12ft.io/)
 
 [Sci-Hub](https://sci-hub.se/)
 
