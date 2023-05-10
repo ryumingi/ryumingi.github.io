@@ -54,7 +54,7 @@
 
 [Asianload](https://asianembed.io/)
 
-[Extreme down](https://www.extreme-down.io/home.html)
+[Extreme down](https://www.extreme-down.moe)
 
 [NewPipe](https://github.com/TeamNewPipe/NewPipe/releases)
 
