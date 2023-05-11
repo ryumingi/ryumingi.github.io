@@ -31,7 +31,7 @@ I'll be using [Flightera.net](https://www.flightera.net/) (uses CarbonCompute.co
 
 Let's start with international flights:
 - KE12: LAX-ICN: 1,700kg
-- DL196: ICN-LAX: 1,082kg
+- DL196: ICN-SEA: 1,082kg
 - OG112: BOS-KEF: 400kg
 - OG400: KEF-CDG: 333kg
 - UA986: CDG-ORD: 798kg
