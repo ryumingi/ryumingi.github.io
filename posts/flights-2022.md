@@ -42,7 +42,7 @@ Let's start with international flights:
 
 Total: 8829kg
 
-According to EPA, I've owned and drove almost 2 cars this year, which is absolutely horrifying:
+According to EPA, this is equivalent to carbon emission of 2 cars, which is absolutely horrifying:
 
 > A typical passenger vehicle emits about 4.6 metric tons of carbon dioxide per year. 
 
@@ -50,8 +50,8 @@ According to EPA, I've owned and drove almost 2 cars this year, which is absolut
 
 https://www.epa.gov/greenvehicles/greenhouse-gas-emissions-typical-passenger-vehicle
 
-For now, I'd estimate that the carbon footprint of my domestic flights would be at least equal and likely more.
-This means that I've owned and drove an equivalent of 4 cars.
+For now, I'd estimate that the carbon footprint of my domestic flights would be equal.
+This means that I've owned and drove an equivalent of 4 cars this year.
 
 
 
