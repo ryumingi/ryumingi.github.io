@@ -1,2 +1,3 @@
+- [My flights in 2022 and the carbon footprint](./flights-2022.md)
 - [Polars doesn't support tqdm](./polars-tqdm-support.md)
 - [Working with ISBN](./isbnlib.md)
