@@ -11,3 +11,4 @@
 
 ---
 
+https://www.lan.kth.se/eduroam/phones/phones_mobile_guide.html
