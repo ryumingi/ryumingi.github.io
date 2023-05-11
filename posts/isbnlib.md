@@ -52,31 +52,6 @@ The useful ones are: `to_isbn13(isbn10)`, `canonical(isbnlike)`, and `ean13(isbn
 
 According to the source code on the [repo](https://github.com/xlcnd/isbnlib/blob/dev/isbnlib/_core.py), `ean13(isbnlike)` is the most comprehensive.
 ```py
-def to_isbn13(isbn10):
-    """Transform isbn-10 to isbn-13."""
-    isbn10 = canonical(isbn10)
-    if len(isbn10) == 13 and is_isbn13(isbn10):
-        return isbn10
-    if not is_isbn10(isbn10):
-        return ''
-    isbn13 = ISBN13_PREFIX + isbn10[:-1]
-    check = check_digit13(isbn13)
-    return isbn13 + check if check else ''
-
-
-def canonical(isbnlike):
-    """Keep only numbers and X."""
-    numb = [c for c in isbnlike if c in '0123456789Xx']
-    if numb and numb[-1] == 'x':
-        numb[-1] = 'X'
-    isbn = ''.join(numb)
-    # Filter some special cases
-    if (isbn and len(isbn) not in (10, 13)
-            or isbn in ('0000000000', '0000000000000', '000000000X')
-            or isbn.find('X') not in (9, -1) or isbn.find('x') != -1):
-        return ''
-    return isbn
-    
 def ean13(isbnlike):
     """Transform an `isbnlike` string in an EAN number (canonical ISBN-13)."""
     ib = canonical(isbnlike)
