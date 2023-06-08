@@ -27,7 +27,15 @@ ssh-keygen -t rsa -b 4096 -f ~/.ssh/id_rsa
 #### Tools
 
 ```sh
-sudo apt-get install git vim chromium-browser guake gnome-tweaks -y
+sudo apt-get install git vim chromium-browser python3-venv python3-pip python3-dev -y
+```
+
+```sh
+sudo apt-get install guake gnome-tweaks -y
+```
+
+```sh
+sudo apt-get install ubuntu-restricted-extras -y
 ```
 
 ```
@@ -35,21 +43,15 @@ git config --global user.name mingiryu
 git config --global user.email mingi.ryu@icloud.com
 ```
 
-```sh
-sudo apt-get install python3-venv python3-pip python3-dev -y
-```
 
 ```sh
 pip install awscli
 ```
 
-```sh
-sudo apt-get install ubuntu-restricted-extras -y
-```
 
 [NVM](https://github.com/nvm-sh/nvm)
 
-[VS Code](https://mazer.dev/en/blog/posts/how-to-install-vscode-on-linux-ubuntu-mint/)
+[VS Code](https://code.visualstudio.com/docs/setup/linux)
 
 #### Docker
 
