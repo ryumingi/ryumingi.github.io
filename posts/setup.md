@@ -48,6 +48,7 @@ git config --global user.email mingi.ryu@icloud.com
 pip install awscli
 ```
 
+[Yakuake](https://community.linuxmint.com/software/view/yakuake)
 
 [NVM](https://github.com/nvm-sh/nvm)
 
@@ -55,7 +56,7 @@ pip install awscli
 
 #### Docker
 
-https://docs.docker.com/engine/install/ubuntu/#set-up-the-repository
+[Docker](https://docs.docker.com/engine/install/ubuntu/#set-up-the-repository)
 
 > sudo apt-get install -y docker.io
 
