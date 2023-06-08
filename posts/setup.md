@@ -27,7 +27,7 @@ ssh-keygen -t rsa -b 4096 -f ~/.ssh/id_rsa
 #### Tools
 
 ```sh
-sudo apt-get install git vim chromium-browser python3-venv python3-pip python3-dev -y
+sudo apt-get install git vim chromium-browser python3-venv python3-pip python3-dev awscli -y
 ```
 
 ```sh
@@ -41,11 +41,6 @@ sudo apt-get install ubuntu-restricted-extras -y
 ```
 git config --global user.name mingiryu
 git config --global user.email mingi.ryu@icloud.com
-```
-
-
-```sh
-pip install awscli
 ```
 
 [Yakuake](https://community.linuxmint.com/software/view/yakuake)
