@@ -78,7 +78,9 @@ https://learn.hashicorp.com/tutorials/terraform/install-cli
 
 https://developer.hashicorp.com/terraform/downloads
 
-> unzip sudo mv terraform /usr/local/bin/
+> unzip terraform.zip
+
+> sudo mv terraform /usr/local/bin/
 
 #### Task
 
