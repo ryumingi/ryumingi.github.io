@@ -49,6 +49,11 @@ git config --global user.email mingi.ryu@icloud.com
 
 [VS Code](https://code.visualstudio.com/docs/setup/linux)
 
+Disable Alt+`
+```sh
+gsettings set org.cinnamon.desktop.keybindings.wm switch-group []
+```
+
 #### Docker
 
 [Docker](https://docs.docker.com/engine/install/ubuntu/#set-up-the-repository)
