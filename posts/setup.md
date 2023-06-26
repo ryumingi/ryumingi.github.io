@@ -41,6 +41,7 @@ sudo apt-get install ubuntu-restricted-extras -y
 ```
 git config --global user.name mingiryu
 git config --global user.email mingi.ryu@icloud.com
+git config --global core.editor "vim"
 ```
 
 [Yakuake](https://community.linuxmint.com/software/view/yakuake)
