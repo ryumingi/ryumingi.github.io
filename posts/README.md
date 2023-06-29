@@ -1,4 +1,4 @@
-### [My flights in 2022 and the carbon footprint](./flights-2022.md)
+### [2022 flights and the carbon footprint](./flights-2022.md)
 
 ### [Polars doesn't support tqdm](./polars-tqdm-support.md)
 
