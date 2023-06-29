@@ -4,4 +4,6 @@
 
 ### [Working with ISBN](./isbnlib.md)
 
+### [Working with a Spark cluster](./cluster.md)
+
 ### [Dev Setup](./setup.md)
