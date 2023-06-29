@@ -1,9 +1,11 @@
-### [2022 flights and the carbon footprint](./flights-2022.md)
+### [2022 Flights and Carbon Footprint](./flights-2022.md)
 
-### [Polars doesn't support tqdm](./polars-tqdm-support.md)
+### [Polars Doesn't Support TQDM Yet](./polars-tqdm-support.md)
 
 ### [Working with ISBN](./isbnlib.md)
 
-### [Working with a Spark cluster](./cluster.md)
+### [Working with a Spark Cluster](./cluster.md)
+
+### [Expat Fire](./expat-fire.md)
 
 ### [Dev Setup](./setup.md)
