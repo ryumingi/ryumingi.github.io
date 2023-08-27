@@ -55,6 +55,10 @@ Disable Alt+`
 gsettings set org.cinnamon.desktop.keybindings.wm switch-group []
 ```
 
+```sh
+gsettings set org.mate.Marco.global-keybindings switch-group 'disabled'
+```
+
 #### Docker
 
 [Docker](https://docs.docker.com/engine/install/ubuntu/#set-up-the-repository)
