@@ -44,19 +44,15 @@ git config --global user.email mingi.ryu@icloud.com
 git config --global core.editor "vim"
 ```
 
+Taskfile
+```sh
+sh -c "$(curl --location https://taskfile.dev/install.sh)" -- -d -b ~/.local/bin
+```
 
-#### Poetry
-
+Poetry
 ```sh
 curl -sSL https://install.python-poetry.org | python3 -
 echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
-```
-
-
-#### Task
-
-```sh
-sh -c "$(curl --location https://taskfile.dev/install.sh)" -- -d -b ~/.local/bin
 ```
 
 [Yakuake](https://community.linuxmint.com/software/view/yakuake)
