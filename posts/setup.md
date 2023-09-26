@@ -27,7 +27,7 @@ ssh-keygen -t rsa -b 4096 -f ~/.ssh/id_rsa
 #### Tools
 
 ```sh
-sudo apt-get install git vim chromium-browser python3-venv python3-pip python3-dev awscli -y
+sudo apt-get install git vim python3-venv python3-pip python3-dev awscli -y
 ```
 
 ```sh
@@ -44,20 +44,33 @@ git config --global user.email mingi.ryu@icloud.com
 git config --global core.editor "vim"
 ```
 
+
+#### Poetry
+
+```sh
+curl -sSL https://install.python-poetry.org | python3 -
+echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
+```
+
+
+#### Task
+
+```sh
+sh -c "$(curl --location https://taskfile.dev/install.sh)" -- -d -b ~/.local/bin
+```
+
 [Yakuake](https://community.linuxmint.com/software/view/yakuake)
+
+Disable Alt+`
+```sh
+gsettings set org.mate.Marco.global-keybindings switch-group 'disabled'
+```
 
 [NVM](https://github.com/nvm-sh/nvm)
 
 [VS Code](https://code.visualstudio.com/docs/setup/linux)
 
-Disable Alt+`
-```sh
-gsettings set org.cinnamon.desktop.keybindings.wm switch-group []
-```
-
-```sh
-gsettings set org.mate.Marco.global-keybindings switch-group 'disabled'
-```
+Chrome
 
 #### Docker
 
@@ -75,12 +88,6 @@ newgrp docker
 
 > sudo curl -SL https://github.com/docker/compose/releases/download/v2.15.1/docker-compose-linux-x86\_64 -o /usr/local/bin/docker-compose sudo chmod +x /usr/local/bin/docker-compose;
 
-#### Poetry
-
-```sh
-curl -sSL https://install.python-poetry.org | python3 -
-echo export PATH="/etc/poetry/bin:$PATH" >> ~/.bashrc
-```
 
 #### Terraform
 
@@ -92,8 +99,3 @@ https://developer.hashicorp.com/terraform/downloads
 
 > sudo mv terraform /usr/local/bin/
 
-#### Task
-
-```sh
-sh -c "$(curl --location https://taskfile.dev/install.sh)" -- -d -b ~/.local/bin
-```
