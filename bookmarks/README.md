@@ -3,13 +3,17 @@
 
 ---
 
-[Hacker News](https://news.ycombinator.com/) | [Slickdeals](https://slickdeals.net/) | [Bogleheads.org](https://bogleheads.org/) | [RFI](https://www.rfi.fr/en/) | [Memeorandum](https://www.memeorandum.com/)
+[Hacker News](https://news.ycombinator.com/) | [Slickdeals](https://slickdeals.net/) | [Bogleheads.org](https://bogleheads.org/)
+
+[RFI](https://www.rfi.fr/en/) | [Memeorandum](https://www.memeorandum.com/)
 
 ---
 
 [r/USCIS](https://old.reddit.com/r/uscis) | [r/DigitalNomad](https://old.reddit.com/r/digitalnomad/)
 
-[r/BogleHeads](https://old.reddit.com/r/bogleheads) | [r/ExpatFIRE](https://old.reddit.com/r/expatfire) | [r/EuropeFIRE](https://old.reddit.com/r/EuropeFIRE) | [r/USExpatTaxes](https://old.reddit.com/r/usexpattaxes)
+[r/BogleHeads](https://old.reddit.com/r/bogleheads)
+
+[r/ExpatFIRE](https://old.reddit.com/r/expatfire) | [r/USExpatTaxes](https://old.reddit.com/r/usexpattaxes)
 
 [r/Seattle](https://old.reddit.com/r/seattle) | [r/Denver](https://old.reddit.com/r/denver) | [r/Chicago](https://old.reddit.com/r/chicago)
 
@@ -19,7 +23,9 @@
 
 ---
 
-[VTI](https://www.tradingview.com/chart/?symbol=AMEX%3AVTI) | [VXUS](https://www.tradingview.com/chart/?symbol=NASDAQ%3AVXUS) | [BRK.B](https://www.tradingview.com/chart/?symbol=NYSE%3ABRK.B) | [BTCUSD](https://www.tradingview.com/chart/?symbol=BITSTAMP%3ABTCUSD) | [XMRUSD](https://www.tradingview.com/chart/?symbol=BYBIT%3AXMRUSDT.P) | [XMRBTC](https://www.tradingview.com/chart/?symbol=BINANCE%3AXMRBTC)
+[VTI](https://www.tradingview.com/chart/?symbol=AMEX%3AVTI) | [VXUS](https://www.tradingview.com/chart/?symbol=NASDAQ%3AVXUS) | [BRK.B](https://www.tradingview.com/chart/?symbol=NYSE%3ABRK.B)
+
+[BTCUSD](https://www.tradingview.com/chart/?symbol=BITSTAMP%3ABTCUSD) | [XMRUSD](https://www.tradingview.com/chart/?symbol=BYBIT%3AXMRUSDT.P) | [XMRBTC](https://www.tradingview.com/chart/?symbol=BINANCE%3AXMRBTC)
 
 ---
 
