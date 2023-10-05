@@ -1,6 +1,4 @@
-title: ryumingi.github.io
-author:
-  name: Mingi Ryu
+title: Mingi Ryu
 
 description: Knowledge representation and reasoning of the world
 
@@ -10,6 +8,6 @@ minima:
   skin: dark
 
 header_pages:
-  - bookmarks
-  - posts
-  - research
+  - bookmarks/README.md
+  - posts/README.md
+  - research/README.md
