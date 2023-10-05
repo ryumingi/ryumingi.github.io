@@ -1,10 +1,10 @@
 
-[Flights and Carbon Footprint](./posts/flights-carbon-footprint.md)
+[Flights and Carbon Footprint](./flights-carbon-footprint.md)
 
-[ISBN](./posts/isbnlib.md)
+[ISBN](./isbnlib.md)
 
-[Spark Cluster](./posts/cluster.md)
+[Spark Cluster](./cluster.md)
 
-[Expat Fire](./posts/expat-fire.md)
+[Expat Fire](./expat-fire.md)
 
-[Linux Dev Setup](./posts/setup.md)
+[Linux Dev Setup](./setup.md)
