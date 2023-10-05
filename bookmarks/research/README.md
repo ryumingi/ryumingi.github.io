@@ -1,4 +1,4 @@
-[Reinforcement Learning](./reinforcement-learning.md)
+[Reinforcement Learning](./reinforcement-learning.md) | [Natural Langauge Processing](./natural-langauge-processing.md)
 
 ---
 
