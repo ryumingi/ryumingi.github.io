@@ -70,8 +70,6 @@ Chrome
 
 #### Docker
 
-[Docker](https://docs.docker.com/engine/install/ubuntu/#set-up-the-repository)
-
 ```sh
 # Add Docker's official GPG key:
 sudo apt-get update
@@ -101,11 +99,6 @@ sudo groupadd docker
 sudo usermod -aG docker $USER
 newgrp docker
 ```
-
-#### Compose
-
-> sudo curl -SL https://github.com/docker/compose/releases/download/v2.15.1/docker-compose-linux-x86\_64 -o /usr/local/bin/docker-compose sudo chmod +x /usr/local/bin/docker-compose;
-
 
 #### Terraform
 
