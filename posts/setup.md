@@ -90,15 +90,14 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 
 # Verify that the Docker Engine installation is successful.
 sudo docker run hello-world
-```
 
-> If you use an Ubuntu derivative distro, such as Linux Mint, you may need to use `UBUNTU_CODENAME` instead of `VERSION_CODENAME`.
-
-```sh
+# Allow Docker to run w/o sudo
 sudo groupadd docker
 sudo usermod -aG docker $USER
 newgrp docker
 ```
+
+> If you use an Ubuntu derivative distro, such as Linux Mint, you may need to use `UBUNTU_CODENAME` instead of `VERSION_CODENAME`.
 
 #### Terraform
 
