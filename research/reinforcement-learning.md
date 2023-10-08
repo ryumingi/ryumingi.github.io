@@ -1,5 +1,13 @@
 <details>
   <summary>
+    <a href='https://link.springer.com/content/pdf/10.1007/s10462-022-10228-y.pdf'>Monte Carlo Tree Search: a review of recent modifications and applications</a>
+  </summary>
+
+  <p></p>
+</details>
+
+<details>
+  <summary>
     <a href='https://huggingface.co/blog/rlhf'>Illustrating Reinforcement Learning from Human Feedback (RLHF)</a>
   </summary>
 
