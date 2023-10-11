@@ -9,9 +9,15 @@
 
 ---
 
-[Hacker News](https://news.ycombinator.com/) | [Slickdeals](https://slickdeals.net/) | [Bogleheads.org](https://bogleheads.org/)
+[Hacker News](https://news.ycombinator.com/)
 
-[RFI](https://www.rfi.fr/en/) | [Memeorandum](https://www.memeorandum.com/)
+[Slickdeals](https://slickdeals.net/)
+
+[Bogleheads.org](https://bogleheads.org/)
+
+[RFI](https://www.rfi.fr/en/)
+
+[Memeorandum](https://www.memeorandum.com/)
 
 ---
 
@@ -28,6 +34,23 @@
 [r/RealEstateInvesting](http://old.reddit.com/r/realestateinvesting) | [r/HomeOwners](http://old.reddit.com/r/homeowners)
 
 ---
+
+[REI](https://www.rei.com/)
+
+[Patagonia](https://www.patagonia.com/)
+
+[Darn Tough](https://darntough.com/)
+
+[Cotopaxi](https://www.cotopaxi.com/)
+
+[Lululemon](https://shop.lululemon.com/)
+
+[Muji](https://www.muji.us/)
+
+[Wool & Prince](https://woolandprince.com/)
+
+---
+
 
 [VTI](https://www.tradingview.com/chart/?symbol=AMEX%3AVTI) | [VXUS](https://www.tradingview.com/chart/?symbol=NASDAQ%3AVXUS) | [BRK.B](https://www.tradingview.com/chart/?symbol=NYSE%3ABRK.B)
 
