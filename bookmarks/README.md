@@ -1,11 +1,8 @@
-
-[Flights](./flights)
-
-[Music](./music)
-
-[Skiing](./skiing)
-
-[Software](./software)
+| --- |
+| [Flights](./flights) |
+| [Music](./music) |
+| [Skiing](./skiing) |
+| [Software](./software) |
 
 ---
 
