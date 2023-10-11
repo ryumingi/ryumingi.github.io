@@ -21,9 +21,11 @@
 
 ---
 
-[r/USCIS](https://old.reddit.com/r/uscis) | [r/DigitalNomad](https://old.reddit.com/r/digitalnomad/)
+[r/USCIS](https://old.reddit.com/r/uscis) |
 
-[r/BogleHeads](https://old.reddit.com/r/bogleheads)
+[r/DigitalNomad](https://old.reddit.com/r/digitalnomad/) |
+
+[r/BogleHeads](https://old.reddit.com/r/bogleheads) |
 
 [r/ExpatFIRE](https://old.reddit.com/r/expatfire) | [r/USExpatTaxes](https://old.reddit.com/r/usexpattaxes)
 
@@ -31,7 +33,9 @@
 
 [r/Skiing](http://old.reddit.com/r/skiing) | [r/BackCountry](https://old.reddit.com/r/backcountry)
 
-[r/RealEstateInvesting](http://old.reddit.com/r/realestateinvesting) | [r/HomeOwners](http://old.reddit.com/r/homeowners)
+[r/RealEstateInvesting](http://old.reddit.com/r/realestateinvesting) | 
+
+| [r/HomeOwners](http://old.reddit.com/r/homeowners) |
 
 ---
 
