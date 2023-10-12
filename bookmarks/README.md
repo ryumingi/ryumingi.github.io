@@ -28,11 +28,13 @@
 | --- |
 | [REI](https://www.rei.com/) |
 | [Patagonia](https://www.patagonia.com/) |
+| [Arcteryx](https://arcteryx.com/) |
 | [Darn Tough](https://darntough.com/) |
 | [Cotopaxi](https://www.cotopaxi.com/) |
 | [Lululemon](https://shop.lululemon.com/) |
 | [Muji](https://www.muji.us/) |
 | [Wool & Prince](https://woolandprince.com/) |
+| [Montbell](https://www.montbell.us/) |
 
 | --- |
 | [VTI](https://www.tradingview.com/chart/?symbol=AMEX%3AVTI) |
