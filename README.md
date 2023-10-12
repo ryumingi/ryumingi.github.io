@@ -1,7 +1,7 @@
 | --- |
 | [bookmarks](/bookmarks) |
 | [posts](/posts) |
-| [skiing](./skiing) |
+| [skiing](./bookmarks/skiing) |
 | [research](./research) |
-| [software](./software) |
+| [software](./bookmarks/software) |
 | [github](https://github.com/ryumingi) |
