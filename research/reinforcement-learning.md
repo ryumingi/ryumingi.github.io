@@ -1,5 +1,14 @@
 <details>
   <summary>
+    <a href='https://language-to-reward.github.io/'>Language to Rewards for Robotic Skill Synthesis</a>
+  </summary>
+
+  <p></p>
+</details>
+
+
+<details>
+  <summary>
     <a href='https://link.springer.com/content/pdf/10.1007/s10462-022-10228-y.pdf'>Monte Carlo Tree Search: a review of recent modifications and applications</a>
   </summary>
 
