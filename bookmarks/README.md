@@ -44,51 +44,36 @@
 | [XMRUSD](https://www.tradingview.com/chart/?symbol=BYBIT%3AXMRUSDT.P) |
 | [XMRBTC](https://www.tradingview.com/chart/?symbol=BINANCE%3AXMRBTC) |
 
----
+| --- |
+| [Open Syllabus](https://nitter.net/search?f=tweets\&q=from%3Aclured+OR+from%3Aopensyllabus\&e-nativeretweets=on\&e-replies=on) |
+| [Snowden](https://nitter.net/search?f=tweets\&q=from%3Asnowden\&e-nativeretweets=on\&e-replies=on) |
+| [Wasatch Weather Weenies](https://wasatchweatherweenies.blogspot.com/) |
+| [Patchskiing Unlimited](https://patchskiing.net/) |
+| [Jay Alammar](https://jalammar.github.io/) |
+| [Lil’Log (Lilian Weng)](https://lilianweng.github.io/) |
+| [Chris Olah](https://colah.github.io/) |
+| [Shtetl-Optimized (Scott Aaronson)](https://scottaaronson.blog/) |
+| [Frugalvagabond](https://frugalvagabond.com/) | 
+| [Go Curry Cracker](https://www.gocurrycracker.com) |
+| [Qiskit Translations](https://github.com/qiskit-community/qiskit-translations/projects/2#column-16059157) |
 
-[Open Syllabus](https://nitter.net/search?f=tweets\&q=from%3Aclured+OR+from%3Aopensyllabus\&e-nativeretweets=on\&e-replies=on) | [Snowden](https://nitter.net/search?f=tweets\&q=from%3Asnowden\&e-nativeretweets=on\&e-replies=on)
-
-[Wasatch Weather Weenies](https://wasatchweatherweenies.blogspot.com/) | [Patchskiing Unlimited](https://patchskiing.net/)
-
-[Jay Alammar](https://jalammar.github.io/) | [Lil’Log (Lilian Weng)](https://lilianweng.github.io/) | [Chris Olah](https://colah.github.io/) | [Shtetl-Optimized (Scott Aaronson)](https://scottaaronson.blog/)
-
-[Frugalvagabond](https://frugalvagabond.com/) | [Go Curry Cracker](https://www.gocurrycracker.com)
-
-[Qiskit Translations](https://github.com/qiskit-community/qiskit-translations/projects/2#column-16059157)
-
----
-
-[Ski Pass Map](https://www.google.com/maps/d/u/0/viewer?mid=1hs1R4ik-rEIl4ClU2GCHznGAJN4nc3Mh&ll=41.48631472755944%2C-102.18505327499997&z=2)
-
-[Weather Spark](https://weatherspark.com)
-
-[PurpleAir](https://map.purpleair.com/)
-
-[AQICN](https://aqicn.org/map/northamerica/)
-
-[US Health Map](https://vizhub.healthdata.org/subnational/usa)
-
-[National Risk Index](https://hazards.fema.gov/nri/map)
-
-[CellMapper](https://www.cellmapper.net)
-
-[CoverageMap](https://coveragemap.com)
-
-[CrimeGrade](https://crimegrade.org/crime-in-my-area/) | [BestNeighborhood.org (Demographics)](https://bestneighborhood.org/)
-
-[Judgemental Maps](https://judgmentalmaps.com)
-
-[Washington - PFAS](https://doh.wa.gov/data-and-statistical-reports/washington-tracking-network-wtn/pfas/dashboard)
-
-[Denver - Lead Service Line Replacement](https://dw.maps.arcgis.com/apps/View/index.html?appid=cb5d6630085b4e4b96ff7fd1adf39025)
-
-[Colorado - WILDFIRE RISK PUBLIC VIEWER](https://co-pub.coloradoforestatlas.org/)
-
-[Colorado - Special Districts](https://gis.dola.colorado.gov/CO_SpecialDistrict/)
-
-[Colorado - Hazardous materials and waste management](https://cdphe.maps.arcgis.com/apps/webappviewer/index.html?id=dbca3a2942764fd8bdb947826a5a2228)
-
-[France - Internet Availability Map](https://cartefibre.arcep.fr/index.html)
+| --- |
+| [Weather Spark](https://weatherspark.com) |
+| [PurpleAir](https://map.purpleair.com/) |
+| [AQICN](https://aqicn.org/map/northamerica/) |
+| [US Health Map](https://vizhub.healthdata.org/subnational/usa) |
+| [National Risk Index](https://hazards.fema.gov/nri/map) |
+| [CellMapper](https://www.cellmapper.net) |
+| [CoverageMap](https://coveragemap.com) |
+| [CrimeGrade](https://crimegrade.org/crime-in-my-area/) |
+| [BestNeighborhood.org (Demographics)](https://bestneighborhood.org/) |
+| [Judgemental Maps](https://judgmentalmaps.com) |
+| [Washington - PFAS](https://doh.wa.gov/data-and-statistical-reports/washington-tracking-network-wtn/pfas/dashboard) |
+| [Denver - Lead Service Line Replacement](https://dw.maps.arcgis.com/apps/View/index.html?appid=cb5d6630085b4e4b96ff7fd1adf39025) |
+| [Colorado - WILDFIRE RISK PUBLIC VIEWER](https://co-pub.coloradoforestatlas.org/) |
+| [Colorado - Special Districts](https://gis.dola.colorado.gov/CO_SpecialDistrict/) |
+| [Colorado - Hazardous materials and waste management](https://cdphe.maps.arcgis.com/apps/webappviewer/index.html?id=dbca3a2942764fd8bdb947826a5a2228) |
+| [France - Internet Availability Map](https://cartefibre.arcep.fr/index.html) |
 
 ---
 
