@@ -75,78 +75,49 @@
 | [Colorado - Hazardous materials and waste management](https://cdphe.maps.arcgis.com/apps/webappviewer/index.html?id=dbca3a2942764fd8bdb947826a5a2228) |
 | [France - Internet Availability Map](https://cartefibre.arcep.fr/index.html) |
 
----
+| --- |
+| [Sci-Hub](https://sci-hub.se/) |
+| [Library Genesis](http://libgen.rs/) |
+| [Free MP3 Download](https://free-mp3-download.net/) |
+| [All Lossless](https://alllossless.net) |
+| [BFLIX](https://web.bflix.to/home) |
+| [Asianload](https://asianembed.io/) |
+| [Extreme down](https://www.extreme-down.moe) |
+| [1337x](https://1337x.to/) |
+| [NewPipe](https://github.com/TeamNewPipe/NewPipe/releases) |
+| [Organic Maps](https://organicmaps.app/) |
+| [There’s an AI for that](https://theresanaiforthat.com/alphabetical/) |
+| [12ft - Paywall Bypass](https://12ft.io/) |
+| [Alternative frontends](https://farside.link/) |
+| [Print Friendly](https://www.printfriendly.com) |
 
-[Sci-Hub](https://sci-hub.se/) | [Library Genesis](http://libgen.rs/)
+| --- |
+| [Qsensor (Airport Security Wait Time)](https://qsensor.co/) |
+| [EsimDB](https://esimdb.com) |
+| [Imoova](https://imoova.com/) |
+| [Schengen Calculator](https://schengenareacalculator.com/) |
+| [Eduroam](https://www.lan.kth.se/eduroam/phones/phones_mobile_guide.html) |
+| [Koppen](https://www.gloh2o.org/koppen) |
+| [HeyJackass! - Chicago Crime Stats](https://heyjackass.com/) |
+| [14ers](https://www.14ers.com/) |
 
-[Free MP3 Download](https://free-mp3-download.net/) | [All Lossless](https://alllossless.net)
-
-[BFLIX](https://web.bflix.to/home) | [Asianload](https://asianembed.io/) | [Extreme down](https://www.extreme-down.moe) | [1337x](https://1337x.to/)
-
-[NewPipe](https://github.com/TeamNewPipe/NewPipe/releases) | [Organic Maps](https://organicmaps.app/)
-
-[There’s an AI for that](https://theresanaiforthat.com/alphabetical/)
-
-[12ft (Paywall Bypass)](https://12ft.io/)
-
-[Alternative frontends](https://farside.link/)
-
-[Print Friendly](https://www.printfriendly.com)
-
----
-
-[Qsensor (Airport Security Wait Time)](https://qsensor.co/)
-
-[EsimDB](https://esimdb.com)
-
-[Imoova](https://imoova.com/)
-
-[Schengen Calculator](https://schengenareacalculator.com/)
-
-[Eduroam](https://www.lan.kth.se/eduroam/phones/phones_mobile_guide.html)
-
-[Koppen](https://www.gloh2o.org/koppen)
-
-[HeyJackass! - Chicago Crime Stats](https://heyjackass.com/)
-
-[14ers](https://www.14ers.com/)
-
----
-
-[Truflation](https://truflation.com/)
-
-[Total Real Returns](https://totalrealreturns.com/s/USDOLLAR,BRK-B,VTI,VXUS,SGOV?start=2022-01-01)
-
-[2022 ETF Efficiency](https://docs.google.com/spreadsheets/u/0/d/1owatGsAWQ3Ep60lo25cpLaj7LoH-FtPSXxNPwGuAMk8/htmlview#gid=437441803)
-
-[Fidelity Visa Rewards](https://www.fidelity.com/go/visa-signature-rewards-1502)
-
-[Opt Out Prescreen](https://www.optoutprescreen.com/)
-
-[Churning Referral](https://churning.rankt.com/referrals/)
-
-[WikiHouse](https://www.wikihouse.cc/)
-
-[Earthship](https://earthshipbiotecture.com/)
-
-[OpenSourceEcology](https://www.opensourceecology.org/)
-
-[OpenBuildingInstitute](https://www.openbuildinginstitute.org/)
-
-[Réalisation d'une maison individuelle](https://web.archive.org/web/20170918182346/http://www.studiolada.fr/docs/telechargement/maison/dossier-synthese.pdf)
-
-[Passivhaus Institut](https://passivehouse.com)
-
-[Pretty Good House](https://www.prettygoodhouse.org/)
-
-[PERM Tracker](https://permtimeline.com/)
-
-[Visa Bulletin](https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin.html)
-
-[CaseStatusExt](https://www.casestatusext.com/)
-
-[Hilites (USCIS Cases)](https://hilites.today/uscis_cases/ioe-stats)
-
-[100 Civic Questions](https://www.uscis.gov/citizenship/find-study-materials-and-resources/study-for-the-test/100-civics-questions-and-answers-with-mp3-audio-english-version)
-
-[N-400](https://www.uscis.gov/n-400)
+| --- |
+| [Truflation](https://truflation.com/) |
+| [Total Real Returns](https://totalrealreturns.com/s/USDOLLAR,BRK-B,VTI,VXUS,SGOV?start=2022-01-01) |
+| [2022 ETF Efficiency](https://docs.google.com/spreadsheets/u/0/d/1owatGsAWQ3Ep60lo25cpLaj7LoH-FtPSXxNPwGuAMk8/htmlview#gid=437441803) |
+| [Fidelity Visa Rewards](https://www.fidelity.com/go/visa-signature-rewards-1502) |
+| [Opt Out Prescreen](https://www.optoutprescreen.com/) |
+| [Churning Referral](https://churning.rankt.com/referrals/) |
+| [WikiHouse](https://www.wikihouse.cc/) |
+| [Earthship](https://earthshipbiotecture.com/) |
+| [OpenSourceEcology](https://www.opensourceecology.org/) |
+| [OpenBuildingInstitute](https://www.openbuildinginstitute.org/) |
+| [Réalisation d'une maison individuelle](https://web.archive.org/web/20170918182346/http://www.studiolada.fr/docs/telechargement/maison/dossier-synthese.pdf) |
+| [Passivhaus Institut](https://passivehouse.com) |
+| [Pretty Good House](https://www.prettygoodhouse.org/) |
+| [PERM Tracker](https://permtimeline.com/) |
+| [Visa Bulletin](https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin.html) |
+| [CaseStatusExt](https://www.casestatusext.com/) |
+| [Hilites (USCIS Cases)](https://hilites.today/uscis_cases/ioe-stats) |
+| [100 Civic Questions](https://www.uscis.gov/citizenship/find-study-materials-and-resources/study-for-the-test/100-civics-questions-and-answers-with-mp3-audio-english-version) |
+| [N-400](https://www.uscis.gov/n-400) |
