@@ -7,6 +7,8 @@
 
 [Chamonix Guides - Off-piste Skiing](https://www.chamonix-guides.com/en/activities/details/piste-skiing-full-day)
 
+[Ski Pass Map](https://www.google.com/maps/d/u/0/viewer?mid=1hs1R4ik-rEIl4ClU2GCHznGAJN4nc3Mh&ll=41.48631472755944%2C-102.18505327499997&z=2)
+
 ---
 
 ### Avalanche and Weather Forecasts
