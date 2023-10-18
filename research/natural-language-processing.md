@@ -1,3 +1,4 @@
+[xVal: A continuous number encoding for LLMs](https://polymathic-ai.org/blog/xval/)
 
 <details>
   <summary>
