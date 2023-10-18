@@ -73,6 +73,7 @@
 | [Colorado - WILDFIRE RISK PUBLIC VIEWER](https://co-pub.coloradoforestatlas.org/) |
 | [Colorado - Special Districts](https://gis.dola.colorado.gov/CO_SpecialDistrict/) |
 | [Colorado - Hazardous materials and waste management](https://cdphe.maps.arcgis.com/apps/webappviewer/index.html?id=dbca3a2942764fd8bdb947826a5a2228) |
+| [Colorado - Well Permits](https://dwr.state.co.us/Tools/WellPermits)
 | [France - Internet Availability Map](https://cartefibre.arcep.fr/index.html) |
 
 | --- |
