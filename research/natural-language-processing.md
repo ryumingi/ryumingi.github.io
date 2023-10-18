@@ -83,12 +83,16 @@ judgments.</p>
   
 </details>
 
+[Korean Bert](https://paperswithcode.com/paper/kr-bert-a-small-scale-korean-specific)
 
 
+---
 
+[MAS.S68: Generative AI for Constructive Communication Evaluation and New Research Methods](https://ai4comm.media.mit.edu/index.html)
 
+[CMU NLP](http://demo.ark.cs.cmu.edu/NLP/)
 
-
+[GATech NLP](https://www.cc.gatech.edu/classes/AY2020/cs7650\_spring/)
 
 
 
