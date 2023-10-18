@@ -75,6 +75,7 @@
 | [Colorado - Hazardous materials and waste management](https://cdphe.maps.arcgis.com/apps/webappviewer/index.html?id=dbca3a2942764fd8bdb947826a5a2228) |
 | [Colorado - Well Permits](https://dwr.state.co.us/Tools/WellPermits)
 | [France - Internet Availability Map](https://cartefibre.arcep.fr/index.html) |
+| [London - Demographic](https://maps.cdrc.ac.uk/#/metrics/countryofbirth/default/BTTTFFT/13/-0.1473/51.5020/)
 
 | --- |
 | [Sci-Hub](https://sci-hub.se/) |
