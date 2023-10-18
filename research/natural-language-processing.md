@@ -1,3 +1,9 @@
+[Stanford A.I. courses](https://ai.stanford.edu/courses/)
+
+[Towards Reliable Use of Large Language Models: Better Detection, Consistency, and Instruction-Tuning](https://simons.berkeley.edu/talks/christopher-d-manning-stanford-university-2023-08-14)
+
+[Stanford MLSys Seminar](https://mlsys.stanford.edu)
+
 [Mistral 7B](https://mistral.ai/news/announcing-mistral-7b/)
 
 [xVal: A continuous number encoding for LLMs](https://polymathic-ai.org/blog/xval/)
