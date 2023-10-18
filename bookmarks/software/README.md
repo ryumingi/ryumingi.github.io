@@ -1,3 +1,11 @@
+[Fine-tune your own Llama 2 to replace GPT-3.5/4](https://news.ycombinator.com/item?id=37484135)
+
+[Prophet: Automatic Forecasting Procedure](https://github.com/facebook/prophet#prophet-automatic-forecasting-procedure)
+
+[1.3B Worldcat scrape & data science mini-competition](https://annas-blog.org/worldcat-scrape.html)
+
+---
+
 [Represent directory as a tree with hyperlink](https://stackoverflow.com/questions/23989232/is-there-a-way-to-represent-a-directory-tree-in-a-github-readme-md)
 
 [Build your own fast, persistent KV store](https://news.ycombinator.com/item?id=34793714)
