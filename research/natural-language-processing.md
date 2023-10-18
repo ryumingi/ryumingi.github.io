@@ -1,3 +1,5 @@
+[Mistral 7B](https://mistral.ai/news/announcing-mistral-7b/)
+
 [xVal: A continuous number encoding for LLMs](https://polymathic-ai.org/blog/xval/)
 
 <details>
