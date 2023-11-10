@@ -1,6 +1,6 @@
 | --- |
 | [Reinforcement Learning](./reinforcement-learning.md) |
-| [Natural Langauge Processing](./natural-langauge-processing.md) |
+| [Natural Language Processing](./natural-language-processing.md) |
 | [Visualization](./visualization.md) |
 
 ---
