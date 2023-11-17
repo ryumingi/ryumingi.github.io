@@ -15,6 +15,7 @@
 | [r/USCIS](https://old.reddit.com/r/uscis) |
 | [r/DigitalNomad](https://old.reddit.com/r/digitalnomad/) |
 | [r/BogleHeads](https://old.reddit.com/r/bogleheads) |
+| [r/LeanFIRE](https://old.reddit.com/r/leanfire) |
 | [r/ExpatFIRE](https://old.reddit.com/r/expatfire) |
 | [r/USExpatTaxes](https://old.reddit.com/r/usexpattaxes) |
 | [r/Seattle](https://old.reddit.com/r/seattle) | 
@@ -22,6 +23,7 @@
 | [r/Chicago](https://old.reddit.com/r/chicago) |
 | [r/Skiing](http://old.reddit.com/r/skiing) |
 | [r/BackCountry](https://old.reddit.com/r/backcountry) |
+| [r/Onebag](https://old.reddit.com/r/onebag) |
 | [r/RealEstateInvesting](http://old.reddit.com/r/realestateinvesting) | 
 | [r/HomeOwners](http://old.reddit.com/r/homeowners) |
 
@@ -106,7 +108,6 @@
 | [Truflation](https://truflation.com/) |
 | [Total Real Returns](https://totalrealreturns.com/s/USDOLLAR,BRK-B,VTI,VXUS,SGOV?start=2022-01-01) |
 | [2022 ETF Efficiency](https://docs.google.com/spreadsheets/u/0/d/1owatGsAWQ3Ep60lo25cpLaj7LoH-FtPSXxNPwGuAMk8/htmlview#gid=437441803) |
-| [Fidelity Visa Rewards](https://www.fidelity.com/go/visa-signature-rewards-1502) |
 | [Opt Out Prescreen](https://www.optoutprescreen.com/) |
 | [Churning Referral](https://churning.rankt.com/referrals/) |
 | [WikiHouse](https://www.wikihouse.cc/) |
