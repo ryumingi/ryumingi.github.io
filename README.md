@@ -1,9 +1,9 @@
 | --- |
 | [posts](/posts) |
-| [research](./research) |
-| [software](./software) |
-| [music](./music) |
-| [skiing](./skiing) |
-| [flights](./flights) |
+| [research](/research) |
+| [software](/software) |
+| [music](/music) |
+| [skiing](/skiing) |
+| [flights](/flights) |
 | [bookmarks](/bookmarks) |
 | [github](https://github.com/ryumingi) |
