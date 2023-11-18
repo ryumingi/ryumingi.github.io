@@ -135,6 +135,6 @@
 | [PERM Tracker](https://permtimeline.com/) |
 | [Visa Bulletin](https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin.html) |
 | [CaseStatusExt](https://www.casestatusext.com/) |
-| [Hilites (USCIS Cases)](https://hilites.today/uscis_cases/ioe-stats) |
+| [Hilites (USCIS Cases)](https://hilites.today/dashboard/MSC_LB/I-485) |
 | [100 Civic Questions](https://www.uscis.gov/citizenship/find-study-materials-and-resources/study-for-the-test/100-civics-questions-and-answers-with-mp3-audio-english-version) |
 | [N-400](https://www.uscis.gov/n-400) |
