@@ -62,21 +62,35 @@
 | [Weather Spark](https://weatherspark.com) |
 | [PurpleAir](https://map.purpleair.com/) |
 | [AQICN](https://aqicn.org/map/northamerica/) |
+
+| [Koppen](https://www.gloh2o.org/koppen) |
+
+| --- |
 | [US Health Map](https://vizhub.healthdata.org/subnational/usa) |
+| [US gun deaths (2004-2010)](https://projects.oregonlive.com/ucc-shooting/gun-deaths) |
 | [National Risk Index](https://hazards.fema.gov/nri/map) |
+| [National Water and Climate Center iMap](https://nwcc-apps.sc.egov.usda.gov/imap/#version=169&elements=&networks=!&states=!&counties=!&hucs=&minElevation=&maxElevation=&elementSelectType=any&activeOnly=true&activeForecastPointsOnly=false&hucLabels=false&hucIdLabels=false&hucParameterLabels=true&stationLabels=&overlays=&hucOverlays=2&basinOpacity=75&basinNoDataOpacity=25&basemapOpacity=100&maskOpacity=0&mode=data&openSections=dataElement,parameter,date,basin,options,elements,location,networks&controlsOpen=false&popup=&popupMulti=&popupBasin=&base=esriNgwm&displayType=station&basinType=6&dataElement=WTEQ&depth=-8&parameter=PCTMED&frequency=DAILY&duration=I&customDuration=&dayPart=E&year=2023&month=10&day=20&monthPart=E&forecastPubMonth=6&forecastPubDay=1&forecastExceedance=50&useMixedPast=true&seqColor=1&divColor=7&scaleType=D&scaleMin=&scaleMax=&referencePeriodType=POR&referenceBegin=1991&referenceEnd=2020&minimumYears=20&hucAssociations=true&lat=46.32&lon=-98.96&zoom=4.0) |
+| [North America Wildfire](https://lens.pathandfocus.com/?endDate=2023-10-24T05%3A59%3A59.999Z&latitude=36.07052007084601&layers=perimeter-estimates%2Cevac-boundaries%2Cfire-perimeters%2Chotspots&longitude=-98.46478897289556&minDate=2023-09-01T06%3A00%3A00.000Z&startDate=2023-10-12T21%3A44%3A50.525Z&zoom=3.890448438727015) |
 | [CellMapper](https://www.cellmapper.net) |
 | [CoverageMap](https://coveragemap.com) |
 | [CrimeGrade](https://crimegrade.org/crime-in-my-area/) |
 | [BestNeighborhood.org (Demographics)](https://bestneighborhood.org/) |
 | [Judgemental Maps](https://judgmentalmaps.com) |
+
+| --- |
 | [Washington - PFAS](https://doh.wa.gov/data-and-statistical-reports/washington-tracking-network-wtn/pfas/dashboard) |
+| [France - Internet Availability Map](https://cartefibre.arcep.fr/index.html) |
+| [London - Demographic](https://maps.cdrc.ac.uk/#/metrics/countryofbirth/default/BTTTFFT/13/-0.1473/51.5020/)
+| [HeyJackass! - Chicago Crime Stats](https://heyjackass.com/) |
+
+| --- |
 | [Denver - Lead Service Line Replacement](https://dw.maps.arcgis.com/apps/View/index.html?appid=cb5d6630085b4e4b96ff7fd1adf39025) |
 | [Colorado - WILDFIRE RISK PUBLIC VIEWER](https://co-pub.coloradoforestatlas.org/) |
 | [Colorado - Special Districts](https://gis.dola.colorado.gov/CO_SpecialDistrict/) |
 | [Colorado - Hazardous materials and waste management](https://cdphe.maps.arcgis.com/apps/webappviewer/index.html?id=dbca3a2942764fd8bdb947826a5a2228) |
 | [Colorado - Well Permits](https://dwr.state.co.us/Tools/WellPermits)
-| [France - Internet Availability Map](https://cartefibre.arcep.fr/index.html) |
-| [London - Demographic](https://maps.cdrc.ac.uk/#/metrics/countryofbirth/default/BTTTFFT/13/-0.1473/51.5020/)
+| [14ers](https://www.14ers.com/) |
+| [10th Mountain Division Huts](https://huts.org/)
 
 | --- |
 | [Sci-Hub](https://sci-hub.se/) |
@@ -87,29 +101,35 @@
 | [Asianload](https://asianembed.io/) |
 | [Extreme down](https://www.extreme-down.moe) |
 | [1337x](https://1337x.to/) |
-| [NewPipe](https://github.com/TeamNewPipe/NewPipe/releases) |
-| [Organic Maps](https://organicmaps.app/) |
-| [There’s an AI for that](https://theresanaiforthat.com/alphabetical/) |
-| [12ft - Paywall Bypass](https://12ft.io/) |
-| [Alternative frontends](https://farside.link/) |
-| [Print Friendly](https://www.printfriendly.com) |
+| [1ft](https://1ft.io/) |
+| [12ft](https://12ft.io/) |
 
 | --- |
-| [Qsensor (Airport Security Wait Time)](https://qsensor.co/) |
+| [There’s an AI for that](https://theresanaiforthat.com/alphabetical/) |
+| [Print Friendly](https://www.printfriendly.com) |
+| [Alternative frontends](https://farside.link/) |
+| [NewPipe](https://github.com/TeamNewPipe/NewPipe/releases) |
+| [Organic Maps](https://organicmaps.app/) |
+
+| --- |
 | [EsimDB](https://esimdb.com) |
-| [Imoova](https://imoova.com/) |
 | [Schengen Calculator](https://schengenareacalculator.com/) |
+| [Qsensor (Airport Security Wait Time)](https://qsensor.co/) |
+| [Imoova](https://imoova.com/) |
+| [Seats.aero](https://seats.aero/) |
+| [pointhound](https://www.pointhound.com/) |
 | [Eduroam](https://www.lan.kth.se/eduroam/phones/phones_mobile_guide.html) |
-| [Koppen](https://www.gloh2o.org/koppen) |
-| [HeyJackass! - Chicago Crime Stats](https://heyjackass.com/) |
-| [14ers](https://www.14ers.com/) |
 
 | --- |
 | [Truflation](https://truflation.com/) |
 | [Total Real Returns](https://totalrealreturns.com/s/USDOLLAR,BRK-B,VTI,VXUS,SGOV?start=2022-01-01) |
 | [2022 ETF Efficiency](https://docs.google.com/spreadsheets/u/0/d/1owatGsAWQ3Ep60lo25cpLaj7LoH-FtPSXxNPwGuAMk8/htmlview#gid=437441803) |
-| [Opt Out Prescreen](https://www.optoutprescreen.com/) |
+| [Best Current Credit Card Sign Up Bonuses](https://www.doctorofcredit.com/best-current-credit-card-sign-bonuses/#Recent_Changes) |
+| [Card Recommendation Flowchart](https://m16p-churning.s3.us-east-2.amazonaws.com/Card+Recommendation+Flowchart+Latest.html) |
 | [Churning Referral](https://churning.rankt.com/referrals/) |
+| [Opt Out Prescreen](https://www.optoutprescreen.com/) |
+
+| --- |
 | [WikiHouse](https://www.wikihouse.cc/) |
 | [Earthship](https://earthshipbiotecture.com/) |
 | [OpenSourceEcology](https://www.opensourceecology.org/) |
@@ -117,6 +137,8 @@
 | [Réalisation d'une maison individuelle](https://web.archive.org/web/20170918182346/http://www.studiolada.fr/docs/telechargement/maison/dossier-synthese.pdf) |
 | [Passivhaus Institut](https://passivehouse.com) |
 | [Pretty Good House](https://www.prettygoodhouse.org/) |
+
+| --- |
 | [PERM Tracker](https://permtimeline.com/) |
 | [Visa Bulletin](https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin.html) |
 | [CaseStatusExt](https://www.casestatusext.com/) |
