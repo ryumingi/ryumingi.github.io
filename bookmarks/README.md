@@ -62,7 +62,6 @@
 | [Weather Spark](https://weatherspark.com) |
 | [PurpleAir](https://map.purpleair.com/) |
 | [AQICN](https://aqicn.org/map/northamerica/) |
-
 | [Koppen](https://www.gloh2o.org/koppen) |
 
 | --- |
