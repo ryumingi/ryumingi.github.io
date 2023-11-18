@@ -1,10 +1,4 @@
 | --- |
-| [Flights](./flights) |
-| [Music](./music) |
-| [Skiing](./skiing) |
-| [Software](./software) |
-
-| --- |
 | [Hacker News](https://news.ycombinator.com/) | 
 | [Slickdeals](https://slickdeals.net/) |
 | [Bogleheads.org](https://bogleheads.org/) |
