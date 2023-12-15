@@ -14,7 +14,7 @@
 
 * [Wasatch Weather Weenies](https://wasatchweatherweenies.blogspot.com/)
 * [Mammoth Snowman](https://www.mammothsnowman.com/)
-* [Chamonix Meteo](https://chamonix-meteo.com/chamonix-mont-blanc/weather/forecast/morning/5\_days\_weather\_forecast.php)
+* [Chamonix Meteo](https://chamonix-meteo.com/)
 
 ---
 
