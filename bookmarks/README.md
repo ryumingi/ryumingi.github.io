@@ -48,6 +48,7 @@
 | [Chris Olah](https://colah.github.io/) |
 | [Shtetl-Optimized (Scott Aaronson)](https://scottaaronson.blog/) |
 | [Frugalvagabond](https://frugalvagabond.com/) | 
+| {The American in Paris](https://theamericaninparis.com/) |
 | [Go Curry Cracker](https://www.gocurrycracker.com) |
 | [Qiskit Translations](https://github.com/qiskit-community/qiskit-translations/projects/2#column-16059157) |
 
@@ -111,6 +112,7 @@
 | [Seats.aero](https://seats.aero/) |
 | [Pointhound](https://www.pointhound.com/) |
 | [Eduroam](https://www.lan.kth.se/eduroam/phones/phones_mobile_guide.html) |
+| [US Address Lookup](https://firstlogic.com/tools/verify-address) |
 
 | --- |
 | [Truflation](https://truflation.com/) |
