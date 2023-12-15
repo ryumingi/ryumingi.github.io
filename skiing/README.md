@@ -112,9 +112,11 @@ French Alps
 
 [Chamonix Bus System](https://www.chamonix.net/english/transport/bus)
 
+[Saint Gervais](https://www.book.ski/megeve-stgervais-les-contamines-ski-bus/)
+
 **Les Arcs**
 
-[Les Arcs - Bourg Saint Maurice Navette](https://www.seelesarcs.com/files/187)
+[Les Arcs - Bourg Saint Maurice](https://www.seelesarcs.com/files/187)
 
 **Tignes & Val D'Isere**
 
