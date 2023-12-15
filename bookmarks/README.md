@@ -109,7 +109,7 @@
 | [Qsensor (Airport Security Wait Time)](https://qsensor.co/) |
 | [Imoova](https://imoova.com/) |
 | [Seats.aero](https://seats.aero/) |
-| [pointhound](https://www.pointhound.com/) |
+| [Pointhound](https://www.pointhound.com/) |
 | [Eduroam](https://www.lan.kth.se/eduroam/phones/phones_mobile_guide.html) |
 
 | --- |
