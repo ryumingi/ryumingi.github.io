@@ -41,14 +41,12 @@
 | --- |
 | [Open Syllabus](https://nitter.net/search?f=tweets\&q=from%3Aclured+OR+from%3Aopensyllabus\&e-nativeretweets=on\&e-replies=on) |
 | [Snowden](https://nitter.net/search?f=tweets\&q=from%3Asnowden\&e-nativeretweets=on\&e-replies=on) |
-| [Wasatch Weather Weenies](https://wasatchweatherweenies.blogspot.com/) |
-| [Patchskiing Unlimited](https://patchskiing.net/) |
 | [Jay Alammar](https://jalammar.github.io/) |
 | [Lil’Log (Lilian Weng)](https://lilianweng.github.io/) |
 | [Chris Olah](https://colah.github.io/) |
 | [Shtetl-Optimized (Scott Aaronson)](https://scottaaronson.blog/) |
 | [Frugalvagabond](https://frugalvagabond.com/) | 
-| {The American in Paris](https://theamericaninparis.com/) |
+| [The American in Paris](https://theamericaninparis.com/) |
 | [Go Curry Cracker](https://www.gocurrycracker.com) |
 | [Qiskit Translations](https://github.com/qiskit-community/qiskit-translations/projects/2#column-16059157) |
 
