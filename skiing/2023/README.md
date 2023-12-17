@@ -3,10 +3,12 @@
 #### IKON Base Pass ($559 via Boulder Freeride)
 
 - [ ] Eldora
-- [ ] Chamonix
 - [ ] A-Basin
 - [ ] Copper
 - [ ] Winter Park
+- [ ] Chamonix
+- [ ] Zermatt
+- [ ] Grandvarilla
 
 #### Misc
 
@@ -17,5 +19,7 @@
 
 | Date | Location       | Lodging                        | Cost  | Notes  |
 | ---- | -------------- | ------------------------------ | ----- | ------ |
-| Dec  | Les Arcs        | Airbnb (Bourg Saint Maurice     | $200   | 2n 2p  |
-| Dec | Val D'Isere | UCPA | $800 | 6n 1p |
+| Dec  | Les Arcs        | Airbnb (Landry)    | $50   | 1n 2p  |
+| Dec | Val D'Isere | UCPA | $880 | 7n 1p |
+| Jan | Zermatt | Hotel Bahnhof | $180 | 3n 1p |
+| Jan | Chamonix | Airbnb | $300 | 5n 2p |
