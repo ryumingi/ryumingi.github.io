@@ -74,8 +74,5 @@
 | [Snowstang - Steamboat Springs](https://ridebustang.com/snowstang-mountain-service/schedules/steamboat-springs/) (weekends, overnight) |
 | [Pegasus - Vail](https://ridebustang.com/pegasus-shuttle-van/schedules/denver-avon/) (weekdays, weekends) |
 | [Pegasus - Beaver Creek](https://ridebustang.com/pegasus-shuttle-van/schedules/denver-avon/) (weekdays, weekends) |
-
-[Bustang - Vail](https://ridebustang.com/bustang/schedules/west/) (weekdays, weekends)
-
-[Amtrak - Winter Park](https://www.amtrak.com/winter-park-express) (weekends)
-
+| [Bustang - Vail](https://ridebustang.com/bustang/schedules/west/) (weekdays, weekends) |
+| [Amtrak - Winter Park](https://www.amtrak.com/winter-park-express) (weekends) |
