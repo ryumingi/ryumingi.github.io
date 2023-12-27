@@ -8,12 +8,12 @@
 - [ ] Winter Park
 - [ ] Chamonix
 - [ ] Zermatt
-- [ ] Grandvarilla
 
 #### Misc
 
-- [ ] Val D'Isere
-- [ ] Les Arcs
+- [x] Val D'Isere
+- [x] Tignes
+- [x] Les Arcs
 
 #### Itinerary
 
@@ -21,5 +21,5 @@
 | ---- | -------------- | ------------------------------ | ----- | ------ |
 | Dec  | Les Arcs        | Airbnb (Landry)    | $50   | 1n 2p  |
 | Dec | Val D'Isere | UCPA | $880 | 7n 1p |
-| Jan | Zermatt | Hotel Bahnhof | $180 | 3n 1p |
-| Jan | Chamonix | Airbnb | $300 | 5n 2p |
+| Jan | Zermatt | Hotel Bahnhof | $120 | 2n 1p |
+| Jan | Chamonix | Alpenrose | $70 | 2n 1p |
