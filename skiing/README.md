@@ -8,7 +8,7 @@
 | [The Fifty Project](https://www.youtube.com/watch?v=lvZk\_B6FwXc\&list=PLSj-6RsDycxnKiIFFm0BFYoLLV5Np3K49) |
 | [Chamonix Guides - Off-piste Skiing](https://www.chamonix-guides.com/en/activities/details/piste-skiing-full-day) |
 | [Ski Pass Map](https://www.google.com/maps/d/u/0/viewer?mid=1hs1R4ik-rEIl4ClU2GCHznGAJN4nc3Mh&ll=41.48631472755944%2C-102.18505327499997&z=2) |
-
+| [Smith helmet crash replacement policy](https://support.smithoptics.com/hc/en-us/articles/4403801633943-What-is-the-Smith-helmet-crash-replacement-policy-) |
 
 ### Forecasts
 
@@ -17,6 +17,7 @@
 | [Patchskiing Unlimited](https://patchskiing.net/) |
 | [Mammoth Snowman](https://www.mammothsnowman.com/) |
 | [Chamonix Meteo](https://chamonix-meteo.com/) |
+| [WePowder](https://wepowder.com/en) |
 
 ---
 
@@ -40,12 +41,15 @@
 
 ### Transit
 
-
 | Grandvalira |
 | --- |
 | [Andbus](https://www.andorrabybus.com/en) |
 | [Andorra Bus System](https://visitandorra.com/en/visitor-information/before-you-arrive/public-transport-national-regular-lines/) |
 | [Grandvalira Bus System](https://www.grandvalira.com/en/how-get-there) |
+
+#### France
+
+- [La Region](https://www.hautetarentaise.fr/cms_viewFile.php?idtf=61531&path=Plan-reseau-lignes-bus-Savoie.pdf)
 
 | Chamonix |
 | --- |
@@ -57,6 +61,7 @@
 | Les Arcs |
 | --- |
 | [Les Arcs - Bourg Saint Maurice](https://www.seelesarcs.com/files/187) |
+| [Les Arcs Navettes 2023](https://www.calameo.com/books/005689616f8add56368f4) |
 
 | Tignes & Val D'Isere |
 | --- |
@@ -64,6 +69,8 @@
 | [Bourg Saint Maurice - Tignes (2021)](https://www.tignes.net/uploads/media/default/0001/79/b35ef1e1c625fcad609a3a2f9e49bbda4cfb6e05.pdf) |
 | [GVA - Val D'Isere (2023)](https://savoie.transdev.com/wp-content/uploads/2021/11/navettes-aeroport-geneve-stations-ski-tarentaise.pdf) |
 | [Bensbus (Val D'Isere)](https://www.bensbus.co.uk/ski-transfer/val-disere-airport-transfers/) |
+
+#### USA
 
 | Denver |
 | --- |
