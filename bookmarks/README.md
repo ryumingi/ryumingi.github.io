@@ -4,8 +4,10 @@
 | [Bogleheads.org](https://bogleheads.org/) |
 | [RFI](https://www.rfi.fr/en/) |
 | [Memeorandum](https://www.memeorandum.com/) |
+| [XKCD](https://xkcd.com) |
 
 | --- |
+| [r/LocalLLaMA](https://old.reddit.com/r/LocalLLaMA/) |
 | [r/USCIS](https://old.reddit.com/r/uscis) |
 | [r/DigitalNomad](https://old.reddit.com/r/digitalnomad/) |
 | [r/BogleHeads](https://old.reddit.com/r/bogleheads) |
@@ -111,6 +113,7 @@
 | [Pointhound](https://www.pointhound.com/) |
 | [Eduroam](https://www.lan.kth.se/eduroam/phones/phones_mobile_guide.html) |
 | [US Address Lookup](https://firstlogic.com/tools/verify-address) |
+| [Inc Paradise](https://incparadise.net) |
 
 | --- |
 | [Truflation](https://truflation.com/) |
