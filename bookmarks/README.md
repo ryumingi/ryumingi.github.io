@@ -71,17 +71,7 @@
 | [Judgemental Maps](https://judgmentalmaps.com) |
 
 | --- |
-| [Washington - PFAS](https://doh.wa.gov/data-and-statistical-reports/washington-tracking-network-wtn/pfas/dashboard) |
 | [France - Internet Availability Map](https://cartefibre.arcep.fr/index.html) |
-| [London - Demographic](https://maps.cdrc.ac.uk/#/metrics/countryofbirth/default/BTTTFFT/13/-0.1473/51.5020/)
-| [HeyJackass! - Chicago Crime Stats](https://heyjackass.com/) |
-
-| --- |
-| [Denver - Lead Service Line Replacement](https://dw.maps.arcgis.com/apps/View/index.html?appid=cb5d6630085b4e4b96ff7fd1adf39025) |
-| [Colorado - WILDFIRE RISK PUBLIC VIEWER](https://co-pub.coloradoforestatlas.org/) |
-| [Colorado - Special Districts](https://gis.dola.colorado.gov/CO_SpecialDistrict/) |
-| [Colorado - Hazardous materials and waste management](https://cdphe.maps.arcgis.com/apps/webappviewer/index.html?id=dbca3a2942764fd8bdb947826a5a2228) |
-| [Colorado - Well Permits](https://dwr.state.co.us/Tools/WellPermits)
 | [14ers](https://www.14ers.com/) |
 | [10th Mountain Division Huts](https://huts.org/)
 
