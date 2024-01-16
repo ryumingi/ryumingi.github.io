@@ -125,15 +125,6 @@
 | [Opt Out Prescreen](https://www.optoutprescreen.com/) |
 
 | --- |
-| [WikiHouse](https://www.wikihouse.cc/) |
-| [Earthship](https://earthshipbiotecture.com/) |
-| [OpenSourceEcology](https://www.opensourceecology.org/) |
-| [OpenBuildingInstitute](https://www.openbuildinginstitute.org/) |
-| [Réalisation d'une maison individuelle](https://web.archive.org/web/20170918182346/http://www.studiolada.fr/docs/telechargement/maison/dossier-synthese.pdf) |
-| [Passivhaus Institut](https://passivehouse.com) |
-| [Pretty Good House](https://www.prettygoodhouse.org/) |
-
-| --- |
 | [PERM Tracker](https://permtimeline.com/) |
 | [Visa Bulletin](https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin.html) |
 | [CaseStatusExt](https://www.casestatusext.com/) |
