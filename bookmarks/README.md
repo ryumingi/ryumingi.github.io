@@ -19,20 +19,15 @@
 | [r/Chicago](https://old.reddit.com/r/chicago) |
 | [r/Skiing](http://old.reddit.com/r/skiing) |
 | [r/BackCountry](https://old.reddit.com/r/backcountry) |
-| [r/Onebag](https://old.reddit.com/r/onebag) |
-| [r/RealEstateInvesting](http://old.reddit.com/r/realestateinvesting) | 
-| [r/HomeOwners](http://old.reddit.com/r/homeowners) |
 
 | --- |
-| [REI](https://www.rei.com/) |
-| [Patagonia](https://www.patagonia.com/) |
-| [Arcteryx](https://arcteryx.com/) |
-| [Darn Tough](https://darntough.com/) |
-| [Cotopaxi](https://www.cotopaxi.com/) |
-| [Lululemon](https://shop.lululemon.com/) |
-| [Muji](https://www.muji.us/) |
-
-| --- |
+| [Truflation](https://truflation.com/) |
+| [Total Real Returns](https://totalrealreturns.com/s/USDOLLAR,BRK-B,VTI,VXUS,SGOV?start=2022-01-01) |
+| [2022 ETF Efficiency](https://docs.google.com/spreadsheets/u/0/d/1owatGsAWQ3Ep60lo25cpLaj7LoH-FtPSXxNPwGuAMk8/htmlview#gid=437441803) |
+| [Best Current Credit Card Sign Up Bonuses](https://www.doctorofcredit.com/best-current-credit-card-sign-bonuses/#Recent_Changes) |
+| [Card Recommendation Flowchart](https://m16p-churning.s3.us-east-2.amazonaws.com/Card+Recommendation+Flowchart+Latest.html) |
+| [Churning Referral](https://churning.rankt.com/referrals/) |
+| [Opt Out Prescreen](https://www.optoutprescreen.com/) |
 | [VTI](https://www.tradingview.com/chart/?symbol=AMEX%3AVTI) |
 | [VXUS](https://www.tradingview.com/chart/?symbol=NASDAQ%3AVXUS) |
 | [BRK.B](https://www.tradingview.com/chart/?symbol=NYSE%3ABRK.B) |
@@ -53,12 +48,15 @@
 | [Qiskit Translations](https://github.com/qiskit-community/qiskit-translations/projects/2#column-16059157) |
 
 | --- |
+| [14ers](https://www.14ers.com/) |
+| [10th Mountain Division Huts](https://huts.org/)
 | [Weather Spark](https://weatherspark.com) |
 | [PurpleAir](https://map.purpleair.com/) |
 | [AQICN](https://aqicn.org/map/northamerica/) |
 | [Koppen](https://www.gloh2o.org/koppen) |
 
 | --- |
+| [France - Internet Availability Map](https://cartefibre.arcep.fr/index.html) |
 | [US Health Map](https://vizhub.healthdata.org/subnational/usa) |
 | [US gun deaths (2004-2010)](https://projects.oregonlive.com/ucc-shooting/gun-deaths) |
 | [National Risk Index](https://hazards.fema.gov/nri/map) |
@@ -71,16 +69,11 @@
 | [Judgemental Maps](https://judgmentalmaps.com) |
 
 | --- |
-| [France - Internet Availability Map](https://cartefibre.arcep.fr/index.html) |
-| [14ers](https://www.14ers.com/) |
-| [10th Mountain Division Huts](https://huts.org/)
-
-| --- |
 | [Sci-Hub](https://sci-hub.se/) |
 | [Library Genesis](http://libgen.rs/) |
 | [Free MP3 Download](https://free-mp3-download.net/) |
 | [All Lossless](https://alllossless.net) |
-| [BFLIX](https://web.bflix.to/home) |
+| [BFLIX](https://web.bflixz.to/home) |
 | [Asianload](https://asianembed.io/) |
 | [Extreme down](https://www.extreme-down.moe) |
 | [1337x](https://1337x.to/) |
@@ -97,22 +90,11 @@
 | --- |
 | [EsimDB](https://esimdb.com) |
 | [Schengen Calculator](https://schengenareacalculator.com/) |
-| [Qsensor (Airport Security Wait Time)](https://qsensor.co/) |
+| [Qsensor](https://qsensor.co/) |
 | [Imoova](https://imoova.com/) |
-| [Seats.aero](https://seats.aero/) |
 | [Pointhound](https://www.pointhound.com/) |
 | [Eduroam](https://www.lan.kth.se/eduroam/phones/phones_mobile_guide.html) |
 | [US Address Lookup](https://firstlogic.com/tools/verify-address) |
-| [Inc Paradise](https://incparadise.net) |
-
-| --- |
-| [Truflation](https://truflation.com/) |
-| [Total Real Returns](https://totalrealreturns.com/s/USDOLLAR,BRK-B,VTI,VXUS,SGOV?start=2022-01-01) |
-| [2022 ETF Efficiency](https://docs.google.com/spreadsheets/u/0/d/1owatGsAWQ3Ep60lo25cpLaj7LoH-FtPSXxNPwGuAMk8/htmlview#gid=437441803) |
-| [Best Current Credit Card Sign Up Bonuses](https://www.doctorofcredit.com/best-current-credit-card-sign-bonuses/#Recent_Changes) |
-| [Card Recommendation Flowchart](https://m16p-churning.s3.us-east-2.amazonaws.com/Card+Recommendation+Flowchart+Latest.html) |
-| [Churning Referral](https://churning.rankt.com/referrals/) |
-| [Opt Out Prescreen](https://www.optoutprescreen.com/) |
 
 | --- |
 | [PERM Tracker](https://permtimeline.com/) |
@@ -121,3 +103,12 @@
 | [Hilites (USCIS Cases)](https://hilites.today/dashboard/MSC_LB/I-485) |
 | [100 Civic Questions](https://www.uscis.gov/citizenship/find-study-materials-and-resources/study-for-the-test/100-civics-questions-and-answers-with-mp3-audio-english-version) |
 | [N-400](https://www.uscis.gov/n-400) |
+
+| --- |
+| [REI](https://www.rei.com/) |
+| [Patagonia](https://www.patagonia.com/) |
+| [Arcteryx](https://arcteryx.com/) |
+| [Darn Tough](https://darntough.com/) |
+| [Cotopaxi](https://www.cotopaxi.com/) |
+| [Lululemon](https://shop.lululemon.com/) |
+| [Muji](https://www.muji.us/) |
