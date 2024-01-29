@@ -6,8 +6,12 @@
 - [ ] A-Basin
 - [ ] Copper
 - [ ] Winter Park
-- [ ] Chamonix
-- [ ] Zermatt
+- [ ] Steamboat Springs
+- [ ] Snowbird
+- [ ] Solitude
+- [ ] Brighton
+- [x] Chamonix
+- [x] Zermatt
 
 #### Misc
 
@@ -22,4 +26,4 @@
 | Dec  | Les Arcs        | Airbnb (Landry)    | $50   | 1n 2p  |
 | Dec | Val D'Isere | UCPA | $880 | 7n 1p |
 | Jan | Zermatt | Hotel Bahnhof | $120 | 2n 1p |
-| Jan | Chamonix | Alpenrose | $70 | 2n 1p |
+| Jan | Chamonix | L'Arveyron | $70 | 2n 1p |
