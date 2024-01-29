@@ -64,8 +64,6 @@
 | [North America Wildfire](https://lens.pathandfocus.com/?endDate=2023-10-24T05%3A59%3A59.999Z&latitude=36.07052007084601&layers=perimeter-estimates%2Cevac-boundaries%2Cfire-perimeters%2Chotspots&longitude=-98.46478897289556&minDate=2023-09-01T06%3A00%3A00.000Z&startDate=2023-10-12T21%3A44%3A50.525Z&zoom=3.890448438727015) |
 | [CellMapper](https://www.cellmapper.net) |
 | [CoverageMap](https://coveragemap.com) |
-| [CrimeGrade](https://crimegrade.org/crime-in-my-area/) |
-| [BestNeighborhood.org (Demographics)](https://bestneighborhood.org/) |
 | [Judgemental Maps](https://judgmentalmaps.com) |
 
 | --- |
