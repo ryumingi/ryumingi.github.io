@@ -72,7 +72,7 @@
 | [All Lossless](https://alllossless.net) |
 | [BFLIX](https://web.bflixz.to/home) |
 | [Asianload](https://asianembed.io/) |
-| [Extreme down](https://www.extreme-dow Men's Capilene® Cool Daily Shirt n.moe) |
+| [Extreme down](https://www.extreme-down.moe) |
 | [1337x](https://1337x.to/) |
 | [1ft](https://1ft.io/) |
 | [12ft](https://12ft.io/) |
@@ -104,5 +104,5 @@
 | [Patagonia](https://www.patagonia.com/product/black-hole-mini-mlc-convertible-backpack-30-liters/195699286993.html) |
 | [Arcteryx](https://arcteryx.com/) |
 | [Darn Tough](https://darntough.com/collections/tactical-socks/products/unisex-merino-wool-t4093-tactical-quarter-lightweight-tactical-socks) |
-| [Cotopaxi]([https://www.cotopaxi.com/](https://www.cotopaxi.com/products/paseo-travel-pocket-t-shirt-mens)) |
+| [Cotopaxi](https://www.cotopaxi.com/products/paseo-travel-pocket-t-shirt-mens) |
 | [Muji](https://www.muji.us/products/mens-lyocell-front-open-boxer-brief-fag3822a) |
