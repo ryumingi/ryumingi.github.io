@@ -2,7 +2,7 @@
 
 #### IKON Base Pass ($559 via Boulder Freeride)
 
-- [ ] Eldora
+- [x] Eldora
 - [ ] A-Basin
 - [ ] Copper
 - [ ] Winter Park
