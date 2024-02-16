@@ -7,8 +7,6 @@
 | [XKCD](https://xkcd.com) |
 
 | --- |
-| [Open Syllabus](https://nitter.net/search?f=tweets\&q=from%3Aclured+OR+from%3Aopensyllabus\&e-nativeretweets=on\&e-replies=on) |
-| [Snowden](https://nitter.net/search?f=tweets\&q=from%3Asnowden\&e-nativeretweets=on\&e-replies=on) |
 | [Jay Alammar](https://jalammar.github.io/) |
 | [Lil’Log (Lilian Weng)](https://lilianweng.github.io/) |
 | [Chris Olah](https://colah.github.io/) |
