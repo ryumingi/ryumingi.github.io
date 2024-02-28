@@ -90,6 +90,7 @@
 | [Pointhound](https://www.pointhound.com/) |
 | [Eduroam](https://www.lan.kth.se/eduroam/phones/phones_mobile_guide.html) |
 | [US Address Lookup](https://firstlogic.com/tools/verify-address) |
+| [Airbnb Review Checker](https://checkout.reviews) |
 
 | --- |
 | [PERM Tracker](https://permtimeline.com/) |
