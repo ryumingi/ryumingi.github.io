@@ -3,6 +3,7 @@
 | [Slickdeals](https://slickdeals.net/) |
 | [Bogleheads.org](https://bogleheads.org/) |
 | [RFI](https://www.rfi.fr/en/) |
+| [Le Monde](https://www.lemonde.fr/en/) |
 | [Memeorandum](https://www.memeorandum.com/) |
 | [XKCD](https://xkcd.com) |
 
@@ -14,6 +15,7 @@
 | [Frugalvagabond](https://frugalvagabond.com/) | 
 | [The American in Paris](https://theamericaninparis.com/) |
 | [Go Curry Cracker](https://www.gocurrycracker.com) |
+| [FranceZone](https://www.francezone.com/) |
 
 | --- |
 | [r/LocalLLaMA](https://old.reddit.com/r/LocalLLaMA/) |
@@ -33,9 +35,7 @@
 | [VTI](https://www.tradingview.com/chart/?symbol=AMEX%3AVTI) |
 | [VXUS](https://www.tradingview.com/chart/?symbol=NASDAQ%3AVXUS) |
 | [BRK.B](https://www.tradingview.com/chart/?symbol=NYSE%3ABRK.B) |
-| [BTCUSD](https://www.tradingview.com/chart/?symbol=BITSTAMP%3ABTCUSD) |
 | [XMRUSD](https://www.tradingview.com/chart/?symbol=BYBIT%3AXMRUSDT.P) |
-| [XMRBTC](https://www.tradingview.com/chart/?symbol=BINANCE%3AXMRBTC) |
 | [Best Current Credit Card Sign Up Bonuses](https://www.doctorofcredit.com/best-current-credit-card-sign-bonuses/#Recent_Changes) |
 | [Card Recommendation Flowchart](https://m16p-churning.s3.us-east-2.amazonaws.com/Card+Recommendation+Flowchart+Latest.html) |
 | [Churning Referral](https://churning.rankt.com/referrals/) |
@@ -68,8 +68,11 @@
 | [Sci-Hub](https://sci-hub.se/) |
 | [Library Genesis](http://libgen.rs/) |
 | [Free MP3 Download](https://free-mp3-download.net/) |
+| [TubeMP3](https://tubemp3.to) |
+| [CLIPSTA](https://clipsta.us.to) |
 | [All Lossless](https://alllossless.net) |
 | [BFLIX](https://web.bflixz.to/home) |
+| [FMovies](https://fmoviesz.to/home) |
 | [Asianload](https://asianembed.io/) |
 | [Extreme down](https://www.extreme-down.moe) |
 | [1337x](https://1337x.to/) |
@@ -91,6 +94,8 @@
 | [Eduroam](https://www.lan.kth.se/eduroam/phones/phones_mobile_guide.html) |
 | [US Address Lookup](https://firstlogic.com/tools/verify-address) |
 | [Airbnb Review Checker](https://checkout.reviews) |
+| [AAD - Sking Cancer Screening](https://www.aad.org/public/public-health/skin-cancer-screenings/find-a-screening) |
+| [Skincancer.org](https://www.skincancer.org/early-detection/destination-healthy-skin/schedule/) |
 
 | --- |
 | [PERM Tracker](https://permtimeline.com/) |
