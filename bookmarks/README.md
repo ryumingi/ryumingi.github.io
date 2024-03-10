@@ -18,18 +18,18 @@
 | [FranceZone](https://www.francezone.com/) |
 
 | --- |
-| [r/LocalLLaMA](https://old.reddit.com/r/LocalLLaMA/) |
-| [r/USCIS](https://old.reddit.com/r/uscis) |
-| [r/DigitalNomad](https://old.reddit.com/r/digitalnomad/) |
-| [r/BogleHeads](https://old.reddit.com/r/bogleheads) |
-| [r/LeanFIRE](https://old.reddit.com/r/leanfire) |
-| [r/ExpatFIRE](https://old.reddit.com/r/expatfire) |
-| [r/USExpatTaxes](https://old.reddit.com/r/usexpattaxes) |
-| [r/Seattle](https://old.reddit.com/r/seattle) | 
-| [r/Denver](https://old.reddit.com/r/denver) |
-| [r/Chicago](https://old.reddit.com/r/chicago) |
-| [r/Skiing](http://old.reddit.com/r/skiing) |
-| [r/BackCountry](https://old.reddit.com/r/backcountry) |
+| [r/LocalLLaMA](https://farside.link/libreddit/r/LocalLLaMA/) |
+| [r/USCIS](https://farside.link/libreddit/r/uscis) |
+| [r/DigitalNomad](https://farside.link/libreddit/r/digitalnomad/) |
+| [r/BogleHeads](https://farside.link/libreddit/r/bogleheads) |
+| [r/LeanFIRE](https://farside.link/libreddit/r/leanfire) |
+| [r/ExpatFIRE](https://farside.link/libreddit/r/expatfire) |
+| [r/USExpatTaxes](https://farside.link/libreddit/r/usexpattaxes) |
+| [r/Seattle](https://farside.link/libreddit/r/seattle) | 
+| [r/Denver](https://farside.link/libreddit/r/denver) |
+| [r/Chicago](https://farside.link/libreddit/r/chicago) |
+| [r/Skiing](https://farside.link/libreddit/r/skiing) |
+| [r/BackCountry](https://farside.link/libreddit/r/backcountry) |
 
 | --- |
 | [VTI](https://www.tradingview.com/chart/?symbol=AMEX%3AVTI) |
