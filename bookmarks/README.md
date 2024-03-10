@@ -71,7 +71,7 @@
 | [TubeMP3](https://tubemp3.to) |
 | [CLIPSTA](https://clipsta.us.to) |
 | [All Lossless](https://alllossless.net) |
-| [BFLIX](https://web.bflixz.to/home) |
+| [BFLIX](https://web.bflix.to/home) |
 | [FMovies](https://fmoviesz.to/home) |
 | [Asianload](https://asianembed.io/) |
 | [Extreme down](https://www.extreme-down.moe) |
