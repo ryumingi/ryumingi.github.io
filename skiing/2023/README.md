@@ -4,7 +4,7 @@
 
 - [x] Eldora
 - [ ] A-Basin
-- [ ] Copper
+- [x] Copper
 - [ ] Winter Park
 - [ ] Steamboat Springs
 - [ ] Snowbird
@@ -33,4 +33,8 @@
 
 #### Gear
 
+| Date | Location              | Product                              | Cost        | Notes            |
+| ---- | --------------------- | ------------------------------------ | ----------- | ---------------- |
+| Feb  | Craiglist | Used Volkl Blaze 86 | $100 | |
+| Feb | REI | Black Diamond Ski Stap | $8 | |
 
