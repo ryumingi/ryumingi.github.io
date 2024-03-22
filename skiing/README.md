@@ -5,9 +5,6 @@
 | --- |
 | [George Dirth Memorial Scholarship Fund](https://wwgd.systrap.net/George-Dirth-Memorial-Scholarship-Fund/) |
 | [Roots - Foundations of Freeskiing](https://www.youtube.com/watch?v=dfg\_cLwwiZc) |
-| [The Fifty Project](https://www.youtube.com/watch?v=lvZk\_B6FwXc\&list=PLSj-6RsDycxnKiIFFm0BFYoLLV5Np3K49) |
-| [Chamonix Guides - Off-piste Skiing](https://www.chamonix-guides.com/en/activities/details/piste-skiing-full-day) |
-| [Ski Pass Map](https://www.google.com/maps/d/u/0/viewer?mid=1hs1R4ik-rEIl4ClU2GCHznGAJN4nc3Mh&ll=41.48631472755944%2C-102.18505327499997&z=2) |
 | [Smith helmet crash replacement policy](https://support.smithoptics.com/hc/en-us/articles/4403801633943-What-is-the-Smith-helmet-crash-replacement-policy-) |
 
 ### Forecasts
@@ -21,31 +18,7 @@
 
 ---
 
-### Hostels
-
-| --- |
-| [Park City Hostel, Utah](https://parkcityhostel.com/) |
-| [The PAD, Summit County, Colorado](https://thepadlife.com/silverthorne/) |
-| [The BIVVI, Breckenridge, Colorado](https://www.thebivvi.com/home) |
-| [Mellow Mountain Hostel, South Lake Tahoe, CA](https://mellowmountainhostel.com/) |
-| [Treasure State Hostel, Bozeman, MT](https://www.treasurestatehostel.com/) |
-| [Hi Whistler, British Columbia](https://hihostels.ca/en/destinations/british-columbia/hi-whistler) |
-| [Whistler Lodge Hostel, British Columbia](https://whistlerlodgehostel.com/) |
-| [Samsun, Banff, Alberta](https://samesun.com/banff-book-now/) |
-| [Banff International Hostel, Alberta](https://www.banffinternationalhostel.com/) |
-| [Hi Banff, Alberta](https://hihostels.ca/en/destinations/alberta/hi-banff) |
-| [Hi Lake Louise, Alberta](https://hihostels.ca/en/destinations/alberta/hi-lake-louise) |
-| [BAHNHOF](https://hotelbahnhofzermatt.com/) |
-
----
-
 ### Transit
-
-| Grandvalira |
-| --- |
-| [Andbus](https://www.andorrabybus.com/en) |
-| [Andorra Bus System](https://visitandorra.com/en/visitor-information/before-you-arrive/public-transport-national-regular-lines/) |
-| [Grandvalira Bus System](https://www.grandvalira.com/en/how-get-there) |
 
 #### France
 
@@ -70,16 +43,3 @@
 | [GVA - Val D'Isere (2023)](https://savoie.transdev.com/wp-content/uploads/2021/11/navettes-aeroport-geneve-stations-ski-tarentaise.pdf) |
 | [Bensbus (Val D'Isere)](https://www.bensbus.co.uk/ski-transfer/val-disere-airport-transfers/) |
 
-#### USA
-
-| Denver |
-| --- |
-| [Snowstang - Arapahoe Basin](https://ridebustang.com/snowstang-mountain-service/schedules/arapahoe-basin/) (weekends) |
-| [Snowstang - Copper Mountain](https://ridebustang.com/snowstang-mountain-service/schedules/copper-mountain-ski-area/) (weekends) |
-| [Snowstang - Breckenridge](https://ridebustang.com/snowstang-mountain-service/schedules/breckenridge-schedule/) (weekends) |
-| [Snowstang - Loveland Ski Area](https://ridebustang.com/snowstang-mountain-service/schedules/loveland-ski-area/) (weekends) |
-| [Snowstang - Steamboat Springs](https://ridebustang.com/snowstang-mountain-service/schedules/steamboat-springs/) (weekends, overnight) |
-| [Pegasus - Vail](https://ridebustang.com/pegasus-shuttle-van/schedules/denver-avon/) (weekdays, weekends) |
-| [Pegasus - Beaver Creek](https://ridebustang.com/pegasus-shuttle-van/schedules/denver-avon/) (weekdays, weekends) |
-| [Bustang - Vail](https://ridebustang.com/bustang/schedules/west/) (weekdays, weekends) |
-| [Amtrak - Winter Park](https://www.amtrak.com/winter-park-express) (weekends) |
