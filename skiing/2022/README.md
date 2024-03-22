@@ -57,3 +57,4 @@ Estimated total: $5700
 | Jan  | REI (Re/Supply)       | Smartwool PhD ski socks              | $15         | New              |
 
 Estimated total: $2600
+Aftermarket sales: $500 skis, bindings, and poles, $300 Mammut Barryvox
