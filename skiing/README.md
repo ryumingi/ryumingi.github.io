@@ -16,12 +16,10 @@
 | [Chamonix Meteo](https://chamonix-meteo.com/) |
 | [WePowder](https://wepowder.com/en) |
 
----
-
 ### Transit
 
-| |
-|[La Region](https://www.hautetarentaise.fr/cms_viewFile.php?idtf=61531&path=Plan-reseau-lignes-bus-Savoie.pdf) |
+| --- |
+| [La Region](https://www.hautetarentaise.fr/cms_viewFile.php?idtf=61531&path=Plan-reseau-lignes-bus-Savoie.pdf) |
 | [Swiss Tour](https://www.swisstours-office.ch/EN/Uncategorized/Regular-Line/CT5301BT/easy-bus-transfers-regular-line-from-chamonix-to-geneva-from-7.-euro-544.html) |
 | [Les Arcs - Bourg Saint Maurice](https://www.seelesarcs.com/files/187) |
 | [Bourg Saint Maurice - Val D'Isere (2022)](https://api.snowcarbon.co.uk/storage/library/sc-media-29351ee322370f7f757359ff2ed9cebe-Bourg%20St%20Maurice%20to%20Val%20d'Isere%202022-23%20winter%20bus%20timetable%20-%20French.pdf) |
