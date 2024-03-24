@@ -6,9 +6,9 @@ description: Knowledge representation and reasoning
 remote_theme: jekyll/minima
 
 header_pages:
-  - bookmarks
-  - posts
-  - research
+  - bookmarks.md
+  - posts/README.md
+  - research/README.md
 
 minima:
   skin: dark
