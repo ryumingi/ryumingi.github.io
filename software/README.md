@@ -1,3 +1,7 @@
+[Tiny Model, Massive PDF Corpus: URL Embeddings for 8.3 Million PDFs](https://weblog.snats.xyz/posts/2024/03/20/)
+
+[Parsing URLs in Python](https://tkte.ch/articles/2024/03/15/parsing-urls-in-python.html)
+
 [Fine-tuned LLMs Know More, Hallucinate Less with Few-Shot Sequence-to-Sequence Semantic Parsing over Wikidata](https://arxiv.org/abs/2305.14202)
 
 [OpenRefine](https://openrefine.org/)
