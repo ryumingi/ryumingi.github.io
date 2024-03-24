@@ -5,12 +5,13 @@ description: Knowledge representation and reasoning
 
 remote_theme: jekyll/minima
 
+header_pages:
+  - bookmarks
+  - posts
+  - research
+
 minima:
   skin: dark
   social_links:
     - { platform: github,  user_url: "https://github.com/ryumingi" }
 
-header_pages:
-  - bookmarks/README.md
-  - posts/README.md
-  - research/README.md
