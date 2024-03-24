@@ -1,3 +1,5 @@
+[Generative Character-Level Language Models](https://colab.research.google.com/github/norvig/pytudes/blob/main/ipynb/Goldberg.ipynb)
+
 [Stanford A.I. courses](https://ai.stanford.edu/courses/)
 
 [Towards Reliable Use of Large Language Models: Better Detection, Consistency, and Instruction-Tuning](https://simons.berkeley.edu/talks/christopher-d-manning-stanford-university-2023-08-14)
