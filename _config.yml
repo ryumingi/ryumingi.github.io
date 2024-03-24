@@ -3,7 +3,7 @@ author: Mingi Ryu
 
 description: Knowledge representation and reasoning
 
-theme: minima
+remote_theme: jekyll/minima
 
 minima:
   skin: dark
