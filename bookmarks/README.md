@@ -1,3 +1,9 @@
+---
+layout: page
+title: Bookmarks
+permalink: /bookmarks/
+---
+
 | --- |
 | [Hacker News](https://news.ycombinator.com/) | 
 | [Slickdeals](https://slickdeals.net/) |
