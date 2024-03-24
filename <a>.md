@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Bookmarks
-permalink: /bookmarks/
+title: <a>
+permalink: /<a>/
 ---
 
 | --- |
