@@ -1,3 +1,10 @@
+---
+layout: page
+title: Research
+permalink: /research/
+---
+
+
 | --- |
 | [Reinforcement Learning](./reinforcement-learning.md) |
 | [Natural Language Processing](./natural-language-processing.md) |
