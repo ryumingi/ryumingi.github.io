@@ -3,7 +3,7 @@
 #### IKON Base Pass ($559 via Boulder Freeride)
 
 - [x] Eldora
-- [ ] A-Basin
+- [x] A-Basin
 - [x] Copper
 - [ ] Winter Park
 - [ ] Steamboat Springs
