@@ -1,4 +1,8 @@
-# Expat Fire
+---
+layout: post
+title: "Resources for Expat Fire"
+categories: Travel
+---
 
 ## Tax Treaty
 
