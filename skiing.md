@@ -1,3 +1,9 @@
+---
+layout: page
+title: Skiing
+permalink: /skiing/
+---
+
 ### 2023-2024
 
 IKON Base Pass ($559 via Boulder Freeride)

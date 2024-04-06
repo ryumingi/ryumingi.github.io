@@ -1,3 +1,9 @@
+---
+layout: page
+title: Flights
+permalink: /flights/
+---
+
 | Route                   | Date     | Cost  |
 | ----------------------- | -------- | ----- |
 | MAD - ORD - MAD         | Feb 2024 | $303  |

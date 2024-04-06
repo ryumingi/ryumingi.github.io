@@ -8,6 +8,8 @@ remote_theme: jekyll/minima
 
 header_pages:
   - ⭐.md
+  - skiing.md
+  - flights.md
 
 minima:
   skin: dark
