@@ -20,6 +20,7 @@ Misc
 - [x] Les Arcs
 
 Itinerary
+
 | Location    | Lodging              | Cost  | Notes  |
 | ----------- | -------------------- | ----- | ------ |
 | Les Arcs    | Airbnb (Landry)      | $50   | 1n 2p  |
@@ -36,6 +37,7 @@ Itinerary
 Total: $5550
 
 Gear
+
 | Location  | Product                 | Cost | Notes |
 | --------- | ----------------------- | ---- | ----- |
 | Craiglist | Volkl Blaze 86 159cm    | $100 | Used  |
@@ -65,6 +67,7 @@ Misc
 - Cauterets (Le Lys)
 
 Itinerary
+
 | Location       | Lodging                        | Cost  | Notes  |
 | -------------- | ------------------------------ | ----- | ------ |
 | Mammoth        | Townhouse Motel (Bishop)       | $80   | 1n 2p  |
@@ -83,6 +86,7 @@ Itinerary
 Total: $5700
 
 Gear
+
 | Location              | Product                              | Cost        | Notes            |
 | --------------------- | ------------------------------------ | ----------- | ---------------- |
 | Footloose Sports      | K2 Mindbender 120                    | $525 + $186 | $186 demo credit |
