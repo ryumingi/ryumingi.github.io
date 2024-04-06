@@ -1,101 +1,99 @@
-### Skiing: 2023-2024
+### 2023-2024
 
-#### IKON Base Pass ($559 via Boulder Freeride)
-
+IKON Base Pass ($559 via Boulder Freeride)
 - [x] Eldora
 - [x] A-Basin
 - [x] Copper
 - [ ] Winter Park
-- [ ] Steamboat Springs
-- [ ] Snowbird
-- [ ] Solitude
-- [ ] Brighton
 - [x] Chamonix
 - [x] Zermatt
 
-#### Misc
-
+Misc
 - [x] Val D'Isere
 - [x] Tignes
 - [x] Les Arcs
 
-#### Itinerary
+Itinerary
+| Location    | Lodging              | Cost  | Notes  |
+| ----------- | -------------------- | ----- | ------ |
+| Les Arcs    | Airbnb (Landry)      | $50   | 1n 2p  |
+| Val D'Isere | UCPA (All-inclusive) | $880  | 7n 1p  |
+| Zermatt     | Hotel Bahnhof        | $120  | 2n 1p  |
+| Chamonix    | L'Arveyron           | $70   | 2n 1p  |
+| Eldora      | Rent (Boulder)       | $1500 | 60n 1p |
+| Copper      | Bunk House Lodge     | $80   | 1n 1p  |
+| A-Basin     | The Pad              | $50   | 1n 1p  |
+| Copper      | The Pad              | $150  | 3n 1p  |
+| Copper      | Ramada by Wyndham    | $250  | 2n 1p  |
+| Copper      | Airbnb (Frisco)      | $2400 | 28n 1p |
 
-| Date | Location       | Lodging                        | Cost  | Notes  |
-| ---- | -------------- | ------------------------------ | ----- | ------ |
-| Dec  | Les Arcs        | Airbnb (Landry)    | $50   | 1n 2p  |
-| Dec | Val D'Isere | UCPA | $880 | 7n 1p |
-| Jan | Zermatt | Hotel Bahnhof | $120 | 2n 1p |
-| Jan | Chamonix | L'Arveyron | $70 | 2n 1p |
-| Feb | Eldora | | | |
-| Mar | Eldora | | | |
-| Mar | Copper | Bunk House Lodge | $80 | 1n 1p |
+Total: $5550
 
-#### Gear
+Gear
+| Location  | Product                 | Cost | Notes |
+| --------- | ----------------------- | ---- | ----- |
+| Craiglist | Volkl Blaze 86 159cm    | $100 | Used  |
+| REI       | Black Diamond Ski Stap  | $8   |       |
+| REI       | Rossignol Sender Pro 90 | $400 |       |
 
-| Date | Location              | Product                              | Cost        | Notes            |
-| ---- | --------------------- | ------------------------------------ | ----------- | ---------------- |
-| Feb  | Craiglist | Used Volkl Blaze 86 | $100 | |
-| Feb | REI | Black Diamond Ski Stap | $8 | |
+Total: $508
+Sales: $135 for Volkl Blaze.
+Net: $373
 
+### 2022-2023
 
-### Skiing: 2022-2023
+IKON Base Pass ($469 via Boulder Freeride)
+- Snowbird
+- Chamonix Mont-Blanc Valley
+- Grandvalira Resorts
+- Brighton
+- June Mountain 
+- Mammoth Mountain
 
-#### IKON Base Pass ($469 via Boulder Freeride)
+Epic Local College ($566)
+- Whistler Blackcomb
+- Vail
+- Park City
 
-* Snowbird, UT
-* Chamonix Mont-Blanc Valley, France
-* Grandvalira Resorts, Andorra
-* Brighton, UT
-* June Mountain, CA (Unlimited)
-* Mammoth Mountain, CA (Unlimited)
+Misc
+- Cauterets (Le Lys)
 
-#### Epic Local College ($566)
+Itinerary
+| Location       | Lodging                        | Cost  | Notes  |
+| -------------- | ------------------------------ | ----- | ------ |
+| Mammoth        | Townhouse Motel (Bishop)       | $80   | 1n 2p  |
+| Mammoth        | Modern Hostel (Mammoth Lakes)  | $110  | 1n 2p  |
+| Mammoth        | Airbnb                         | $465  | 2n 3p  |
+| Grandvalira    | Espel Hotel (Andorra la Vella) | €350  | 5n 2p  |
+| Chamonix       | Airbnb (Les Houches)           | $156  | 2n 2p  |
+| Cauterets      | Les Edelweiss                  | $100  | 1n 2p  |
+| June & Mammoth | June Lake Motel                | $350  | 2n 2p  |
+| Mammoth        | Empeiria High Sierra Hotel     | $365  | 1n 3p  |
+| Vail           | Airbnb (Denver)                | $480  | 4n 1p  |
+| Whistler       | Airbnb                         | $790  | 4n 1p  |
+| Park City      | Airbnb (Kimball Junction)      | $1800 | 30n 1p |
+| Park City      | Airbnb (Kimball Junction)      | $600  | 10n 1p |
 
-* Whistler Blackcomb, BC (10 days)
-* Vail, CO (10 days)
-* Park City, UT
+Total: $5700
 
-#### Misc
+Gear
+| Location              | Product                              | Cost        | Notes            |
+| --------------------- | ------------------------------------ | ----------- | ---------------- |
+| Footloose Sports      | K2 Mindbender 120                    | $525 + $186 | $186 demo credit |
+| Footloose Sports      | Nordica Enforcer 104 Free            | $555 + $186 | $186 demo credit |
+| REI                   | Smith Holt Snow Helmet               | $70         |                  |
+| REI                   | Kinco Lined Gloves                   | $40         |                  |
+| OutdoorMaster         | PRO Replacement Lens - VLT 99% Clear | $50 for 2   | 1 for a friend   |
+| REI                   | Salomon Strive 14                    | $300        | $25 mount at REI |
+| REI                   | DAKINE Fall Line Ski Roller Bag      | $135        |                  |
+| AlpinStore            | Mammut Barryvox                      | €289.90     |                  |
+| AlpinStore            | SCOTT 540 115cm                      | €17.50      |                  |
+| Decathlon             | Surpantalon de ski de fond           | €40         |                  |
+| Snell Sports          | Black Diamond ski strap 50cm         | €8          |                  |
+| La Cordee (Cauterets) | Julbo Shadow                         | €169        |                  |
+| REI (Re/Supply)       | Smartwool PhD ski socks              | $15         | New              |
 
-* Cauterets (Le Lys)
-
-#### Itinerary
-
-| Date | Location       | Lodging                        | Cost  | Notes  |
-| ---- | -------------- | ------------------------------ | ----- | ------ |
-| Nov  | Mammoth        | Townhouse Motel (Bishop)       | $80   | 1n 2p  |
-| Nov  | Mammoth        | Modern Hostel (Mammoth Lakes)  | $110  | 1n 2p  |
-| Dec  | Mammoth        | Airbnb                         | $465  | 2n 3p  |
-| Dec  | Grandvalira    | Espel Hotel (Andorra la Vella) | €350  | 5n 2p  |
-| Jan  | Chamonix       | Airbnb (Les Houches)           | $156  | 2n 2p  |
-| Jan  | Cauterets      | Les Edelweiss                  | $100  | 1n 2p  |
-| Jan  | June & Mammoth | June Lake Motel                | $350  | 2n 2p  |
-| Feb  | Mammoth        | Empeiria High Sierra Hotel     | $365  | 1n 3p  |
-| Feb  | Vail           | Airbnb (Denver)                | $480  | 4n 1p  |
-| Feb  | Whistler       | Airbnb                         | $790  | 4n 1p  |
-| Mar  | Park City      | Airbnb (Kimball Junction)      | $1800 | 30n 1p |
-| Apr  | Park City      | Airbnb (Kimball Junction)      | $600  | 10n 1p |
-
-Estimated total: $5700
-
-#### Gear
-
-| Date | Location              | Product                              | Cost        | Notes            |
-| ---- | --------------------- | ------------------------------------ | ----------- | ---------------- |
-| Nov  | Footloose Sports      | K2 Mindbender 120                    | $525 + $186 | $186 demo credit |
-| Nov  | Footloose Sports      | Nordica Enforcer 104 Free            | $555 + $186 | $186 demo credit |
-| Nov  | REI                   | Smith Holt Snow Helmet               | $70         |                  |
-| Nov  | REI                   | Kinco Lined Gloves                   | $40         |                  |
-| Nov  | OutdoorMaster         | PRO Replacement Lens - VLT 99% Clear | $50 for 2   | 1 for a friend   |
-| Nov  | REI                   | Salomon Strive 14                    | $300        | $25 mount        |
-| Nov  | REI                   | DAKINE Fall Line Ski Roller Bag      | $135        |                  |
-| Dec  | AlpinStore            | Mammut Barryvox                      | €289.90     |                  |
-| Dec  | AlpinStore            | SCOTT 540 115cm                      | €17.50      |                  |
-| Dec  | Decathlon             | Surpantalon de ski de fond           | €40         |                  |
-| Jan  | Snell Sports          | Black Diamond ski strap 50cm         | €8          |                  |
-| Jan  | La Cordee (Cauterets) | Julbo Shadow                         | €169        |                  |
-| Jan  | REI (Re/Supply)       | Smartwool PhD ski socks              | $15         | New              |
-
-Estimated total: $2600
-Aftermarket sales: $500 skis, bindings, and poles, $300 Mammut Barryvox
+Total: $2600
+Sales: $500 for skis, bindings, and poles. $300 for Mammut Barryvox.
+Returns: DAKINE bag.
+Net: $1665
