@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My flights in 2022 and the carbon footprint"
+title: "The Carbon Footprint of My Flights in 2022"
 categories: Travel
 ---
 
