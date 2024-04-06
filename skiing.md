@@ -75,7 +75,7 @@ Itinerary
 | Copper      | Ramada by Wyndham    | $250  | 2n 1p  |
 | Copper      | Airbnb (Frisco)      | $2400 | 28n 1p |
 
-Total: $5550
+- Total: $5550
 
 Gear
 
@@ -85,9 +85,9 @@ Gear
 | REI       | Black Diamond Ski Stap  | $8   |       |
 | REI       | Rossignol Sender Pro 90 | $400 |       |
 
-Total: $508
-Sales: $135 for Volkl Blaze.
-Net: $373
+- Total: $508
+- Sales: $135 for Volkl Blaze.
+- Net: $373
 
 ### 2022-2023
 
@@ -124,7 +124,7 @@ Itinerary
 | Park City      | Airbnb (Kimball Junction)      | $1800 | 30n 1p |
 | Park City      | Airbnb (Kimball Junction)      | $600  | 10n 1p |
 
-Total: $5700
+- Total: $5700
 
 Gear
 
@@ -144,7 +144,7 @@ Gear
 | La Cordee (Cauterets) | Julbo Shadow                         | €169        |                  |
 | REI (Re/Supply)       | Smartwool PhD ski socks              | $15         | New              |
 
-Total: $2600
-Sales: $500 for skis, bindings, and poles. $300 for Mammut Barryvox.
-Returns: DAKINE bag.
-Net: $1665
+- Total: $2600
+- Sales: $500 for skis, bindings, and poles. $300 for Mammut Barryvox.
+- Returns: DAKINE bag.
+- Net: $1665
