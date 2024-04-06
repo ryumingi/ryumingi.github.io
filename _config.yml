@@ -10,6 +10,8 @@ header_pages:
   - ⭐.md
   - skiing.md
   - flights.md
+  - music.md
+  - research/README.md
 
 minima:
   skin: dark

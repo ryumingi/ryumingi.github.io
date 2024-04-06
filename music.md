@@ -1,4 +1,8 @@
-
+---
+layout: page
+title: Music
+permalink: /music/
+---
 
 [Piano Studio Ghibli Collection 1](https://www.youtube.com/watch?v=HGl75kurxok)
 
