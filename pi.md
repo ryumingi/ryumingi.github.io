@@ -11,4 +11,4 @@ NRT - LAX               | Nov 2023 | $219
 GVA/LHR - DEN - LHR/GVA | Oct 2023 | $500 
 DEN - PTY/MVD - PTY/ORD | Aug 2023 | $900 
 DEN - PTY/MVD           | Aug 2023 | $815 
-ZUR - ORD               | Jun 2023 | $487 
+Jun 2023 | $487 | ZUR - ORD 
