@@ -1,3 +1,9 @@
+[OpenSanctions](https://github.com/opensanctions)
+
+[demographicx](https://github.com/sciosci/demographicx)
+
+[Tweets to Citations: Unveiling the Impact of Social Media Influencers on AI Research Visibility](https://arxiv.org/abs/2401.13782)
+
 #### The complementary contributions of academia and industry to AI research
 
 Over the last 25 years, industry team get more attention, highly cited, and produces more state of the art models. Academic teams produce higher novelty work, unconvetional and atypical. Robust to controls for subfield, team size, seniority, and prestige. Academic-industry collaboration is more similar to industry teams than academic teams.
