@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Index
-permalink: /index/
+title: PI
+permalink: /pi/
 ---
 
 MAD - ORD - MAD | Feb 2024 | $303
