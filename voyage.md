@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Skiing
-permalink: /skiing/
+title: Voyage
+permalink: /voyage/
 ---
 
 ### Resources
