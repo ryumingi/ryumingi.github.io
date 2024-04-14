@@ -7,11 +7,12 @@ description: Knowledge representation and reasoning
 remote_theme: jekyll/minima
 
 header_pages:
-  - ⭐.md
   - skiing.md
-  - pi.md
   - music.md
   - research/README.md
+  - pi.md
+  - ⭐.md
+  
 
 minima:
   skin: dark
