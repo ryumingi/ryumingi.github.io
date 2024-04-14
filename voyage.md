@@ -6,6 +6,7 @@ permalink: /voyage/
 
 ### Resources
 
+---
 
 [r/Skiing](https://farside.link/libreddit/r/skiing)
 
@@ -15,14 +16,15 @@ permalink: /voyage/
 
 [Patchskiing Unlimited](https://patchskiing.net/)
 
----
-
-
 [Mammoth Snowman](https://www.mammothsnowman.com/)
 
 [Chamonix Meteo](https://chamonix-meteo.com/)
 
 [WePowder](https://wepowder.com/en)
+
+[14ers](https://www.14ers.com/)
+
+[10th Mountain Division Huts](https://huts.org/)
 
 ---
 
@@ -45,13 +47,14 @@ permalink: /voyage/
 [Geneva - Val D'Isere (2023)](https://savoie.transdev.com/wp-content/uploads/2021/11/navettes-aeroport-geneve-stations-ski-tarentaise.pdf)
 
 
+## Skiing
+
 ### 2023-2024
 
 IKON Base Pass ($559 via Boulder Freeride)
 - [x] Eldora
 - [x] A-Basin
 - [x] Copper
-- [ ] Winter Park
 - [x] Chamonix
 - [x] Zermatt
 
