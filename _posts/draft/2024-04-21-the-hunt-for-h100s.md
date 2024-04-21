@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Hunt for H100"
+title: "The Hunt for H100s"
 categories: Dev
 ---
 
