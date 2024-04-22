@@ -23,6 +23,7 @@ RunPod
   - 12 vCPUs, 125 GB RAM
   - On demand: $3.4/hr
   - Spot: $2.5/hr
+  - RX: 80~100 MiB/s, TX: 13~15 MiB/s, GPU: 1755MHz, MEM: 1593MHz
 - H100 SMX5
   - 24 vCPUs 251 GB RAM
   - On demand: $4.7/hr
@@ -34,5 +35,5 @@ DataCrunch
   - 30 vCPUs 120 GB RAM
   - On demand: $3.8/hr
   - Spot: $1.9/hr
-  - RX: 100 (+-20) MiB/s, TX: 22 (+-5) MiB/s, GPU: 1980MHz, MEM: 2619MHz
+  - RX: 80~120 MiB/s, TX: 18~26 MiB/s, GPU: 1980MHz, MEM: 2619MHz
 - EU servers
