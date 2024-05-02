@@ -8,9 +8,20 @@ permalink: /voyage/
 
 ---
 
+[Delta Airbnb](https://www.deltaairbnb.com/content/delta-airbnb/en/overview.html)
+
+
+---
+
+[FlightAware Cancellation](https://www.flightaware.com/live/cancelled/today)
+
+---
+
 [r/Skiing](https://farside.link/libreddit/r/skiing)
 
 [r/BackCountry](https://farside.link/libreddit/r/backcountry)
+
+[OpenSnow Colorado](https://opensnow.com/explore/states/US-CO/summary)
 
 [Wasatch Weather Weenies](https://wasatchweatherweenies.blogspot.com/)
 
