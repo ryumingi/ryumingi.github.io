@@ -4,6 +4,7 @@ title: PI
 permalink: /pi/
 ---
 
+May 2024 | $15 | [AIRism V-Neck T-Shirt](https://www.uniqlo.com/us/en/products/E454311-000/)
 Apr 2024 | $40 | [K2 Mindbender Gripwalk Outsoles - Freeride Grip Walk Outsoles](https://k2snow.com/en-us/p/freeride-grip-walk-outsoles-w-screws)
 Apr 2024 | $199 | [Black Hole® Mini MLC® 30L](https://www.patagonia.com/product/black-hole-mini-mlc-convertible-backpack-30-liters/195699286993.html)
 Apr 2024 | $19  | [T4093 Quarter Lightweight Tactical Sock No Cushion ](https://darntough.com/collections/tactical-socks/products/unisex-merino-wool-t4093-tactical-quarter-lightweight-tactical-socks)
