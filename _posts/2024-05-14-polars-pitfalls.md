@@ -14,6 +14,8 @@ Related ticket: https://github.com/pola-rs/polars/issues/3462
 
 #### Working with fields in struct is annoying
 
+Related ticket: https://github.com/pola-rs/polars/issues/3123
+
 I wish any one of the following worked
 
 > df.select(pl.col("struct").col("field"))
