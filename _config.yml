@@ -8,6 +8,7 @@ remote_theme: jekyll/minima
 
 header_pages:
   - voyage.md
+  - maps.md
   - music.md
   - reading/README.md
   - pi.md

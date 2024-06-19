@@ -8,10 +8,29 @@ permalink: /voyage/
 
 ---
 
-[Delta Airbnb](https://www.deltaairbnb.com/content/delta-airbnb/en/overview.html)
+[Weather Spark](https://weatherspark.com)
 
+[PurpleAir](https://map.purpleair.com/)
+
+[AQICN](https://aqicn.org/map/northamerica/)
+
+[Koppen](https://www.gloh2o.org/koppen)
 
 ---
+
+[Delta Airbnb](https://www.deltaairbnb.com/content/delta-airbnb/en/overview.html)
+
+[Airbnb Review Checker](https://checkout.reviews)
+
+---
+
+[EsimDB](https://esimdb.com)
+
+[Schengen Calculator](https://schengenareacalculator.com/)
+
+[Imoova](https://imoova.com/)
+
+[Pointhound](https://www.pointhound.com/)
 
 [FlightAware Cancellation](https://www.flightaware.com/live/cancelled/today)
 
