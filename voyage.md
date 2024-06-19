@@ -79,19 +79,42 @@ permalink: /voyage/
 
 ## Skiing
 
+### 2024-2025
+
+IKON Base Pass ($519 via CU Denver)
+- Chamonix
+- St. Moritz
+- Zermatt
+- Dolomiti
+- Niseko
+- Arai
+
+Itinerary
+
+| Location | Lodging | Cost | Notes |
+| -------- | ------- | ---- | ----- |
+
+- Total: $0
+
+Gear
+
+| Location | Product | Cost | Notes |
+| -------- | ------- | ---- | ----- |
+
+- Total: $0
+
 ### 2023-2024
 
 IKON Base Pass ($559 via Boulder Freeride)
-- [x] Eldora
-- [x] A-Basin
-- [x] Copper
-- [x] Chamonix
-- [x] Zermatt
+- Eldora
+- A-Basin
+- Copper
+- Chamonix
+- Zermatt
 
 Misc
-- [x] Val D'Isere
-- [x] Tignes
-- [x] Les Arcs
+- Val D'Isere & Tignes
+- Les Arcs
 
 Itinerary
 
