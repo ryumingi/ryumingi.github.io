@@ -34,6 +34,8 @@ permalink: /voyage/
 
 [FlightAware Cancellation](https://www.flightaware.com/live/cancelled/today)
 
+[Eduroam](https://www.lan.kth.se/eduroam/phones/phones_mobile_guide.html)
+
 ---
 
 [r/Skiing](https://farside.link/libreddit/r/skiing)
