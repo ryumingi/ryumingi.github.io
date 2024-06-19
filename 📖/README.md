@@ -58,6 +58,33 @@ https://shot-scraper.datasette.io/en/stable/
 
 ---
 
+[Making LLAMA model return only what I ask (JSON)](https://old.reddit.com/r/LocalLLaMA/comments/19e4dca/making_llama_model_return_only_what_i_ask_json/)
+
+[Practical Tips for Finetuning LLMs Using LoRA (Low-Rank Adaptation)](https://magazine.sebastianraschka.com/p/practical-tips-for-finetuning-llms)
+
+[Generative Character-Level Language Models](https://colab.research.google.com/github/norvig/pytudes/blob/main/ipynb/Goldberg.ipynb)
+
+[Stanford A.I. courses](https://ai.stanford.edu/courses/)
+
+[Towards Reliable Use of Large Language Models: Better Detection, Consistency, and Instruction-Tuning](https://simons.berkeley.edu/talks/christopher-d-manning-stanford-university-2023-08-14)
+
+[Stanford MLSys Seminar](https://mlsys.stanford.edu)
+
+[Mistral 7B](https://mistral.ai/news/announcing-mistral-7b/)
+
+[xVal: A continuous number encoding for LLMs](https://polymathic-ai.org/blog/xval/)
+
+[Korean Bert](https://paperswithcode.com/paper/kr-bert-a-small-scale-korean-specific)
+
+[MAS.S68: Generative AI for Constructive Communication Evaluation and New Research Methods](https://ai4comm.media.mit.edu/index.html)
+
+[CMU NLP](http://demo.ark.cs.cmu.edu/NLP/)
+
+[GATech NLP](https://www.cc.gatech.edu/classes/AY2020/cs7650\_spring/)
+
+[The freedom trap: digital nomads and the use of disciplining practices to manage work/leisure boundaries](https://link.springer.com/article/10.1007/s40558-020-00172-4)
+
+> It is found that in practice, digital nomadism is not always experienced as autonomous and free but is a way of living that requires high levels of discipline and self-discipline.
 
 [Tiny Model, Massive PDF Corpus: URL Embeddings for 8.3 Million PDFs](https://weblog.snats.xyz/posts/2024/03/20/)
 

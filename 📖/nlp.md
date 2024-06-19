@@ -1,18 +1,3 @@
-[Making LLAMA model return only what I ask (JSON)](https://old.reddit.com/r/LocalLLaMA/comments/19e4dca/making_llama_model_return_only_what_i_ask_json/)
-
-[Practical Tips for Finetuning LLMs Using LoRA (Low-Rank Adaptation)](https://magazine.sebastianraschka.com/p/practical-tips-for-finetuning-llms)
-
-[Generative Character-Level Language Models](https://colab.research.google.com/github/norvig/pytudes/blob/main/ipynb/Goldberg.ipynb)
-
-[Stanford A.I. courses](https://ai.stanford.edu/courses/)
-
-[Towards Reliable Use of Large Language Models: Better Detection, Consistency, and Instruction-Tuning](https://simons.berkeley.edu/talks/christopher-d-manning-stanford-university-2023-08-14)
-
-[Stanford MLSys Seminar](https://mlsys.stanford.edu)
-
-[Mistral 7B](https://mistral.ai/news/announcing-mistral-7b/)
-
-[xVal: A continuous number encoding for LLMs](https://polymathic-ai.org/blog/xval/)
 
 <details>
   <summary>
@@ -97,17 +82,3 @@ automatically assign the pyramid weights and was shown to correlate well with hu
 judgments.</p>
   
 </details>
-
-[Korean Bert](https://paperswithcode.com/paper/kr-bert-a-small-scale-korean-specific)
-
-
----
-
-[MAS.S68: Generative AI for Constructive Communication Evaluation and New Research Methods](https://ai4comm.media.mit.edu/index.html)
-
-[CMU NLP](http://demo.ark.cs.cmu.edu/NLP/)
-
-[GATech NLP](https://www.cc.gatech.edu/classes/AY2020/cs7650\_spring/)
-
-
-
