@@ -9,7 +9,7 @@ remote_theme: jekyll/minima
 header_pages:
   - voyage.md
   - music.md
-  - research/README.md
+  - reading/README.md
   - pi.md
   - ⭐.md
   
