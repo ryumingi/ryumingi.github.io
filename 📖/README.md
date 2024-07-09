@@ -4,16 +4,6 @@ title: 📖
 permalink: /📖/
 ---
 
-[Jay Alammar](https://jalammar.github.io/)
-
-[Lil’Log (Lilian Weng)](https://lilianweng.github.io/)
-
-[Chris Olah](https://colah.github.io/)
-
-[Shtetl-Optimized (Scott Aaronson)](https://scottaaronson.blog/)
-
----
-
 
 [History of Philosophy](https://www.denizcemonduygu.com/philo/browse/)
 
@@ -33,6 +23,9 @@ permalink: /📖/
 
 ---
 
+https://www.netherlandsworldwide.nl/visa-the-netherlands/whp
+
+https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A52019XC0408%2802%29
 
 https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html
 
