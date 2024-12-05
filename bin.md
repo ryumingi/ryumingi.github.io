@@ -1,3 +1,5 @@
+<a href="https://xkcd.com/"><img src="https://xkcd.com/favicon.ico" width="50" height="50" /></a>
+
 [r/Denver](https://farside.link/libreddit/r/denver)
 
 [r/H1B](https://farside.link/libreddit/r/h1b)
