@@ -9,7 +9,6 @@ remote_theme: jekyll/minima
 header_pages:
   - 🗺️.md
   - 📖/README.md
-  - 🛍️.md
   - ⭐.md
   
 
