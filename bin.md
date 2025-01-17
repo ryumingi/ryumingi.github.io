@@ -1,3 +1,7 @@
+[There’s an AI for that](https://theresanaiforthat.com/alphabetical/)
+
+[All Lossless](https://alllossless.net)
+
 [Piano Studio Ghibli Collection 1](https://www.youtube.com/watch?v=HGl75kurxok)
 
 [La Region](https://www.hautetarentaise.fr/cms_viewFile.php?idtf=61531&path=Plan-reseau-lignes-bus-Savoie.pdf)
