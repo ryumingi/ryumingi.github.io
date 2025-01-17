@@ -1,3 +1,21 @@
+[Sci-Hub](https://sci-hub.se/)
+
+[TubeMP3](https://tubemp3.to)
+
+[CLIPSTA](https://clipsta.us.to)
+
+[Extreme down](https://www.extreme-down.moe)
+
+[1337x](https://1337x.to/)
+
+[Visa Bulletin](https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin.html)
+
+[Hilites](https://hilites.today/)
+
+[Schengen Calculator](https://schengenareacalculator.com/)
+
+[Barometric Pressure](https://barometricpressure.app/)
+
 [Niseko Avalanche Information](http://niseko.nadare.info/)
 
 [OpenSnow Colorado](https://opensnow.com/explore/states/US-CO/summary)
