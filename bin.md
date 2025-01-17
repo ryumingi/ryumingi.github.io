@@ -1,3 +1,10 @@
+
+[Tárrega: Guitar Edition](https://www.youtube.com/watch?v=weQz5tGEKwE)
+
+[Recuerdos de la Alhambra (Ana Vidovic)](https://www.youtube.com/watch?v=fwjX-m4LkYk)
+
+Austrias
+
 [There’s an AI for that](https://theresanaiforthat.com/alphabetical/)
 
 [All Lossless](https://alllossless.net)
