@@ -1,3 +1,8 @@
+
+[Eggspensive](https://pantryandlarder.com/eggspensive)
+
+[McCheapest](https://pantryandlarder.com/mccheapest)
+
 [Judgemental Maps](https://judgmentalmaps.com)
 
 [Opportunity Atlas](https://www.opportunityatlas.org)
