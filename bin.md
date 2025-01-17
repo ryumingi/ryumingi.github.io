@@ -1,5 +1,25 @@
 <a href="https://xkcd.com/"><img src="https://xkcd.com/favicon.ico" width="50" height="50" /></a>
 
+[(303) MAD - ORD - MAD]
+
+[(1755) ICN - ORD]
+
+[(460) GVA - SEA, ORD - GVA]
+
+[(219) NRT - LAX]
+
+[(500) GVA/LHR - DEN - LHR/GVA]
+
+[(900) DEN - PTY/MVD - PTY/ORD]
+
+[(815) DEN - PTY/MVD]
+
+[(487) ZUR - ORD]
+
+[(3408) BUFFET CRAMPON R13](https://www.musique-et-art.com/fr/boutique-instruments/recherche/clarinette/clarinette-sib/clarinette-sib-serie-r13-10167.html?q=r13)
+
+[(40) K2 Mindbender Gripwalk Outsoles - Freeride Grip Walk Outsoles](https://k2snow.com/en-us/p/freeride-grip-walk-outsoles-w-screws)
+
 [r/Denver](https://farside.link/libreddit/r/denver)
 
 [r/H1B](https://farside.link/libreddit/r/h1b)
