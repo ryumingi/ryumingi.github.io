@@ -1,3 +1,6 @@
+[Niseko Avalanche Information](http://niseko.nadare.info/)
+
+[OpenSnow Colorado](https://opensnow.com/explore/states/US-CO/summary)
 
 [Américaine in France](https://www.americaineinfrance.com/)
 
