@@ -1,4 +1,14 @@
 
+[Américaine in France](https://www.americaineinfrance.com/)
+
+[The American in Paris](https://theamericaninparis.com/)
+
+[Frugalvagabond](https://frugalvagabond.com/) 
+
+[Climber Kyle](https://climberkyle.com/)
+
+[Truflation](https://truflation.com/dashboard?feed=us-inflation-rate)
+
 [Tárrega: Guitar Edition](https://www.youtube.com/watch?v=weQz5tGEKwE)
 
 [Recuerdos de la Alhambra (Ana Vidovic)](https://www.youtube.com/watch?v=fwjX-m4LkYk)
