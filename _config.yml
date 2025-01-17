@@ -12,7 +12,6 @@ header_pages:
   
 
 minima:
-  skin: light
   social_links:
     - { platform: github,   user_url: "https://github.com/ryumingi" }
     - { platform: linkedin, user_url: "https://www.linkedin.com/in/mryu" }
