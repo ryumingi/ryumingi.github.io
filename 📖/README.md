@@ -5,12 +5,6 @@ permalink: /📖/
 ---
 
 
-https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html
-
-https://openaipublic.blob.core.windows.net/sparse-autoencoder/sae-viewer/index.html
-
-https://genai-handbook.github.io
-
 https://www.naturalisation-statistiques.fr/statistiques?mois=avril-2024
 
 https://administration-etrangers-en-france.interieur.gouv.fr/api/anf/usager/dossiers/2023P3301X00028
@@ -18,6 +12,15 @@ https://administration-etrangers-en-france.interieur.gouv.fr/api/anf/usager/doss
 [Official U.S. Visa Information and Appointment Services](https://ais.usvisa-info.com/)
 
 [I-824: How to Bring Your Family to the U.S. Quick](https://www.stilt.com/immigrants/i-824/)
+
+---
+
+https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html
+
+https://openaipublic.blob.core.windows.net/sparse-autoencoder/sae-viewer/index.html
+
+https://genai-handbook.github.io
+
 
 https://kenkantzer.com/lessons-after-a-half-billion-gpt-tokens/
 
