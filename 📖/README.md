@@ -23,9 +23,6 @@ permalink: /📖/
 
 ---
 
-https://www.netherlandsworldwide.nl/visa-the-netherlands/whp
-
-https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A52019XC0408%2802%29
 
 https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html
 
@@ -37,11 +34,9 @@ https://www.naturalisation-statistiques.fr/statistiques?mois=avril-2024
 
 https://administration-etrangers-en-france.interieur.gouv.fr/api/anf/usager/dossiers/2023P3301X00028
 
-https://www.visajourney.com/forums/topic/738339-i-824-or-follow-to-join/page/10/#comments
+[Official U.S. Visa Information and Appointment Services](https://ais.usvisa-info.com/)
 
-https://ais.usvisa-info.com/en-fr/niv/information/contact_us
-
-https://www.stilt.com/immigrants/i-824/
+[I-824: How to Bring Your Family to the U.S. Quick](https://www.stilt.com/immigrants/i-824/)
 
 https://kenkantzer.com/lessons-after-a-half-billion-gpt-tokens/
 
