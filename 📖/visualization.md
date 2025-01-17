@@ -7,10 +7,6 @@
 
 ---
 
-[Science of science](https://s4.scienceofscience.org/)
-
----
-
 [LLM Visualization](https://bbycroft.net/llm)
 
 [Visualization Representations](https://colah.github.io/posts/2015-01-Visualizing-Representations/)
