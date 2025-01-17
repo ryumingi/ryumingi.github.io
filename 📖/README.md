@@ -4,6 +4,15 @@ title: 📖
 permalink: /📖/
 ---
 
+[Natual Language Processing](natural_language_processing.md)
+
+[Science of Science](science_of_science.md]
+
+[Visualization](visualization.md]
+
+[Finance}(finance.md)
+
+---
 
 https://www.naturalisation-statistiques.fr/statistiques?mois=avril-2024
 
