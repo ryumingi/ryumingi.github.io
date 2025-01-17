@@ -115,3 +115,6 @@ https://en.wikipedia.org/wiki/Collatz\_conjecture
 [Local Citation Network](https://timwoelfle.github.io/Local-Citation-Network/)
 
 
+<script>
+    document.getElementsByClassName("post-title").item(0).innerText = null;
+</script>
