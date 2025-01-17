@@ -1,3 +1,5 @@
+[Science of science](https://s4.scienceofscience.org/)
+
 [OpenSanctions](https://github.com/opensanctions)
 
 [demographicx](https://github.com/sciosci/demographicx)
