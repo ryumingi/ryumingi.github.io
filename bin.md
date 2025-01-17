@@ -1,3 +1,18 @@
+[14ers](https://www.14ers.com/)
+
+[10th Mountain Division Huts](https://huts.org/)
+
+[To the Mountain Shuttle ($29 one way)](https://tothemountainshuttle.com/seattle-suncadia/)
+
+[Trailhead Direct ($2.75 one way)](https://trailheaddirect.org/)
+
+[Eduroam](https://www.lan.kth.se/eduroam/phones/phones_mobile_guide.html)
+
+[CellMapper](https://www.cellmapper.net)
+
+[CoverageMap](https://map.coveragemap.com/)
+
+[Bloctel](https://www.bloctel.gouv.fr)
 
 [Eggspensive](https://pantryandlarder.com/eggspensive)
 
