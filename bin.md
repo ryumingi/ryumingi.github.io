@@ -1,4 +1,24 @@
+[Judgemental Maps](https://judgmentalmaps.com)
 
+[Opportunity Atlas](https://www.opportunityatlas.org)
+
+[SafeMap](https://safemap.io)
+
+[US Health Map](https://vizhub.healthdata.org/subnational/usa)
+
+[U.S. gun deaths, 2004-2010](https://projects.oregonlive.com/ucc-shooting/gun-deaths)
+
+[France Internet Availability Map](https://cartefibre.arcep.fr/index.html)
+
+[SerenTrip](https://serenitrip.fr/)
+
+[PurpleAir](https://map.purpleair.com/)
+
+[Weather Spark](https://weatherspark.com)
+
+[Koppen](https://www.gloh2o.org/koppen)
+
+[Earth :: Global Map of Wind](https://earth.nullschool.net/)
 
 [(303) MAD - ORD - MAD]
 
