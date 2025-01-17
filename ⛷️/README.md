@@ -9,3 +9,9 @@ permalink: /⛷️/
 [2023-2024](./2023-2024.md)
 
 [2022-2023](./2022-2023.md)
+
+
+
+<script>
+    document.getElementsByClassName("post-title").item(0).innerText = null;
+</script>
