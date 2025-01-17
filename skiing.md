@@ -11,11 +11,12 @@ IKON Base Pass ($519 via CU Denver)
 - St. Moritz
 - Zermatt
 - Dolomiti
-- Niseko
-- Arai
 
 Misc
 - Val Thorens
+- Courcheval
+- Kiroro
+- Teine
 
 
 Itinerary
