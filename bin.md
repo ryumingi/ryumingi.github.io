@@ -1,3 +1,5 @@
+[EU bilateral visa waiver agreements](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A52019XC0408%2802%29)
+
 [Sci-Hub](https://sci-hub.se/)
 
 [TubeMP3](https://tubemp3.to)
