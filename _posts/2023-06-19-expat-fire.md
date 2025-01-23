@@ -21,6 +21,7 @@ categories: Travel
 
 | Country or territory | Local income | Foreign income of residents | Foreign income of Non-resident citizens |
 | -------------------- | ------------ | --------------------------- | --------------------------------------- |
+| Canada               | Yes          | Yes                         | No                                      |
 | France               | Yes          | Yes                         | No                                      |
 | South Korea          | Yes          | Yes                         | No                                      |
 | Switzerland          | Yes          | Yes                         | No                                      |
