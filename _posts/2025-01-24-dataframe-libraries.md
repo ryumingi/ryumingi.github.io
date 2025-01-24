@@ -31,6 +31,9 @@ Cons
 - Some random task can lock the entire process making Dask very inefficient. This isn't always easy to identify and solve.
 - Integration with ML software is a bit lacking. There are better tools to use for GPU-based workloads.
 
+Issues
+- Automatic conversion to string. Disable using `dask.config.set({"dataframe.convert-string": False})`
+
 ## Pyspark
 Pros
 - Can handle TBs of data as long as sufficient hardware is provided.
