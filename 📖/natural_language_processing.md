@@ -1,6 +1,29 @@
 
 <details>
   <summary>
+    <a href='https://arxiv.org/abs/2002.10957'>MiniLM: Deep Self-Attention Distillation for Task-Agnostic Compression of Pre-Trained Transformers</a>
+  </summary>
+
+  <p>Specifically, we propose distilling the self-attention module of the last Transformer layer of the teacher, which is effective and flexible for the student. Furthermore, we introduce the scaled dot-product between values in the self-attention module as the new deep self-attention knowledge, in addition to the attention distributions (i.e., the scaled dot-product of queries and keys) that have been used in existing works.</p>
+
+  <p> Com-
+pared with previous approaches, using knowledge of the
+last Transformer layer rather than performing layer-to-layer
+knowledge distillation alleviates the difficulties in layer map-
+ping between the teacher and student models, and the layer
+number of our student model can be more flexibl</p>
+
+  <p>Using scaled dot-product between self-
+attention values also converts representations of different
+dimensions into relation matrices with the same dimensions
+without introducing additional parameters to transform stu-
+dent representations, allowing arbitrary hidden dimensions
+for the student mode</p>
+</details>
+
+
+<details>
+  <summary>
     <a href='https://lightning.ai/pages/community/tutorial/lora-llm/'>Parameter-Efficient LLM Finetuning With Low-Rank Adaptation (LoRA)</a>
   </summary>
 
