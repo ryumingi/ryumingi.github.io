@@ -1,6 +1,22 @@
 
 <details>
   <summary>
+    <a href='https://arxiv.org/abs/2106.04563'>XtremeDistilTransformers: Task Transfer for Task-agnostic Distillation</a>
+  </summary>
+
+  <p>Given a deep teacher and a shallow
+student, we align all the layers of the student to
+the topmost layers of the teacher</p>
+
+  <p>We conjecture this to be an artifact of
+model capacity as it becomes increasingly difficult
+for a shallow student to mimic a much bigger and
+deeper teacher.</p>
+</details>
+
+
+<details>
+  <summary>
     <a href='https://arxiv.org/abs/2002.10957'>MiniLM: Deep Self-Attention Distillation for Task-Agnostic Compression of Pre-Trained Transformers</a>
   </summary>
 
