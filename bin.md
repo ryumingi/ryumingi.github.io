@@ -1,3 +1,7 @@
+[(19) T4093 Quarter Lightweight Tactical Sock No Cushion (Large)](https://darntough.com/collections/tactical-socks/products/unisex-merino-wool-t4093-tactical-quarter-lightweight-tactical-socks)
+
+[(8.90) Men's Lyocell Front Open Boxer Brief (Small)](https://www.muji.us/products/mens-lyocell-front-open-boxer-brief-fag3822a)
+
 [Fidelity Learn & Earn](https://portal.interactivebrokers.com/learn_earn/)
 
 [CaseStatusExt](https://www.casestatusext.com/)
