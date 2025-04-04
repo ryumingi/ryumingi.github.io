@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Resources for Expat Fire"
+title: "Retirement and Tax Resources for Expats"
 categories: Travel
 ---
 
@@ -69,18 +69,16 @@ categories: Travel
 
 - If a non resident aliens withdraws from a 401k without a tax treaty, 30% withholding will be applied. Form 1040NR must be filed to claim the amount that was withheld due to the contributions being ECI. \[[source](https://www.reddit.com/r/EuropeFIRE/comments/mgajqq/europeans\_with\_us\_retirement\_plans/)]
 - HSA is not recognized by any other country.
-- Even one is covered by a tax treaty, a broker might not lower the withholding to 0%.
+- Even if one is covered by a tax treaty, a broker might not lower the withholding to 0%.
 - US taxation for non resident aliens is 100x worse than for US residents.
-- US retirement accounts are always considered US Situs for the Us Estate tax, which means that if you die holding more than 60k of assets in a US retirement account, you are looking at up to 40% tax on the account without an Estate tax treaty.
+- US retirement accounts are always considered US Situs for the US Estate tax, which means that if you die holding more than 60k of assets in a US retirement account, you are looking at up to 40% tax on the account without an Estate tax treaty.
 - Forms 1040NR takes a long time (+6 months)
 - Non-resident does not have access to the standard deduction.
-- non-ECI is subject to 30% tax.
-- EIC is subject to gradual tax bracket rates.
-- Effectively Connected Income: contributions to a retirement account
-- Non Effectively Connected Income: gains to a retirement account
+- Non-ECI is subject to 30% tax. (Non Effectively Connected Income: gains to a retirement account)
+- EIC is subject to gradual tax bracket rates. (Effectively Connected Income: contributions to a retirement account)
 - Some foreign countries treat traditional IRA distributions as capital gains as if it was a taxable brokerage.
-- France does not recognize Roth as tax free rather France doesn't tax US based retirement accounts.
-- Most, like Belgium, don't tax the withdrawals but still use it to calculate the tax rate you pay on other sources of income (just like the FEIE works for US taxes).
+- France does not recognize Roth as tax free but rather France doesn't tax US based retirement accounts at all.
+- Most, like Belgium, don't tax the withdrawals but still use it to calculate the tax rate you pay on other sources of income (similiar to how the FEIE works for the US taxes).
 
 
 ## Resources
@@ -108,13 +106,9 @@ categories: Travel
 [FIRE Flow Chart](https://u.cubeupload.com/demonlesondledon/FIREFlowChart.png)
 - Max out 401k and Roth IRA
 
-[](https://reddi.tk/r/USExpatTaxes/comments/11bxzoc/i_have_been_fighting_for_7_years_against_fatca/)
-
-
 [U.S. International Social Security Agreements](https://www.ssa.gov/international/agreements_overview.html)
 
 [Totalization Agreement with France ](https://www.ssa.gov/international/Agreement_Pamphlets/france.html)
-
 
 [How Early Retirement Affects Social Security](https://rootofgood.com/early-retirement-social-security/)
 - 10 years (40 credits) to qualify for free Medicare Part A coverage at age 65 (which would otherwise cost $400+ per month).
