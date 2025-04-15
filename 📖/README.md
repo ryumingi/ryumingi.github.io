@@ -4,23 +4,11 @@ title: 📖
 permalink: /📖/
 ---
 
-[Natual Language Processing](natural_language_processing.md)
-
 [Science of Science](science_of_science.md)
 
 [Visualization](visualization.md)
 
 [Finance](finance.md)
-
----
-
-https://www.naturalisation-statistiques.fr/statistiques?mois=avril-2024
-
-https://administration-etrangers-en-france.interieur.gouv.fr/api/anf/usager/dossiers/2023P3301X00028
-
-[Official U.S. Visa Information and Appointment Services](https://ais.usvisa-info.com/)
-
-[I-824: How to Bring Your Family to the U.S. Quick](https://www.stilt.com/immigrants/i-824/)
 
 ---
 
