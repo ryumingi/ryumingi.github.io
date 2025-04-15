@@ -7,7 +7,6 @@ description: Knowledge representation and reasoning
 remote_theme: jekyll/minima
 
 header_pages:
-  - 📖/README.md
   - ⭐.md
   
 
@@ -16,5 +15,4 @@ minima:
   
   social_links:
     - { icon: github,   url: "https://github.com/ryumingi" }
-    - { icon: linkedin, url: "https://www.linkedin.com/in/mryu" }
 
