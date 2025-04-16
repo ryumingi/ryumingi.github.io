@@ -50,6 +50,18 @@ Using all threads (master as worker)
 pyspark --master local[*]
 ```
 
+Change temp/shuffle/work dir to a different (external) disk
+
+```
+pyspark --conf spark.local.dir=/data
+```
+
+Load Hadoop Cloud
+
+```
+pyspark --packages org.apache.spark:spark-hadoop-cloud_2.12:3.5.4
+```
+
 ### Misc
 
 Check file system disk size
