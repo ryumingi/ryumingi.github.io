@@ -62,6 +62,12 @@ Load Hadoop Cloud
 pyspark --packages org.apache.spark:spark-hadoop-cloud_2.12:3.5.4
 ```
 
+Use Ipython for Pyspark shell
+
+```
+PYSPARK_DRIVER_PYTHON=ipython pyspark
+```
+
 ### Misc
 
 Check file system disk size
