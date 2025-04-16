@@ -12,6 +12,14 @@ categories: Dev
 
 [EC2 Instances](https://www.ec2instances.info/)
 
+### Spark / Hadoop
+[Hadoop Troubleshooting S3](https://github.com/steveloughran/hadoop/blob/trunk/hadoop-tools/hadoop-aws/src/site/markdown/tools/hadoop-aws/troubleshooting_s3a.md
+)
+
+[Spark Configuration](https://spark.apache.org/docs/latest/configuration.html#spark-configuration)
+
+### Snippets
+
 Partial download of parquet directory
 
 ```
