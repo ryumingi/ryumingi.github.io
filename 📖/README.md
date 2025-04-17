@@ -29,11 +29,9 @@ https://shot-scraper.datasette.io/en/stable/
 
 [Generative Character-Level Language Models](https://colab.research.google.com/github/norvig/pytudes/blob/main/ipynb/Goldberg.ipynb)
 
-[Stanford A.I. courses](https://ai.stanford.edu/courses/)
 
 [Towards Reliable Use of Large Language Models: Better Detection, Consistency, and Instruction-Tuning](https://simons.berkeley.edu/talks/christopher-d-manning-stanford-university-2023-08-14)
 
-[Stanford MLSys Seminar](https://mlsys.stanford.edu)
 
 [Mistral 7B](https://mistral.ai/news/announcing-mistral-7b/)
 
@@ -41,7 +39,6 @@ https://shot-scraper.datasette.io/en/stable/
 
 [Korean Bert](https://paperswithcode.com/paper/kr-bert-a-small-scale-korean-specific)
 
-[MAS.S68: Generative AI for Constructive Communication Evaluation and New Research Methods](https://ai4comm.media.mit.edu/index.html)
 
 [CMU NLP](http://demo.ark.cs.cmu.edu/NLP/)
 
