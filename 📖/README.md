@@ -27,10 +27,6 @@ https://shot-scraper.datasette.io/en/stable/
 
 ---
 
-[Making LLAMA model return only what I ask (JSON)](https://old.reddit.com/r/LocalLLaMA/comments/19e4dca/making_llama_model_return_only_what_i_ask_json/)
-
-[Practical Tips for Finetuning LLMs Using LoRA (Low-Rank Adaptation)](https://magazine.sebastianraschka.com/p/practical-tips-for-finetuning-llms)
-
 [Generative Character-Level Language Models](https://colab.research.google.com/github/norvig/pytudes/blob/main/ipynb/Goldberg.ipynb)
 
 [Stanford A.I. courses](https://ai.stanford.edu/courses/)
