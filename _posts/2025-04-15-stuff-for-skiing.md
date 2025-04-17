@@ -51,7 +51,7 @@ categories: Activities
 
 ---
 
-[Ikon Pass (CU Denver Discount)](https://www.ucdenver.edu/wellness/programs/adventure/ikon-pass-discount)
+[IKON Pass (CU Denver Discount)](https://www.ucdenver.edu/wellness/programs/adventure/ikon-pass-discount)
 
 [IKON Pass (Boulder Freeride)](https://www.cuboulderfreeride.org/ikon-pass)
 
