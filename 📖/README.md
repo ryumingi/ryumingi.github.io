@@ -71,17 +71,8 @@ https://shot-scraper.datasette.io/en/stable/
 
 [Upload file from Django admin panel](https://stackoverflow.com/questions/39329196/how-to-upload-image-file-from-django-admin-panel) 
 
-[12 Factor](https://12factor.net/) 
-
 [Building a Better Search Engine for Semantic Scholar](https://medium.com/ai2-blog/building-a-better-search-engine-for-semantic-scholar-ea23a0b661e7) 
 
-[Themes in Academic Literature: Prejudice and Social Justice](https://www.nas.org/academic-questions/35/2/themes-in-academic-literature-prejudice-and-social-justice)
-
-[Flights datasets](https://datasetsearch.research.google.com/search?src=0\&query=flights)
-
-[Mathematical Circuits](https://transformer-circuits.pub/2021/framework/index.html)
-
-https://en.wikipedia.org/wiki/Collatz\_conjecture
 
 [FID light](https://arxiv.org/pdf/2209.14290.pdf)
 
