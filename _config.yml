@@ -1,3 +1,6 @@
+plugins:
+  - jekyll-feed
+
 title: ryumingi.github.io
 author:
   name: Mingi Ryu
