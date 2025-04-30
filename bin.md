@@ -1,3 +1,13 @@
+[YesStyle](https://www.yesstyle.com)
+
+[DoubleDouble](https://doubledouble.top/)
+
+[12ft](https://12ft.io/)
+
+[Print Friendly](https://www.printfriendly.com)
+
+[Alternative frontends](https://farside.link/)
+
 [100 Civic Questions](https://www.uscis.gov/citizenship/find-study-materials-and-resources/study-for-the-test/100-civics-questions-and-answers-with-mp3-audio-english-version)
 
 [N-400](https://www.uscis.gov/n-400)
