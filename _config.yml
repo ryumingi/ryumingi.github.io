@@ -11,7 +11,7 @@ remote_theme: jekyll/minima
 
 header_pages:
   - ⭐.md
-  - 🏔️.md
+  - 🏔.md
   - 🔥.md
 
 minima:
@@ -19,4 +19,5 @@ minima:
   
   social_links:
     - { icon: github,   url: "https://github.com/ryumingi" }
+    - { icon: linkedin, url: "https://www.linkedin.com/in/mryu/" }
 
