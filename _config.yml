@@ -17,6 +17,6 @@ minima:
   skin: auto
   
   social_links:
-    - { icon: github,   url: "https://github.com/mingiryu" }
+    - { icon: github,   url: "https://github.com/ryumingi" }
     - { icon: linkedin, url: "https://www.linkedin.com/in/mryu/" }
 
