@@ -17,6 +17,12 @@ Screenshot of the phishing emails I have received since then.
 <img src="https://github.com/user-attachments/assets/9410aa1f-7dd0-4371-9024-98a4d1adfddd" alt="image" width="200"/>
 <img src="https://github.com/user-attachments/assets/488c1bd7-2240-49a8-8f70-b33f6fcf9b5a" alt="image" width="200"/>
 <img src="https://github.com/user-attachments/assets/ea8f0334-da72-4643-b787-0337a2766329" alt="image" width="200"/>
+<img src="https://github.com/user-attachments/assets/a4682dea-50e0-4779-b55f-2502ed023c39" alt="image" width="200"/>
+<img src="https://github.com/user-attachments/assets/e7ea7946-4327-4081-b069-a13382ed61af" alt="image" width="200"/>
+<img src="https://github.com/user-attachments/assets/3794aacd-9f09-414e-b1f5-b6270460b4d0" alt="image" width="200"/>
+<img src="https://github.com/user-attachments/assets/259d1158-e7dd-4be6-870f-9b1c03bd5638" alt="image" width="200"/>
+<img src="https://github.com/user-attachments/assets/9bcd19d8-d75c-4e94-9d70-b6a717d3c6a6" alt="image" width="200"/>
+<img src="https://github.com/user-attachments/assets/f6138093-5f50-447a-b143-6b5e5b649ef4" alt="image" width="200"/>
 
 
 And the sender informations of the emails:
