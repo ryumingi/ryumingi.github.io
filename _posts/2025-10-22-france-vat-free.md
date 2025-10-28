@@ -42,7 +42,17 @@ For ones that do not support it, VAT refund providers are the next best options.
 > You just need to have the invoice (which you will receive by email after the goods have been dispatched) stamped by customs and send us the stamped invoice as a cleanly scanned PDF document. Alternatively, you can also send us the stamped original invoice by post.
 
 #### Sport Conrad (Invoice, Non-OSS)
-> Yes, if customs only stamp our Sport Conrad invoice, it is also okay for us and the VAT refund. 
+> Yes, if customs only stamp our Sport Conrad invoice, it is also okay for us and the VAT refund.
+> No, we need the original stamped documents by post from the customer. Electronically/by e-mail will not be accepted from us. Thanks for your understanding.
+
+```
+our address:
+Sport Conrad
+accounting
+Bahnhofstraße 20
+82377 Penzberg
+Germany
+```
 
 #### Etrias (Invoice)
 > Vous pouvez demander le remboursement de la TVA via les douanes. Lors de votre départ (par port ou aéroport), vous devez faire ce qui suit :
