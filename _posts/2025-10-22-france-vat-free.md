@@ -7,14 +7,21 @@ categories: Travel
 Many online retailers support VAT refund by requesting customers to get the invoice stamped or providing a PABLO form to scan.
 
 For ones that do not support it, VAT refund providers are the next best options.
-- Global Blue
+
+SkipTax (9VSSS4F6)
+- Referral bonus (81%)
+- Quick turnaround on the refund
+
+Alternatives
 - WeVAT
 - ZappTax
-- SkipTax (9VSSS4F6)
 
 ### VAT Support
 
 #### Glisshop (Pablo)
+- Easy form to scan and quick turnaround
+- Refund to original payment method
+
 > To obtain a tax refund, the order must exceed a value of €100 and be delivered to an address in France. 
 > You will need to send us: 
 > 
@@ -27,6 +34,9 @@ For ones that do not support it, VAT refund providers are the next best options.
 
 
 #### Snowleader (Pablo, Global Blue)
+- Easy form to scan and quick turnaround
+- Refund via Global Blue to provided bank information
+
 > In order to edit the VAT exemption form, we would need :
 > - a copy of your passport,
 > - a certificate of residence if the address on your passport is French,
@@ -42,6 +52,8 @@ For ones that do not support it, VAT refund providers are the next best options.
 > You just need to have the invoice (which you will receive by email after the goods have been dispatched) stamped by customs and send us the stamped invoice as a cleanly scanned PDF document. Alternatively, you can also send us the stamped original invoice by post.
 
 #### Sport Conrad (Invoice, Non-OSS)
+- French custom find the form irregular, but willing to stamp it.
+
 > Yes, if customs only stamp our Sport Conrad invoice, it is also okay for us and the VAT refund.
 > No, we need the original stamped documents by post from the customer. Electronically/by e-mail will not be accepted from us. Thanks for your understanding.
 
@@ -55,6 +67,9 @@ Germany
 ```
 
 #### Etrias (Invoice)
+- Requires a bit of effort to convince them that you're non-EU resident.
+- Refund to original payment method
+
 > Vous pouvez demander le remboursement de la TVA via les douanes. Lors de votre départ (par port ou aéroport), vous devez faire ce qui suit :
 >
 > Présentez-vous à un bureau ou un guichet des douanes. Les douanes approuvent la facture pour l'exportation. Vous nous renvoyez la facture signée (ou une copie de celle-ci).
