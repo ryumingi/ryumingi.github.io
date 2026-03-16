@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The most common title on OpenAlex: `Occurrence Download`"
+title: "The Most Common Title on OpenAlex: `Occurrence Download`"
 categories: dev
 ---
 
