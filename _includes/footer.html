@@ -1,0 +1,13 @@
+<footer class="site-footer">
+  <div class="wrapper site-footer-inner">
+    <span>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}</span>
+    <div class="footer-links">
+      {%- if site.minima.social_links -%}
+        {%- for link in site.minima.social_links -%}
+          <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{%- case link.icon -%}{%- when 'github' -%}GitHub{%- when 'linkedin' -%}LinkedIn{%- else -%}{{ link.icon | capitalize }}{%- endcase -%}</a>
+        {%- endfor -%}
+      {%- endif -%}
+      <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+    </div>
+  </div>
+</footer>

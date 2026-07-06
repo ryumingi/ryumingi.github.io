@@ -1,0 +1,16 @@
+---
+layout: page
+title: Tags
+permalink: /tags/
+---
+{%- assign sorted_categories = site.categories | sort -%}
+{%- for category in sorted_categories %}
+  {%- assign cat_name = category | first %}
+  {%- assign cat_posts = category | last %}
+<h2 id="{{ cat_name | slugify }}" class="tag-heading">{{ cat_name | capitalize }} <span class="tag-count">({{ cat_posts.size }})</span></h2>
+<ul class="tag-posts">
+  {%- for post in cat_posts %}
+  <li><span class="archive-date">{{ post.date | date: "%b %-d, %Y" }}</span> <a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+  {%- endfor %}
+</ul>
+{%- endfor %}

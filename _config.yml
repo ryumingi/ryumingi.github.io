@@ -1,7 +1,12 @@
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
-title: ryumingi.github.io
+title: Mingi Ryu
+url: "https://ryumingi.github.io"
+lang: en
+
 author:
   name: Mingi Ryu
 
@@ -10,13 +15,12 @@ description: Knowledge representation and reasoning
 remote_theme: jekyll/minima
 
 header_pages:
+  - archive.html
+  - tags.html
   - ⭐.md
   - 📚.md
 
 minima:
-  skin: auto
-  
   social_links:
     - { icon: github,   url: "https://github.com/ryumingi" }
     - { icon: linkedin, url: "https://www.linkedin.com/in/mryu/" }
-

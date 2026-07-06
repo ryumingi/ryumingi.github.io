@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<div class="home">
+  {%- if page.title %}
+  <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif %}
+
+  {{ content }}
+
+  {%- if site.posts.size > 0 %}
+  <ul class="post-list">
+    {%- for post in site.posts %}
+    <li class="post-item">
+      <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }} &middot; {% include reading-time.html content=post.content %} min read</span>
+      <h2 class="post-title"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
+      {%- if post.excerpt and post.excerpt != empty %}
+      <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
+      {%- endif %}
+      <a class="continue-reading" href="{{ post.url | relative_url }}">Continue reading &rarr;</a>
+    </li>
+    {%- endfor %}
+  </ul>
+  {%- endif %}
+</div>

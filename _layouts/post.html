@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<article class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+    <p class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+      &middot; {% include reading-time.html content=page.content %} min read
+      {%- if page.categories.size > 0 %}
+      &middot; <a href="{{ '/tags/' | relative_url }}#{{ page.categories | first | slugify }}">{{ page.categories | first }}</a>
+      {%- endif %}
+    </p>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  {%- if page.previous or page.next %}
+  <nav class="post-nav">
+    {%- if page.previous %}
+    <a class="post-nav-prev" href="{{ page.previous.url | relative_url }}">&larr; {{ page.previous.title }}</a>
+    {%- endif %}
+    {%- if page.next %}
+    <a class="post-nav-next" href="{{ page.next.url | relative_url }}">{{ page.next.title }} &rarr;</a>
+    {%- endif %}
+  </nav>
+  {%- endif %}
+</article>
