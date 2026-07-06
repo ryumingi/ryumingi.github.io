@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Comparison of Dataframe libaries and others"
-categories: Dev
+categories: dev
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Hunt for H100s"
-categories: Dev
+categories: dev
 ---
 
 

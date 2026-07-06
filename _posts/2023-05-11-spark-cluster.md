@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "AWS EC2 & Spark Cluster Snippets"
-categories: Dev
+categories: dev
 ---
 
 ### AWS EC2 Instance

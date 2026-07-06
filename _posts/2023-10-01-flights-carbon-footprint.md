@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Carbon Footprint of My Flights in 2022"
-categories: Travel
+categories: travel
 ---
 
 In 2022, I've flown 25 times where 16 of those were domestic flights and the rest 9 were international flights.

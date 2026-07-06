@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Random Wifi Disconnection on Linux Mint"
-categories: Dev
+categories: dev
 ---
 
 Wifi would randomly stop working from time to time despite having an active connection. A short term fix can be made by restarting the wifi or making manual reconnection.

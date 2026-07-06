@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Polars Pitfalls"
-categories: Dev
+categories: dev
 ---
 
 #### Struct is considered null if any one of the values is null

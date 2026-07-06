@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Making Polars Faster"
-categories: Dev
+categories: dev
 ---
 
 Row-wise operation in Polars is procedural just like Pandas. Modin, Dask, etc can be used to speed up the runtime depending on the numeber of cores available in the compute.

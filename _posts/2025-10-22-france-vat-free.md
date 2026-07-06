@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Getting VAT Refund from French Online Stores"
-categories: Travel
+categories: travel
 ---
 
 Many online retailers support VAT refund by requesting customers to get the invoice stamped or providing a PABLO form to scan.

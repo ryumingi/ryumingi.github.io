@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Non-stop Email Phishing Scams after Free Mobile Data Breach"
-categories: Travel
+categories: travel
 ---
 
 > In October 2024, French ISP "Free" suffered a data breach which was subsequently posted for sale and later, leaked publicly. The data included 14M unique email addresses along with names, physical addresses, phone numbers, genders, dates of birth and for many records, IBAN bank account numbers. Free advised that the numbers were "not enough to make a direct debit from a bank".
