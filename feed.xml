@@ -1,0 +1,1045 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://ryumingi.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ryumingi.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-09-19T15:16:31+00:00</updated><id>https://ryumingi.github.io/feed.xml</id><title type="html">Mingi Ryu</title><subtitle>Knowledge representation and reasoning</subtitle><author><name>Mingi Ryu</name></author><entry><title type="html">The Most Common Title on OpenAlex: `Occurrence Download`</title><link href="https://ryumingi.github.io/dev/2026/03/15/occurrence-download.html" rel="alternate" type="text/html" title="The Most Common Title on OpenAlex: `Occurrence Download`" /><published>2026-03-15T00:00:00+00:00</published><updated>2026-03-15T00:00:00+00:00</updated><id>https://ryumingi.github.io/dev/2026/03/15/occurrence-download</id><content type="html" xml:base="https://ryumingi.github.io/dev/2026/03/15/occurrence-download.html"><![CDATA[<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>In []: df.filter(df.title == "Occurrence Download").count()
+Out[]: 4086738
+</code></pre></div></div>
+
+<p>A large collection of works titled “Occurrence Download” with “GBIF.Org User” as the author has been included in the OpenAlex <code class="language-plaintext highlighter-rouge">works</code> dataset. Furthermore, it has one of the highest row byte size, which adds significant bloat to the OpenAlex dataset.</p>
+
+<p><a href="https://openalex.org/works?search.title_and_abstract=occurrence+download&amp;sort=relevance_score:desc">Link to OpenAlex for <code class="language-plaintext highlighter-rouge">Occurrence Download</code></a></p>
+
+<p>As a context, here are some top aggregates:</p>
+
+<p><em>30 most common titles on OpenAlex</em></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>In []: df.groupby(df.title).count().orderBy("count", ascending=False).head(30)
+Out[]:
+[Row(title='', count=6143419),
+ Row(title='Occurrence Download', count=4086738),
+ Row(title=None, count=1807859),
+ Row(title='archive.org Member', count=816219),
+ Row(title='Introduction', count=471973),
+ Row(title='Editorial Board', count=346797),
+ Row(title='Streptomyces sp.', count=299585),
+ Row(title='Index', count=271602),
+ Row(title='Editorial', count=259510),
+ Row(title='Animalia', count=257135),
+ Row(title='Front Matter', count=245362),
+ Row(title='Frontmatter', count=204817),
+ Row(title='Preface', count=201099),
+ Row(title='Table of Contents', count=200554),
+ Row(title='Contents', count=190204),
+ Row(title='Lepidoptera Linnaeus, 1758', count=184780),
+ Row(title='NBC News Scripts', count=127397),
+ Row(title='Book Reviews', count=119856),
+ Row(title='Conclusion', count=115246),
+ Row(title='Bibliography', count=105941),
+ Row(title='Notes', count=105511),
+ Row(title='Masthead', count=98460),
+ Row(title='Issue Information', count=98285),
+ Row(title='Back Matter', count=89172),
+ Row(title='Acknowledgments', count=86912),
+ Row(title='The APPLAUSE Data Release 2', count=85231),
+ Row(title='Erratum', count=76345),
+ Row(title='Contributors', count=73847),
+ Row(title='Foreword', count=73563),
+ Row(title='References', count=66750)]
+</code></pre></div></div>
+
+<p><em>100 works by row byte size</em></p>
+
+<blockquote>
+  <p>Note: Only the relevant columns (title, authorship, description, etc) are included.</p>
+</blockquote>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">id</th>
+      <th style="text-align: left">size</th>
+      <th style="text-align: left">title</th>
+      <th style="text-align: left">type</th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6929943625</td>
+      <td style="text-align: left">14.06 KB</td>
+      <td style="text-align: left">Prochiloneurus lucetia Noyes 2023, sp.nov.</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6912743308</td>
+      <td style="text-align: left">13.99 KB</td>
+      <td style="text-align: left">Dicranopalpus catariegensis Wijnhoven &amp; Martens &amp; Prieto 2022, sp. nov.</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4387339134</td>
+      <td style="text-align: left">13.02 KB</td>
+      <td style="text-align: left">Air and hydrogen injection tests on saturated compacted bentonite</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6948817700</td>
+      <td style="text-align: left">14.51 KB</td>
+      <td style="text-align: left">Ackermann pdf</td>
+      <td style="text-align: left">other</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4310159470</td>
+      <td style="text-align: left">13.98 KB</td>
+      <td style="text-align: left">Characterization and T-Cell Repertoire of MB-CART2019.1 (Zamtocabtagene autoleucel) - Data from the Phase I Trial in Patients with Relapsed or Refractory B-Cell Non-Hodgkin Lymphoma</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4308317492</td>
+      <td style="text-align: left">13.16 KB</td>
+      <td style="text-align: left">A novel multi-scale 2D CNN with weighted focal loss for arrhythmias detection on varying-dimensional ECGs</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W7040610856</td>
+      <td style="text-align: left">13.34 KB</td>
+      <td style="text-align: left">vol33no4 111</td>
+      <td style="text-align: left">other</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4389248173</td>
+      <td style="text-align: left">13.48 KB</td>
+      <td style="text-align: left">Ilyad: A Phase III Double Blind, Randomized Trial Evaluating Vitamin D (Cholecalciferol) in Patients with Low Tumor-Burden Indolent Non-Hodgkin Lymphoma Treated with Rituximab Therapy</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4323363071</td>
+      <td style="text-align: left">13.49 KB</td>
+      <td style="text-align: left">Rapid escape of new SARS-CoV-2 Omicron variants from BA.2-directed antibody responses</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W7034619350</td>
+      <td style="text-align: left">13.42 KB</td>
+      <td style="text-align: left">Un nou paradigma de formació professional i professionalitzadora</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W7036241104</td>
+      <td style="text-align: left">13.37 KB</td>
+      <td style="text-align: left">+91-9116799099 black magic specialist astrologer in mumbai</td>
+      <td style="text-align: left">other</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W7012526362</td>
+      <td style="text-align: left">14.58 KB</td>
+      <td style="text-align: left">vol19no2 91</td>
+      <td style="text-align: left">other</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6898759648</td>
+      <td style="text-align: left">13.59 KB</td>
+      <td style="text-align: left">crosstalk.min.css</td>
+      <td style="text-align: left">dataset</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W7080695530</td>
+      <td style="text-align: left">13.51 KB</td>
+      <td style="text-align: left">¿Cuidar por amor?: una aproximación al trabajo de cuidados y a sus consecuencias en mujeres cuidadoras, a partir de los conceptos de amor y violencia de género, y de apoyo social y salud</td>
+      <td style="text-align: left">dissertation</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6892682899</td>
+      <td style="text-align: left">13.03 KB</td>
+      <td style="text-align: left">Mietvertrag pdf vorlage</td>
+      <td style="text-align: left">other</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4403508472</td>
+      <td style="text-align: left">14.38 KB</td>
+      <td style="text-align: left">Access barriers to anti-CD19+ CART therapy for NHL across a community transplant and cellular therapy network</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4406152282</td>
+      <td style="text-align: left">13.44 KB</td>
+      <td style="text-align: left">Population sequencing of cherry accessions unravels the evolution of Cerasus species and the selection of genetic characteristics in edible cherries</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6973470076</td>
+      <td style="text-align: left">13.65 KB</td>
+      <td style="text-align: left">002_IFNL_Recovery_scRNAseq_20230601_10X_RNAseq_WT_excluded_cells_pctRibo.txt</td>
+      <td style="text-align: left">dataset</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6995968140</td>
+      <td style="text-align: left">13.07 KB</td>
+      <td style="text-align: left">Protitumorsko delovanje genskega elektroprenosa kombinacije plazmidov z zapisom za interlevkina IL-2 in IL-12 na različnih mišjih tumorskih modelih</td>
+      <td style="text-align: left">dissertation</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4225759884</td>
+      <td style="text-align: left">14.23 KB</td>
+      <td style="text-align: left">Urban planning – architectural report on thermal stress in the city of Warsaw</td>
+      <td style="text-align: left">report</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6930644172</td>
+      <td style="text-align: left">13.58 KB</td>
+      <td style="text-align: left">Dioscorea flabellispina R. Couto &amp; J. M. A. Braga 2015, sp. nov.</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4205221276</td>
+      <td style="text-align: left">13.51 KB</td>
+      <td style="text-align: left">Superficial Therapy</td>
+      <td style="text-align: left">book-chapter</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W7118711906</td>
+      <td style="text-align: left">14.15 KB</td>
+      <td style="text-align: left">Euderces reichei LeConte 1873</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6912937968</td>
+      <td style="text-align: left">13.38 KB</td>
+      <td style="text-align: left">Conlan vs Guerfi Live streaming online free ON -FITE, ESPN+ – Dec. 10 – 1 pm ET</td>
+      <td style="text-align: left">other</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4385264758</td>
+      <td style="text-align: left">13.47 KB</td>
+      <td style="text-align: left">Comparative Effectiveness of Long‐Term Maintenance Beta‐Blocker Therapy After Acute Myocardial Infarction in Stable, Optimally Treated Patients Undergoing Percutaneous Coronary Intervention</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4413050474</td>
+      <td style="text-align: left">13.65 KB</td>
+      <td style="text-align: left">Correction: CPT1A-mediated fatty acid oxidation promotes colorectal cancer cell metastasis by inhibiting anoikis</td>
+      <td style="text-align: left">erratum</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W7115911156</td>
+      <td style="text-align: left">14.52 KB</td>
+      <td style="text-align: left">مکاتب فلسفی باستانی و معاصر و تحلیل ریاضیاتی-فیزیکی آنها با تانسور ۱۶۵ بعدی معادله حمزه</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6961851598</td>
+      <td style="text-align: left">14.8 KB</td>
+      <td style="text-align: left">Occurrence Download</td>
+      <td style="text-align: left">dataset</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W7028013212</td>
+      <td style="text-align: left">14.17 KB</td>
+      <td style="text-align: left">Disconnected: Investigating the Social and Political Conditions Shaping Mexico Cityâs Air Quality Regulatory Environment</td>
+      <td style="text-align: left">dissertation</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W7036633864</td>
+      <td style="text-align: left">14.63 KB</td>
+      <td style="text-align: left">Casa Huarte: José Antonio Corrales y Ramón Vázquez Molezún. El concepto de lo experimental en el ámbito doméstico</td>
+      <td style="text-align: left">other</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6930509074</td>
+      <td style="text-align: left">14.66 KB</td>
+      <td style="text-align: left">The Anatomy of Superintelligence: How To Create ASI Lifeform System The Instructions Manuel (Nexus of Cognition: A Technical Codex Blueprint For Engineering, Crafting, Self-Propagating, and Self-Evolving Superintelligence)</td>
+      <td style="text-align: left">book</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6931279648</td>
+      <td style="text-align: left">13.03 KB</td>
+      <td style="text-align: left">Thaumastocoris safordi Noack, Cassis &amp; Rose, n.sp.</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W7065056515</td>
+      <td style="text-align: left">13.37 KB</td>
+      <td style="text-align: left">delhi vashikaran specialist services +91-9116799099</td>
+      <td style="text-align: left">other</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4366463645</td>
+      <td style="text-align: left">13.78 KB</td>
+      <td style="text-align: left">Epigenetic Control of Translation Checkpoint and Tumor Progression via RUVBL1‐EEF1A1 Axis</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4402335530</td>
+      <td style="text-align: left">14.73 KB</td>
+      <td style="text-align: left">T cell correction pipeline for Inborn Errors of Immunity</td>
+      <td style="text-align: left">preprint</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6911649937</td>
+      <td style="text-align: left">13.41 KB</td>
+      <td style="text-align: left">Tabata workout tabata übungen pdf</td>
+      <td style="text-align: left">other</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4404309783</td>
+      <td style="text-align: left">14.2 KB</td>
+      <td style="text-align: left">Data for EMSL Project 60045 from September 2023</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W7130832543</td>
+      <td style="text-align: left">13.96 KB</td>
+      <td style="text-align: left">Global Dynamics : Contrôle, Flux et Divergence Planétaire</td>
+      <td style="text-align: left">other</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W7040693920</td>
+      <td style="text-align: left">13.5 KB</td>
+      <td style="text-align: left">2</td>
+      <td style="text-align: left">other</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4409383793</td>
+      <td style="text-align: left">13.58 KB</td>
+      <td style="text-align: left">The RMaP challenge of predicting RNA modifications by nanopore sequencing</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4287120992</td>
+      <td style="text-align: left">14.82 KB</td>
+      <td style="text-align: left">Powerful dua for lost love +918696805715</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4242548701</td>
+      <td style="text-align: left">13.03 KB</td>
+      <td style="text-align: left">nan</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4405219434</td>
+      <td style="text-align: left">13.67 KB</td>
+      <td style="text-align: left">The Frequency and Incidence of QT Prolongation With Extended Use of Bedaquiline or Delamanid in a Large, Multi-Country Multidrug-Resistant/Rifampicin-Resistant Tuberculosis Cohort</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4396579258</td>
+      <td style="text-align: left">14.65 KB</td>
+      <td style="text-align: left">IT-Related Barriers and Facilitators to the Implementation of a New European eHealth Solution, the Digital Survivorship Passport (SurPass Version 2.0): Semistructured Digital Survey</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4409169081</td>
+      <td style="text-align: left">14.2 KB</td>
+      <td style="text-align: left">Editorial: Treatment of brain metastases from non-small cell lung cancer: preclinical, clinical, and translational research</td>
+      <td style="text-align: left">editorial</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W7019600339</td>
+      <td style="text-align: left">14.51 KB</td>
+      <td style="text-align: left">Grain Boundary Passivation of Multicrystalline Silicon Using Hydrogen Sulfide as a Sulfur Source</td>
+      <td style="text-align: left">dissertation</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4387019576</td>
+      <td style="text-align: left">14.8 KB</td>
+      <td style="text-align: left">Genome-wide enhancer-gene regulatory maps link causal variants to target genes underlying human cancer risk</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6950240078</td>
+      <td style="text-align: left">14.01 KB</td>
+      <td style="text-align: left">Grzegorzekia kerri Fitzgerald 2019, n. sp.</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6931786938</td>
+      <td style="text-align: left">13.77 KB</td>
+      <td style="text-align: left">Dental Enumeration and Diagnosis on Panoramic X-rays Challenge</td>
+      <td style="text-align: left">other</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W7067043463</td>
+      <td style="text-align: left">13.75 KB</td>
+      <td style="text-align: left">Környezettudatosság és a támogatások szerepe az ökológiai gazdálkodást folytató egyéni gazdaságokban</td>
+      <td style="text-align: left">other</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6939304370</td>
+      <td style="text-align: left">14.37 KB</td>
+      <td style="text-align: left">Unpublished Mediterranean and Black Sea records of marine alien, cryptogenic, and neonative species</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4361277700</td>
+      <td style="text-align: left">13.87 KB</td>
+      <td style="text-align: left">Tricuspid Regurgitation in Elderly Patients with Acute Heart Failure: Insights from the KCHF Registry</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6950347820</td>
+      <td style="text-align: left">14.13 KB</td>
+      <td style="text-align: left">Drepanaporus antillarum Waichert &amp; Rodriguez &amp; Von Dohlen &amp; Pitts 2012, comb. nov.</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4287125103</td>
+      <td style="text-align: left">14.28 KB</td>
+      <td style="text-align: left">Prayer for love to come back +918696805715</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4394812780</td>
+      <td style="text-align: left">14.48 KB</td>
+      <td style="text-align: left">Human skeletal muscle aging atlas</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6949045727</td>
+      <td style="text-align: left">13.95 KB</td>
+      <td style="text-align: left">Metaphern liste pdf</td>
+      <td style="text-align: left">other</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6911352952</td>
+      <td style="text-align: left">13.32 KB</td>
+      <td style="text-align: left">Anxious people pdf</td>
+      <td style="text-align: left">other</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6969088725</td>
+      <td style="text-align: left">13.54 KB</td>
+      <td style="text-align: left">watch! demon slayer mugen train (2020)</td>
+      <td style="text-align: left">full movies online `free</td>
+      <td>article</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4385514810</td>
+      <td style="text-align: left">13.07 KB</td>
+      <td style="text-align: left">Volatile Organic Compounds Emitted by the Biocontrol Agent Pythium oligandrum Contribute to Ginger Plant Growth and Disease Resistance</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W7048373832</td>
+      <td style="text-align: left">13.76 KB</td>
+      <td style="text-align: left">jual obat cytotec pontianak 0822-6164-1233 obat aborsi cytotec pontianak</td>
+      <td style="text-align: left">other</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4395358302</td>
+      <td style="text-align: left">13.5 KB</td>
+      <td style="text-align: left">Occurrence Download</td>
+      <td style="text-align: left">dataset</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6967962944</td>
+      <td style="text-align: left">13.58 KB</td>
+      <td style="text-align: left">Madeira wanderkarte pdf</td>
+      <td style="text-align: left">other</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W7037446107</td>
+      <td style="text-align: left">13.81 KB</td>
+      <td style="text-align: left">Estudio de la relación entre la dificultad quirúrgica en la exodoncia del tercer molar y las variables clínicas y séricas.</td>
+      <td style="text-align: left">dissertation</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6949805951</td>
+      <td style="text-align: left">14.64 KB</td>
+      <td style="text-align: left">Drusilla italica V. I. Gusarov</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W7005090577</td>
+      <td style="text-align: left">14.11 KB</td>
+      <td style="text-align: left">Prefatory Matter and Table of Contents</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6969062358</td>
+      <td style="text-align: left">14.36 KB</td>
+      <td style="text-align: left">Atanatolica bonita Costa &amp; Calor, 2014, new species</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6920165680</td>
+      <td style="text-align: left">13.11 KB</td>
+      <td style="text-align: left">Elimination of lymphatic filariasis as a public health problem in Malawi</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4392916898</td>
+      <td style="text-align: left">13.07 KB</td>
+      <td style="text-align: left">Etiologija subjektivne dobrobiti u prostoru modela ličnosti HEXACO</td>
+      <td style="text-align: left">dissertation</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6892885163</td>
+      <td style="text-align: left">13.39 KB</td>
+      <td style="text-align: left">Der verrat am selbst pdf</td>
+      <td style="text-align: left">other</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6958684128</td>
+      <td style="text-align: left">14.86 KB</td>
+      <td style="text-align: left">???????? LOST LOVE SPELLS CASTER ((+27640243780)) IN SPRINGBOK,NIGEL,PHUTHADITJHABA ,NOORDGESIG,MAPONYA (PIMVILLE),ETWATWA,BEDFORD,VANDERBIJLPARK,KEMPTON PARK</td>
+      <td style="text-align: left">dataset</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W7120705765</td>
+      <td style="text-align: left">13.56 KB</td>
+      <td style="text-align: left">A Reinvenção do Rural no Rio de Janeiro: A Experiência do Café na Roça no Bairro Campo Grande / Rural’s Reinvention in Rio de Janeiro: Café na Roça Experience in Campo Grande Neighborhood</td>
+      <td style="text-align: left">other</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6950155751</td>
+      <td style="text-align: left">13.46 KB</td>
+      <td style="text-align: left">Procollina stigmosa Sanborn 2018, n. sp.</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4407308766</td>
+      <td style="text-align: left">13.41 KB</td>
+      <td style="text-align: left">Revolutionizing Academic Medical Writing: The Role of AI</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6930046673</td>
+      <td style="text-align: left">13.36 KB</td>
+      <td style="text-align: left">Tajine pdf</td>
+      <td style="text-align: left">other</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6907560195</td>
+      <td style="text-align: left">13.96 KB</td>
+      <td style="text-align: left">Determination of Applied Water and Water Productivity in Barley Production in Iran</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6950053553</td>
+      <td style="text-align: left">14.57 KB</td>
+      <td style="text-align: left">Pseudochromis erdmanni Gill &amp; Allen, 2011, new species</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4200229298</td>
+      <td style="text-align: left">13.3 KB</td>
+      <td style="text-align: left">Robotic NICE Procedure With Natural Orifice-Assisted Small-Bowel Resection and Anastomosis for Complicated Diverticulitis with Enterocolic Fistula</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4385405849</td>
+      <td style="text-align: left">13.32 KB</td>
+      <td style="text-align: left">Identifying an optimal fludarabine exposure for improved outcomes after axi-cel therapy for aggressive B-cell non-Hodgkin lymphoma</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W7106853289</td>
+      <td style="text-align: left">14.2 KB</td>
+      <td style="text-align: left">Gammarus latispinus Piscart, Mabrouki &amp; Taybi, 2025, sp. nov.</td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>]]></content><author><name>Mingi Ryu</name></author><category term="dev" /><summary type="html"><![CDATA[In []: df.filter(df.title == "Occurrence Download").count() Out[]: 4086738]]></summary></entry><entry><title type="html">Getting VAT Refund from French Online Stores</title><link href="https://ryumingi.github.io/travel/2025/10/22/france-vat-free.html" rel="alternate" type="text/html" title="Getting VAT Refund from French Online Stores" /><published>2025-10-22T00:00:00+00:00</published><updated>2025-10-22T00:00:00+00:00</updated><id>https://ryumingi.github.io/travel/2025/10/22/france-vat-free</id><content type="html" xml:base="https://ryumingi.github.io/travel/2025/10/22/france-vat-free.html"><![CDATA[<p>Many online retailers support VAT refund by requesting customers to get the invoice stamped or providing a PABLO form to scan.</p>
+
+<p>For ones that do not support it, VAT refund providers are the next best options.</p>
+
+<p>SkipTax (9VSSS4F6)</p>
+<ul>
+  <li>Referral bonus (81%)</li>
+  <li>Quick turnaround on the refund</li>
+</ul>
+
+<p>Alternatives</p>
+<ul>
+  <li>WeVAT</li>
+  <li>ZappTax</li>
+</ul>
+
+<h3 id="vat-support">VAT Support</h3>
+
+<h4 id="glisshop-pablo">Glisshop (Pablo)</h4>
+<ul>
+  <li>Easy form to scan and quick turnaround</li>
+  <li>Refund to original payment method</li>
+</ul>
+
+<blockquote>
+  <p>To obtain a tax refund, the order must exceed a value of €100 and be delivered to an address in France. 
+You will need to send us:</p>
+
+  <ul>
+    <li>your order number (only for orders over €100)</li>
+    <li>a scan of your valid ID</li>
+    <li>your place and date of birth</li>
+    <li>your home address abroad</li>
+    <li>We will then email you a document to present to French customs authorities.</li>
+    <li>Once the document has been stamped, you must return it to us to receive the refund.</li>
+  </ul>
+</blockquote>
+
+<h4 id="snowleader-pablo-global-blue">Snowleader (Pablo, Global Blue)</h4>
+<ul>
+  <li>Easy form to scan and quick turnaround</li>
+  <li>Refund via Global Blue to provided bank information</li>
+</ul>
+
+<blockquote>
+  <p>In order to edit the VAT exemption form, we would need :</p>
+  <ul>
+    <li>a copy of your passport,</li>
+    <li>a certificate of residence if the address on your passport is French,</li>
+    <li>your bank details (IBAN + BIC).</li>
+  </ul>
+
+  <p>The refund will be made by bank transfer.</p>
+
+  <p>Conditions :</p>
+  <ul>
+    <li>French delivery address,</li>
+    <li>foreign billing address (outside the EU).</li>
+  </ul>
+</blockquote>
+
+<h4 id="xspo-invoice">XSPO (Invoice)</h4>
+<blockquote>
+  <p>You just need to have the invoice (which you will receive by email after the goods have been dispatched) stamped by customs and send us the stamped invoice as a cleanly scanned PDF document. Alternatively, you can also send us the stamped original invoice by post.</p>
+</blockquote>
+
+<h4 id="sport-conrad-invoice-non-oss">Sport Conrad (Invoice, Non-OSS)</h4>
+<ul>
+  <li>French custom find the form irregular, but willing to stamp it.</li>
+</ul>
+
+<blockquote>
+  <p>Yes, if customs only stamp our Sport Conrad invoice, it is also okay for us and the VAT refund.
+No, we need the original stamped documents by post from the customer. Electronically/by e-mail will not be accepted from us. Thanks for your understanding.</p>
+</blockquote>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>our address:
+Sport Conrad
+accounting
+Bahnhofstraße 20
+82377 Penzberg
+Germany
+</code></pre></div></div>
+
+<h4 id="etrias-invoice">Etrias (Invoice)</h4>
+<ul>
+  <li>Requires a bit of effort to convince them that you’re non-EU resident.</li>
+  <li>Refund to original payment method</li>
+</ul>
+
+<blockquote>
+  <p>Vous pouvez demander le remboursement de la TVA via les douanes. Lors de votre départ (par port ou aéroport), vous devez faire ce qui suit :</p>
+
+  <p>Présentez-vous à un bureau ou un guichet des douanes. Les douanes approuvent la facture pour l’exportation. Vous nous renvoyez la facture signée (ou une copie de celle-ci).</p>
+
+  <p>Nous pouvons ensuite vous rembourser la TVA si vous remplissez les conditions suivantes :</p>
+  <ul>
+    <li>Vous présentez une pièce d’identité prouvant que votre résidence habituelle se situe en dehors de l’UE.</li>
+    <li>Vous emportez les achats dans vos bagages personnels dans les 3 mois suivant la fin du mois d’achat.</li>
+    <li>La valeur totale indiquée sur la facture est d’au moins 50 €, TVA incluse.</li>
+  </ul>
+</blockquote>
+
+<h3 id="non-support">Non-Support</h3>
+
+<h4 id="alpiniste">Alpiniste</h4>
+<blockquote>
+  <p>Malheureusement, nous ne proposons pas de remboursement de la TVA pour les commandes vers les pays tiers. Merci pour votre compréhension.</p>
+</blockquote>
+
+<h4 id="tradeinnsnowinn">Tradeinn/Snowinn</h4>
+<blockquote>
+  <p>Pour recevoir une facture au nom de votre société, vous devez cocher la case à cocher “Je suis une entreprise” sous Factures avec les détails de votre entreprise au moment de passer la commande et saisir toutes les informations requises (CIF, nom de la société et adresse complète).</p>
+</blockquote>
+
+<h4 id="speck-sports">Speck-Sports</h4>
+<blockquote>
+  <p>Unfortunately, we do not issue invoices without VAT.</p>
+</blockquote>
+
+<h4 id="bergzeit">Bergzeit</h4>
+<blockquote>
+  <p>Unfortunately, in this case, we will not be able to issue you with an export document for the VAT refund.</p>
+</blockquote>]]></content><author><name>Mingi Ryu</name></author><category term="travel" /><summary type="html"><![CDATA[Many online retailers support VAT refund by requesting customers to get the invoice stamped or providing a PABLO form to scan.]]></summary></entry><entry><title type="html">Non-stop Email Phishing Scams after Free Mobile Data Breach</title><link href="https://ryumingi.github.io/travel/2025/08/16/french-phishing-scams.html" rel="alternate" type="text/html" title="Non-stop Email Phishing Scams after Free Mobile Data Breach" /><published>2025-08-16T00:00:00+00:00</published><updated>2025-08-16T00:00:00+00:00</updated><id>https://ryumingi.github.io/travel/2025/08/16/french-phishing-scams</id><content type="html" xml:base="https://ryumingi.github.io/travel/2025/08/16/french-phishing-scams.html"><![CDATA[<blockquote>
+  <p>In October 2024, French ISP “Free” suffered a data breach which was subsequently posted for sale and later, leaked publicly. The data included 14M unique email addresses along with names, physical addresses, phone numbers, genders, dates of birth and for many records, IBAN bank account numbers. Free advised that the numbers were “not enough to make a direct debit from a bank”.</p>
+</blockquote>
+
+<p>https://haveibeenpwned.com/breach/FreeMobile</p>
+
+<p>Screenshot of the phishing emails I have received since then.</p>
+
+<p><img src="https://github.com/user-attachments/assets/66ef7c10-f1b1-4f86-82b2-5f772bc33a65" alt="image" width="200" />
+<img src="https://github.com/user-attachments/assets/b280876c-b466-4b0c-b50b-c21b9ac40c63" alt="image" width="200" />
+<img src="https://github.com/user-attachments/assets/a8828010-4780-4890-b04d-6c1e43bf5275" alt="image" width="200" />
+<img src="https://github.com/user-attachments/assets/8090b463-aac6-4bd9-9a45-b87e1eb71be0" alt="image" width="200" />
+<img src="https://github.com/user-attachments/assets/9410aa1f-7dd0-4371-9024-98a4d1adfddd" alt="image" width="200" />
+<img src="https://github.com/user-attachments/assets/488c1bd7-2240-49a8-8f70-b33f6fcf9b5a" alt="image" width="200" />
+<img src="https://github.com/user-attachments/assets/ea8f0334-da72-4643-b787-0337a2766329" alt="image" width="200" />
+<img src="https://github.com/user-attachments/assets/a4682dea-50e0-4779-b55f-2502ed023c39" alt="image" width="200" />
+<img src="https://github.com/user-attachments/assets/e7ea7946-4327-4081-b069-a13382ed61af" alt="image" width="200" />
+<img src="https://github.com/user-attachments/assets/3794aacd-9f09-414e-b1f5-b6270460b4d0" alt="image" width="200" />
+<img src="https://github.com/user-attachments/assets/259d1158-e7dd-4be6-870f-9b1c03bd5638" alt="image" width="200" />
+<img src="https://github.com/user-attachments/assets/9bcd19d8-d75c-4e94-9d70-b6a717d3c6a6" alt="image" width="200" /></p>
+
+<p>And the sender informations of the emails:</p>
+<ul>
+  <li>telepeage contact@nationalspeech.com</li>
+  <li>Ameli info@gaanainfo.com</li>
+  <li>BNP PARIBAS noreply@gaanainfo.com</li>
+  <li>CPS Notif webstore@academic-soft.com</li>
+  <li>sodapa2344@antonionscm1.newssender.com.br</li>
+  <li>ptp97r5swm@detonageral.emktlw-05.com</li>
+  <li>telepage info@credzu.com</li>
+</ul>
+
+<p>All of these emails have managed to get past the spam filter despite the email header being obviously untrustworthy.</p>
+
+<p>The silver lining is that none of these can be applicable to me since I’m just a tourist.</p>]]></content><author><name>Mingi Ryu</name></author><category term="travel" /><summary type="html"><![CDATA[In October 2024, French ISP “Free” suffered a data breach which was subsequently posted for sale and later, leaked publicly. The data included 14M unique email addresses along with names, physical addresses, phone numbers, genders, dates of birth and for many records, IBAN bank account numbers. Free advised that the numbers were “not enough to make a direct debit from a bank”.]]></summary></entry><entry><title type="html">Elasticsearch Parallel Bulk</title><link href="https://ryumingi.github.io/dev/2025/04/29/es-parallel-bulk-on-ec2.html" rel="alternate" type="text/html" title="Elasticsearch Parallel Bulk" /><published>2025-04-29T00:00:00+00:00</published><updated>2025-04-29T00:00:00+00:00</updated><id>https://ryumingi.github.io/dev/2025/04/29/es-parallel-bulk-on-ec2</id><content type="html" xml:base="https://ryumingi.github.io/dev/2025/04/29/es-parallel-bulk-on-ec2.html"><![CDATA[<p>Most of the AWS EC2 instance have a single thread per vCPU. This means that any multi-threading operations can’t be used to optimize the performance.</p>
+
+<p><a href="https://elasticsearch-py.readthedocs.io/en/v9.0.0/helpers.html#elasticsearch.helpers.parallel_bulk">elasticsearch.helpers.parallel_bulk</a> uses <code class="language-plaintext highlighter-rouge">ThreadPool</code> to speed up ElasticSearch bulk ingest. Since this parallelization can’t be applied multiple vCPUs on AWS EC2 instances, the <code class="language-plaintext highlighter-rouge">thread_count</code> parameter is non-functional.</p>
+
+<p>At best, one can selectively use instances with 2 threads per vCPUs. <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/cpu-options-supported-instances-values.html">Supported CPU options for Amazon EC2 instance types</a></p>
+
+<p>Better yet, the ingest step could be parallelized by using <code class="language-plaintext highlighter-rouge">multiprocessing.Pool</code>. However, the ElasticSearch client object cannot be easily pickled and it’s recommended to maintain only a single instance per Python shell. This approach could be explored more, but the one can simply launch multiple Python shells to run the bulk ingests in parallel.</p>]]></content><author><name>Mingi Ryu</name></author><category term="dev" /><summary type="html"><![CDATA[Most of the AWS EC2 instance have a single thread per vCPU. This means that any multi-threading operations can’t be used to optimize the performance.]]></summary></entry><entry><title type="html">Making Polars Faster</title><link href="https://ryumingi.github.io/dev/2025/04/04/making-polars-faster.html" rel="alternate" type="text/html" title="Making Polars Faster" /><published>2025-04-04T00:00:00+00:00</published><updated>2025-04-04T00:00:00+00:00</updated><id>https://ryumingi.github.io/dev/2025/04/04/making-polars-faster</id><content type="html" xml:base="https://ryumingi.github.io/dev/2025/04/04/making-polars-faster.html"><![CDATA[<p>Row-wise operation in Polars is procedural just like Pandas. Modin, Dask, etc can be used to speed up the runtime depending on the numeber of cores available in the compute.</p>
+
+<p>The following wrapper basically uses the the <code class="language-plaintext highlighter-rouge">multiprocessing</code> library to parallize the workload. It’s a simple trick that also works with Pandas. However, it may not work for all cases and there’s no lazy planning &amp; execution.</p>
+
+<div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">parallel_apply</span><span class="p">(</span><span class="n">func</span><span class="p">,</span> <span class="n">iterable</span><span class="p">,</span> <span class="n">chunksize</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">processes</span><span class="o">=</span><span class="mi">8</span><span class="p">):</span>
+    <span class="n">python_iterable</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">iterable</span><span class="p">.</span><span class="n">to_numpy</span><span class="p">())</span>
+
+    <span class="k">with</span> <span class="n">multiprocessing</span><span class="p">.</span><span class="n">get_context</span><span class="p">(</span><span class="s">"spawn"</span><span class="p">).</span><span class="n">Pool</span><span class="p">(</span><span class="n">processes</span><span class="o">=</span><span class="n">processes</span><span class="p">)</span> <span class="k">as</span> <span class="n">pool</span><span class="p">:</span>
+        <span class="n">result</span> <span class="o">=</span> <span class="n">pool</span><span class="p">.</span><span class="n">imap</span><span class="p">(</span><span class="n">func</span><span class="p">,</span> <span class="n">track</span><span class="p">(</span><span class="n">python_iterable</span><span class="p">),</span> <span class="n">chunksize</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">pl</span><span class="p">.</span><span class="n">Series</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
+</code></pre></div></div>
+
+<blockquote>
+  <p>https://stackoverflow.com/questions/77325464/how-can-i-improve-the-runtime-of-row-wise-operations-in-polars</p>
+</blockquote>
+
+<p>Writing the Polars DataFrame into partition parquets have been tricky since the beginning. As a result, the following helper functions have been used as a workaround in order to support downstream tasks that require partitioned parquet files.</p>
+
+<p>There are different ways to partition the parquet with Polars using any one of these parameters: <code class="language-plaintext highlighter-rouge">pyarrow_options</code>, <code class="language-plaintext highlighter-rouge">partition_by</code>, <code class="language-plaintext highlighter-rouge">partition_chunk_size_bytes</code> in <a href="https://docs.pola.rs/api/python/dev/reference/api/polars.DataFrame.write_parquet.html">polars.DataFrame.write_parquet</a>. However, each of the implementation is quite different than the traditional partition conception of repartitioning the dataset to N parts and each worker/core writing it to disk. Note that the memory usage is not optimized and quite unpredictable.</p>
+
+<div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">write_partitioned_parquet</span><span class="p">(</span>
+    <span class="n">df</span><span class="p">,</span> <span class="n">output_dir</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">num_partitions</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">100</span><span class="p">,</span> <span class="n">overwrite</span><span class="o">=</span><span class="bp">False</span>
+<span class="p">):</span>
+    <span class="k">if</span> <span class="n">overwrite</span><span class="p">:</span>
+        <span class="n">shutil</span><span class="p">.</span><span class="n">rmtree</span><span class="p">(</span><span class="n">output_dir</span><span class="p">,</span> <span class="n">ignore_errors</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+
+    <span class="n">os</span><span class="p">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">output_dir</span><span class="p">,</span> <span class="n">exist_ok</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
+
+    <span class="n">num_rows</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
+    <span class="n">rows_per_partition</span> <span class="o">=</span> <span class="n">num_rows</span> <span class="o">//</span> <span class="n">num_partitions</span>
+
+    <span class="n">logger</span><span class="p">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s">"Using </span><span class="si">{</span><span class="n">num_rows</span><span class="o">=</span><span class="si">}</span><span class="s">, </span><span class="si">{</span><span class="n">rows_per_partition</span><span class="o">=</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">tqdm</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="n">num_partitions</span><span class="p">)):</span>
+        <span class="n">output_file</span> <span class="o">=</span> <span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="n">output_dir</span><span class="p">,</span> <span class="sa">f</span><span class="s">"part-</span><span class="si">{</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="si">}</span><span class="s">.parquet"</span><span class="p">)</span>
+
+        <span class="n">start_idx</span> <span class="o">=</span> <span class="n">i</span> <span class="o">*</span> <span class="n">rows_per_partition</span>
+
+        <span class="k">if</span> <span class="n">i</span> <span class="o">==</span> <span class="n">num_partitions</span> <span class="o">-</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="n">end_idx</span> <span class="o">=</span> <span class="n">num_rows</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">end_idx</span> <span class="o">=</span> <span class="p">(</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">*</span> <span class="n">rows_per_partition</span>
+
+        <span class="n">partition_df</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">start_idx</span><span class="p">:</span><span class="n">end_idx</span><span class="p">]</span>
+        <span class="n">partition_df</span><span class="p">.</span><span class="n">write_parquet</span><span class="p">(</span><span class="n">output_file</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">sink_partitioned_parquet</span><span class="p">(</span>
+    <span class="n">df</span><span class="p">,</span> <span class="n">output_dir</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">num_partitions</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">100</span><span class="p">,</span> <span class="n">overwrite</span><span class="o">=</span><span class="bp">False</span>
+<span class="p">):</span>
+    <span class="k">if</span> <span class="n">overwrite</span><span class="p">:</span>
+        <span class="n">shutil</span><span class="p">.</span><span class="n">rmtree</span><span class="p">(</span><span class="n">output_dir</span><span class="p">,</span> <span class="n">ignore_errors</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+
+    <span class="n">os</span><span class="p">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">output_dir</span><span class="p">,</span> <span class="n">exist_ok</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
+
+    <span class="n">sink_path</span> <span class="o">=</span> <span class="sa">f</span><span class="s">"</span><span class="si">{</span><span class="n">output_dir</span><span class="si">}</span><span class="s">.sink"</span>
+
+    <span class="n">logger</span><span class="p">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s">"Sink to </span><span class="si">{</span><span class="n">sink_path</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+    <span class="n">df</span><span class="p">.</span><span class="n">sink_parquet</span><span class="p">(</span><span class="n">sink_path</span><span class="p">)</span>
+
+    <span class="n">logger</span><span class="p">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s">"Scan </span><span class="si">{</span><span class="n">sink_path</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+    <span class="n">df</span> <span class="o">=</span> <span class="n">pl</span><span class="p">.</span><span class="n">scan_parquet</span><span class="p">(</span><span class="n">sink_path</span><span class="p">)</span>
+
+    <span class="n">num_rows</span> <span class="o">=</span> <span class="n">df</span><span class="p">.</span><span class="n">select</span><span class="p">(</span><span class="n">pl</span><span class="p">.</span><span class="n">count</span><span class="p">()).</span><span class="n">collect</span><span class="p">().</span><span class="n">item</span><span class="p">()</span>
+    <span class="n">rows_per_partition</span> <span class="o">=</span> <span class="n">num_rows</span> <span class="o">//</span> <span class="n">num_partitions</span>
+
+    <span class="n">logger</span><span class="p">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s">"Using </span><span class="si">{</span><span class="n">num_rows</span><span class="o">=</span><span class="si">}</span><span class="s">, </span><span class="si">{</span><span class="n">rows_per_partition</span><span class="o">=</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">tqdm</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="n">num_partitions</span><span class="p">)):</span>
+        <span class="n">output_file</span> <span class="o">=</span> <span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="n">output_dir</span><span class="p">,</span> <span class="sa">f</span><span class="s">"part-</span><span class="si">{</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="si">}</span><span class="s">.parquet"</span><span class="p">)</span>
+
+        <span class="n">start_idx</span> <span class="o">=</span> <span class="n">i</span> <span class="o">*</span> <span class="n">rows_per_partition</span>
+
+        <span class="k">if</span> <span class="n">i</span> <span class="o">==</span> <span class="n">num_partitions</span> <span class="o">-</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="n">end_idx</span> <span class="o">=</span> <span class="n">num_rows</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">end_idx</span> <span class="o">=</span> <span class="p">(</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">*</span> <span class="n">rows_per_partition</span>
+
+        <span class="n">partition_df</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">start_idx</span><span class="p">:</span><span class="n">end_idx</span><span class="p">]</span>
+        <span class="n">partition_df</span><span class="p">.</span><span class="n">sink_parquet</span><span class="p">(</span><span class="n">output_file</span><span class="p">)</span>
+
+    <span class="n">os</span><span class="p">.</span><span class="n">remove</span><span class="p">(</span><span class="n">sink_path</span><span class="p">)</span>
+</code></pre></div></div>]]></content><author><name>Mingi Ryu</name></author><category term="dev" /><summary type="html"><![CDATA[Row-wise operation in Polars is procedural just like Pandas. Modin, Dask, etc can be used to speed up the runtime depending on the numeber of cores available in the compute.]]></summary></entry><entry><title type="html">Comparison of Dataframe libaries and others</title><link href="https://ryumingi.github.io/dev/2025/01/24/dataframe-libraries.html" rel="alternate" type="text/html" title="Comparison of Dataframe libaries and others" /><published>2025-01-24T00:00:00+00:00</published><updated>2025-01-24T00:00:00+00:00</updated><id>https://ryumingi.github.io/dev/2025/01/24/dataframe-libraries</id><content type="html" xml:base="https://ryumingi.github.io/dev/2025/01/24/dataframe-libraries.html"><![CDATA[<h2 id="pandas">Pandas</h2>
+<p>Pros</p>
+<ul>
+  <li>It can be used to load a whole bunch of different file types. You shouldn’t expect them to work reliably and you’ll need to refer to the documentation and the source code to figure out the exact set of parameters that makes it work correctly.</li>
+  <li>The interface is pretty flexible, which also makes it inconsistent. Anyway, you can almost guess the methods and a quick search will get you moving.</li>
+</ul>
+
+<p>Cons</p>
+<ul>
+  <li>Data type support still sucks even if you use <code class="language-plaintext highlighter-rouge">df.convert_dtypes()</code>. Actually, it can make things worse because <code class="language-plaintext highlighter-rouge">pd.NA</code> is a pain to deal with in Pythonic way. You have to use <code class="language-plaintext highlighter-rouge">pd.isna()</code> or <code class="language-plaintext highlighter-rouge">pd.notna()</code> all the time and your output could still end up with a bunch of <code class="language-plaintext highlighter-rouge">&lt;NA&gt;</code> strings.</li>
+  <li>It’s very slow compared to all other libraries. Use of Modin helps quite a bit, but it’s still a bit clunky.</li>
+</ul>
+
+<h2 id="polars">Polars</h2>
+<p>Pros</p>
+<ul>
+  <li>Very fast. For some tasks, it’s faster than Dask or Pyspark.</li>
+</ul>
+
+<p>Cons</p>
+<ul>
+  <li>Lack of native partitioned parquet support. There are ways to use Pyarrow to enable this, but it’s not always the most performant option.</li>
+  <li>It has a difficulty dealing with large datasets. The lazyframe can help with it, but it lacks partitioned parquet support.</li>
+</ul>
+
+<h2 id="dask">Dask</h2>
+<p>Pros</p>
+<ul>
+  <li>The interfance is similar to Pandas, so one can easily interpolate between Dask and Pandas.</li>
+  <li>Parallelization with less overhead compared to Pyspark.</li>
+</ul>
+
+<p>Cons</p>
+<ul>
+  <li>Some random task can lock the entire process making Dask very inefficient. This isn’t always easy to identify and solve.</li>
+  <li>Integration with ML software is a bit lacking. There are better tools to use for GPU-based workloads.</li>
+</ul>
+
+<p>Issues</p>
+<ul>
+  <li>Automatic conversion to string. Disable using <code class="language-plaintext highlighter-rouge">dask.config.set({"dataframe.convert-string": False})</code></li>
+</ul>
+
+<h2 id="pyspark">Pyspark</h2>
+<p>Pros</p>
+<ul>
+  <li>Can handle TBs of data as long as sufficient hardware is provided.</li>
+  <li>Good partitioned parquet support.</li>
+</ul>
+
+<p>Cons</p>
+<ul>
+  <li>Hard to debug. A lot of things are hidden behind the JVM and the verbose nature of the library makes it difficult to quickly identify the issue.</li>
+  <li>Slow to setup and start. The overhead of working with Pyspark is high. I’d never use Pyspark to load a 1GB of CSV file if I have a choice.</li>
+  <li>Dealing with schema is annoying at times. Especially when there’s many columns or nested columns.</li>
+</ul>
+
+<h2 id="ray">Ray</h2>
+<p>Pros</p>
+<ul>
+  <li>Works well GPU-based workloads</li>
+</ul>
+
+<p>Cons</p>
+<ul>
+  <li>No dataframe support.</li>
+  <li>Most tasks are substantially slower than using other tools.</li>
+</ul>
+
+<h2 id="modin">Modin</h2>
+<p>Pros</p>
+<ul>
+  <li>Basically Pandas.</li>
+</ul>
+
+<p>Cons</p>
+<ul>
+  <li>Some issues with heavier dataframe operations such as aggregation, shuffling, etc.</li>
+  <li>Have most of the issues that Pandas have.</li>
+</ul>]]></content><author><name>Mingi Ryu</name></author><category term="dev" /><summary type="html"><![CDATA[Pandas Pros It can be used to load a whole bunch of different file types. You shouldn’t expect them to work reliably and you’ll need to refer to the documentation and the source code to figure out the exact set of parameters that makes it work correctly. The interface is pretty flexible, which also makes it inconsistent. Anyway, you can almost guess the methods and a quick search will get you moving.]]></summary></entry><entry><title type="html">Random Wifi Disconnection on Linux Mint</title><link href="https://ryumingi.github.io/dev/2025/01/23/linux-mint-wifi-issue.html" rel="alternate" type="text/html" title="Random Wifi Disconnection on Linux Mint" /><published>2025-01-23T00:00:00+00:00</published><updated>2025-01-23T00:00:00+00:00</updated><id>https://ryumingi.github.io/dev/2025/01/23/linux-mint-wifi-issue</id><content type="html" xml:base="https://ryumingi.github.io/dev/2025/01/23/linux-mint-wifi-issue.html"><![CDATA[<p>Wifi would randomly stop working from time to time despite having an active connection. A short term fix can be made by restarting the wifi or making manual reconnection.</p>
+
+<p>The following is a more permanent solution that disables the Wifi power saving mode.</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>iwconfig wlp1s0 power off
+<span class="nb">sudo sed</span> <span class="nt">-i</span> <span class="s1">'s/3/2/'</span> /etc/NetworkManager/conf.d/default-wifi-powersave-on.conf
+systemctl restart NetworkManager
+</code></pre></div></div>
+
+<blockquote>
+  <p>Replace <code class="language-plaintext highlighter-rouge">wlp1s0</code> with <code class="language-plaintext highlighter-rouge">wlp3s0</code></p>
+</blockquote>
+
+<p>Resources</p>
+<ul>
+  <li>https://forums.linuxmint.com/viewtopic.php?t=412738</li>
+  <li>https://forums.linuxmint.com/viewtopic.php?t=421653</li>
+</ul>]]></content><author><name>Mingi Ryu</name></author><category term="dev" /><summary type="html"><![CDATA[Wifi would randomly stop working from time to time despite having an active connection. A short term fix can be made by restarting the wifi or making manual reconnection.]]></summary></entry><entry><title type="html">Structured Generation</title><link href="https://ryumingi.github.io/dev/2024/07/17/structured-generation.html" rel="alternate" type="text/html" title="Structured Generation" /><published>2024-07-17T00:00:00+00:00</published><updated>2024-07-17T00:00:00+00:00</updated><id>https://ryumingi.github.io/dev/2024/07/17/structured-generation</id><content type="html" xml:base="https://ryumingi.github.io/dev/2024/07/17/structured-generation.html"><![CDATA[<p>The more items the model generates, the more likely it hallucinates.</p>
+
+<p>Sometimes less constraint is better. Even well intended constraint can make the model less consistent.</p>
+
+<p>Avoid generating long responses when possible, especially when subsequently generated items aren’t related.</p>]]></content><author><name>Mingi Ryu</name></author><category term="dev" /><summary type="html"><![CDATA[The more items the model generates, the more likely it hallucinates.]]></summary></entry><entry><title type="html">Polars Pitfalls</title><link href="https://ryumingi.github.io/dev/2024/05/14/polars-pitfalls.html" rel="alternate" type="text/html" title="Polars Pitfalls" /><published>2024-05-14T00:00:00+00:00</published><updated>2024-05-14T00:00:00+00:00</updated><id>https://ryumingi.github.io/dev/2024/05/14/polars-pitfalls</id><content type="html" xml:base="https://ryumingi.github.io/dev/2024/05/14/polars-pitfalls.html"><![CDATA[<h4 id="struct-is-considered-null-if-any-one-of-the-values-is-null">Struct is considered null if any one of the values is null</h4>
+
+<p>Related ticket: https://github.com/pola-rs/polars/issues/3462</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">{1, 2}</code> is definitely not null.</li>
+  <li><code class="language-plaintext highlighter-rouge">{None, None}</code> could be considered null, but still it should not be considered null because it’s not <code class="language-plaintext highlighter-rouge">None</code>.</li>
+  <li><code class="language-plaintext highlighter-rouge">{1, None}</code> should not be null since it has a valid nested value.</li>
+</ul>
+
+<h4 id="working-with-fields-in-struct-is-annoying">Working with fields in struct is annoying</h4>
+
+<p>Related ticket: https://github.com/pola-rs/polars/issues/3123</p>
+
+<p>I wish any one of the following worked</p>
+
+<blockquote>
+  <p>df.select(pl.col(“struct”).col(“field”))</p>
+</blockquote>
+
+<blockquote>
+  <p>df.select(pl.col(“struct.field”))</p>
+</blockquote>
+
+<blockquote>
+  <p>df.select(pl.col(“struct”).struct.field(“field”))</p>
+</blockquote>
+
+<p>But only thing that really works is the following</p>
+
+<blockquote>
+  <p>df.select(pl.col(“struct”).map_elements(lambda x: x[“field”]))</p>
+</blockquote>]]></content><author><name>Mingi Ryu</name></author><category term="dev" /><summary type="html"><![CDATA[Struct is considered null if any one of the values is null]]></summary></entry><entry><title type="html">The Hunt for H100s</title><link href="https://ryumingi.github.io/dev/2024/04/21/the-hunt-for-h100s.html" rel="alternate" type="text/html" title="The Hunt for H100s" /><published>2024-04-21T00:00:00+00:00</published><updated>2024-04-21T00:00:00+00:00</updated><id>https://ryumingi.github.io/dev/2024/04/21/the-hunt-for-h100s</id><content type="html" xml:base="https://ryumingi.github.io/dev/2024/04/21/the-hunt-for-h100s.html"><![CDATA[<p><a href="https://computewatch.llm-utils.org">ComputeWatch</a></p>
+
+<p><a href="https://gpus.llm-utils.org/">GPUs LLM Utils</a></p>
+
+<p>Lambda Labs</p>
+<ul>
+  <li>Bad availability.</li>
+  <li>H100 PCIe
+    <ul>
+      <li>26 vCPUs, 200 GB RAM, 1 TB SSD</li>
+      <li>On demand: $2.5/hr</li>
+    </ul>
+  </li>
+  <li>H100 SMX5
+    <ul>
+      <li>Minimum starts at 8 GPUs</li>
+    </ul>
+  </li>
+</ul>
+
+<p>RunPod</p>
+<ul>
+  <li>Good availability.</li>
+  <li>H100 PCIe
+    <ul>
+      <li>12 vCPUs, 125 GB RAM</li>
+      <li>On demand: $3.4/hr</li>
+      <li>Spot: $2.5/hr</li>
+      <li>RX: 80~100 MiB/s, TX: 13~15 MiB/s, GPU: 1755MHz, MEM: 1593MHz</li>
+    </ul>
+  </li>
+  <li>H100 SMX5
+    <ul>
+      <li>24 vCPUs 251 GB RAM</li>
+      <li>On demand: $4.7/hr</li>
+    </ul>
+  </li>
+  <li>Container storage is not persistent</li>
+</ul>
+
+<p>DataCrunch</p>
+<ul>
+  <li>Low availability.</li>
+  <li>H100 SMX5
+    <ul>
+      <li>30 vCPUs 120 GB RAM</li>
+      <li>On demand: $3.8/hr</li>
+      <li>Spot: $1.9/hr</li>
+      <li>RX: 80~120 MiB/s, TX: 18~26 MiB/s, GPU: 1980MHz, MEM: 2619MHz</li>
+    </ul>
+  </li>
+  <li>EU servers</li>
+</ul>]]></content><author><name>Mingi Ryu</name></author><category term="dev" /><summary type="html"><![CDATA[ComputeWatch]]></summary></entry></feed>

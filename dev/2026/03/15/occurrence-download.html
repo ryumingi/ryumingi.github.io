@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>The Most Common Title on OpenAlex: Occurrence Download | Mingi Ryu</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="The Most Common Title on OpenAlex: Occurrence Download" />
+<meta name="author" content="Mingi Ryu" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="In []: df.filter(df.title == &quot;Occurrence Download&quot;).count() Out[]: 4086738" />
+<meta property="og:description" content="In []: df.filter(df.title == &quot;Occurrence Download&quot;).count() Out[]: 4086738" />
+<link rel="canonical" href="https://ryumingi.github.io/dev/2026/03/15/occurrence-download.html" />
+<meta property="og:url" content="https://ryumingi.github.io/dev/2026/03/15/occurrence-download.html" />
+<meta property="og:site_name" content="Mingi Ryu" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-03-15T00:00:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="The Most Common Title on OpenAlex: Occurrence Download" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Mingi Ryu"},"dateModified":"2026-03-15T00:00:00+00:00","datePublished":"2026-03-15T00:00:00+00:00","description":"In []: df.filter(df.title == &quot;Occurrence Download&quot;).count() Out[]: 4086738","headline":"The Most Common Title on OpenAlex: Occurrence Download","mainEntityOfPage":{"@type":"WebPage","@id":"https://ryumingi.github.io/dev/2026/03/15/occurrence-download.html"},"url":"https://ryumingi.github.io/dev/2026/03/15/occurrence-download.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link type="application/atom+xml" rel="alternate" href="https://ryumingi.github.io/feed.xml" title="Mingi Ryu" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+</head>
+
+  <body>
+    <header class="site-header">
+  <div class="wrapper site-header-inner">
+    <div>
+      <a class="site-title" href="/">Mingi Ryu</a>
+      <p class="site-description">Knowledge representation and reasoning</p>
+    </div>
+    <nav class="site-nav">
+        <a class="page-link" href="/archive/">Archive</a>
+        <a class="page-link" href="/tags/">Tags</a>
+        <a class="page-link" href="/links">Links</a>
+        <a class="page-link" href="/reading">Reading</a></nav>
+  </div>
+</header>
+
+    <main class="wrapper" id="content">
+      <article class="post">
+  <header class="post-header">
+    <h1 class="post-title">The Most Common Title on OpenAlex: `Occurrence Download`</h1>
+    <p class="post-meta">
+      <time datetime="2026-03-15T00:00:00+00:00">March 15, 2026</time>
+      &middot; 7 min read
+      &middot; <a href="/tags/#dev">dev</a>
+    </p>
+  </header>
+
+  <div class="post-content">
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>In []: df.filter(df.title == "Occurrence Download").count()
+Out[]: 4086738
+</code></pre></div></div>
+
+<p>A large collection of works titled “Occurrence Download” with “GBIF.Org User” as the author has been included in the OpenAlex <code class="language-plaintext highlighter-rouge">works</code> dataset. Furthermore, it has one of the highest row byte size, which adds significant bloat to the OpenAlex dataset.</p>
+
+<p><a href="https://openalex.org/works?search.title_and_abstract=occurrence+download&amp;sort=relevance_score:desc">Link to OpenAlex for <code class="language-plaintext highlighter-rouge">Occurrence Download</code></a></p>
+
+<p>As a context, here are some top aggregates:</p>
+
+<p><em>30 most common titles on OpenAlex</em></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>In []: df.groupby(df.title).count().orderBy("count", ascending=False).head(30)
+Out[]:
+[Row(title='', count=6143419),
+ Row(title='Occurrence Download', count=4086738),
+ Row(title=None, count=1807859),
+ Row(title='archive.org Member', count=816219),
+ Row(title='Introduction', count=471973),
+ Row(title='Editorial Board', count=346797),
+ Row(title='Streptomyces sp.', count=299585),
+ Row(title='Index', count=271602),
+ Row(title='Editorial', count=259510),
+ Row(title='Animalia', count=257135),
+ Row(title='Front Matter', count=245362),
+ Row(title='Frontmatter', count=204817),
+ Row(title='Preface', count=201099),
+ Row(title='Table of Contents', count=200554),
+ Row(title='Contents', count=190204),
+ Row(title='Lepidoptera Linnaeus, 1758', count=184780),
+ Row(title='NBC News Scripts', count=127397),
+ Row(title='Book Reviews', count=119856),
+ Row(title='Conclusion', count=115246),
+ Row(title='Bibliography', count=105941),
+ Row(title='Notes', count=105511),
+ Row(title='Masthead', count=98460),
+ Row(title='Issue Information', count=98285),
+ Row(title='Back Matter', count=89172),
+ Row(title='Acknowledgments', count=86912),
+ Row(title='The APPLAUSE Data Release 2', count=85231),
+ Row(title='Erratum', count=76345),
+ Row(title='Contributors', count=73847),
+ Row(title='Foreword', count=73563),
+ Row(title='References', count=66750)]
+</code></pre></div></div>
+
+<p><em>100 works by row byte size</em></p>
+
+<blockquote>
+  <p>Note: Only the relevant columns (title, authorship, description, etc) are included.</p>
+</blockquote>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">id</th>
+      <th style="text-align: left">size</th>
+      <th style="text-align: left">title</th>
+      <th style="text-align: left">type</th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6929943625</td>
+      <td style="text-align: left">14.06 KB</td>
+      <td style="text-align: left">Prochiloneurus lucetia Noyes 2023, sp.nov.</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6912743308</td>
+      <td style="text-align: left">13.99 KB</td>
+      <td style="text-align: left">Dicranopalpus catariegensis Wijnhoven &amp; Martens &amp; Prieto 2022, sp. nov.</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4387339134</td>
+      <td style="text-align: left">13.02 KB</td>
+      <td style="text-align: left">Air and hydrogen injection tests on saturated compacted bentonite</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6948817700</td>
+      <td style="text-align: left">14.51 KB</td>
+      <td style="text-align: left">Ackermann pdf</td>
+      <td style="text-align: left">other</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4310159470</td>
+      <td style="text-align: left">13.98 KB</td>
+      <td style="text-align: left">Characterization and T-Cell Repertoire of MB-CART2019.1 (Zamtocabtagene autoleucel) - Data from the Phase I Trial in Patients with Relapsed or Refractory B-Cell Non-Hodgkin Lymphoma</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4308317492</td>
+      <td style="text-align: left">13.16 KB</td>
+      <td style="text-align: left">A novel multi-scale 2D CNN with weighted focal loss for arrhythmias detection on varying-dimensional ECGs</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W7040610856</td>
+      <td style="text-align: left">13.34 KB</td>
+      <td style="text-align: left">vol33no4 111</td>
+      <td style="text-align: left">other</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4389248173</td>
+      <td style="text-align: left">13.48 KB</td>
+      <td style="text-align: left">Ilyad: A Phase III Double Blind, Randomized Trial Evaluating Vitamin D (Cholecalciferol) in Patients with Low Tumor-Burden Indolent Non-Hodgkin Lymphoma Treated with Rituximab Therapy</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4323363071</td>
+      <td style="text-align: left">13.49 KB</td>
+      <td style="text-align: left">Rapid escape of new SARS-CoV-2 Omicron variants from BA.2-directed antibody responses</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W7034619350</td>
+      <td style="text-align: left">13.42 KB</td>
+      <td style="text-align: left">Un nou paradigma de formació professional i professionalitzadora</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W7036241104</td>
+      <td style="text-align: left">13.37 KB</td>
+      <td style="text-align: left">+91-9116799099 black magic specialist astrologer in mumbai</td>
+      <td style="text-align: left">other</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W7012526362</td>
+      <td style="text-align: left">14.58 KB</td>
+      <td style="text-align: left">vol19no2 91</td>
+      <td style="text-align: left">other</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6898759648</td>
+      <td style="text-align: left">13.59 KB</td>
+      <td style="text-align: left">crosstalk.min.css</td>
+      <td style="text-align: left">dataset</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W7080695530</td>
+      <td style="text-align: left">13.51 KB</td>
+      <td style="text-align: left">¿Cuidar por amor?: una aproximación al trabajo de cuidados y a sus consecuencias en mujeres cuidadoras, a partir de los conceptos de amor y violencia de género, y de apoyo social y salud</td>
+      <td style="text-align: left">dissertation</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6892682899</td>
+      <td style="text-align: left">13.03 KB</td>
+      <td style="text-align: left">Mietvertrag pdf vorlage</td>
+      <td style="text-align: left">other</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4403508472</td>
+      <td style="text-align: left">14.38 KB</td>
+      <td style="text-align: left">Access barriers to anti-CD19+ CART therapy for NHL across a community transplant and cellular therapy network</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4406152282</td>
+      <td style="text-align: left">13.44 KB</td>
+      <td style="text-align: left">Population sequencing of cherry accessions unravels the evolution of Cerasus species and the selection of genetic characteristics in edible cherries</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6973470076</td>
+      <td style="text-align: left">13.65 KB</td>
+      <td style="text-align: left">002_IFNL_Recovery_scRNAseq_20230601_10X_RNAseq_WT_excluded_cells_pctRibo.txt</td>
+      <td style="text-align: left">dataset</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6995968140</td>
+      <td style="text-align: left">13.07 KB</td>
+      <td style="text-align: left">Protitumorsko delovanje genskega elektroprenosa kombinacije plazmidov z zapisom za interlevkina IL-2 in IL-12 na različnih mišjih tumorskih modelih</td>
+      <td style="text-align: left">dissertation</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4225759884</td>
+      <td style="text-align: left">14.23 KB</td>
+      <td style="text-align: left">Urban planning – architectural report on thermal stress in the city of Warsaw</td>
+      <td style="text-align: left">report</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6930644172</td>
+      <td style="text-align: left">13.58 KB</td>
+      <td style="text-align: left">Dioscorea flabellispina R. Couto &amp; J. M. A. Braga 2015, sp. nov.</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4205221276</td>
+      <td style="text-align: left">13.51 KB</td>
+      <td style="text-align: left">Superficial Therapy</td>
+      <td style="text-align: left">book-chapter</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W7118711906</td>
+      <td style="text-align: left">14.15 KB</td>
+      <td style="text-align: left">Euderces reichei LeConte 1873</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6912937968</td>
+      <td style="text-align: left">13.38 KB</td>
+      <td style="text-align: left">Conlan vs Guerfi Live streaming online free ON -FITE, ESPN+ – Dec. 10 – 1 pm ET</td>
+      <td style="text-align: left">other</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4385264758</td>
+      <td style="text-align: left">13.47 KB</td>
+      <td style="text-align: left">Comparative Effectiveness of Long‐Term Maintenance Beta‐Blocker Therapy After Acute Myocardial Infarction in Stable, Optimally Treated Patients Undergoing Percutaneous Coronary Intervention</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4413050474</td>
+      <td style="text-align: left">13.65 KB</td>
+      <td style="text-align: left">Correction: CPT1A-mediated fatty acid oxidation promotes colorectal cancer cell metastasis by inhibiting anoikis</td>
+      <td style="text-align: left">erratum</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W7115911156</td>
+      <td style="text-align: left">14.52 KB</td>
+      <td style="text-align: left">مکاتب فلسفی باستانی و معاصر و تحلیل ریاضیاتی-فیزیکی آنها با تانسور ۱۶۵ بعدی معادله حمزه</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6961851598</td>
+      <td style="text-align: left">14.8 KB</td>
+      <td style="text-align: left">Occurrence Download</td>
+      <td style="text-align: left">dataset</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W7028013212</td>
+      <td style="text-align: left">14.17 KB</td>
+      <td style="text-align: left">Disconnected: Investigating the Social and Political Conditions Shaping Mexico Cityâs Air Quality Regulatory Environment</td>
+      <td style="text-align: left">dissertation</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W7036633864</td>
+      <td style="text-align: left">14.63 KB</td>
+      <td style="text-align: left">Casa Huarte: José Antonio Corrales y Ramón Vázquez Molezún. El concepto de lo experimental en el ámbito doméstico</td>
+      <td style="text-align: left">other</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6930509074</td>
+      <td style="text-align: left">14.66 KB</td>
+      <td style="text-align: left">The Anatomy of Superintelligence: How To Create ASI Lifeform System The Instructions Manuel (Nexus of Cognition: A Technical Codex Blueprint For Engineering, Crafting, Self-Propagating, and Self-Evolving Superintelligence)</td>
+      <td style="text-align: left">book</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6931279648</td>
+      <td style="text-align: left">13.03 KB</td>
+      <td style="text-align: left">Thaumastocoris safordi Noack, Cassis &amp; Rose, n.sp.</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W7065056515</td>
+      <td style="text-align: left">13.37 KB</td>
+      <td style="text-align: left">delhi vashikaran specialist services +91-9116799099</td>
+      <td style="text-align: left">other</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4366463645</td>
+      <td style="text-align: left">13.78 KB</td>
+      <td style="text-align: left">Epigenetic Control of Translation Checkpoint and Tumor Progression via RUVBL1‐EEF1A1 Axis</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4402335530</td>
+      <td style="text-align: left">14.73 KB</td>
+      <td style="text-align: left">T cell correction pipeline for Inborn Errors of Immunity</td>
+      <td style="text-align: left">preprint</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6911649937</td>
+      <td style="text-align: left">13.41 KB</td>
+      <td style="text-align: left">Tabata workout tabata übungen pdf</td>
+      <td style="text-align: left">other</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4404309783</td>
+      <td style="text-align: left">14.2 KB</td>
+      <td style="text-align: left">Data for EMSL Project 60045 from September 2023</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W7130832543</td>
+      <td style="text-align: left">13.96 KB</td>
+      <td style="text-align: left">Global Dynamics : Contrôle, Flux et Divergence Planétaire</td>
+      <td style="text-align: left">other</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W7040693920</td>
+      <td style="text-align: left">13.5 KB</td>
+      <td style="text-align: left">2</td>
+      <td style="text-align: left">other</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4409383793</td>
+      <td style="text-align: left">13.58 KB</td>
+      <td style="text-align: left">The RMaP challenge of predicting RNA modifications by nanopore sequencing</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4287120992</td>
+      <td style="text-align: left">14.82 KB</td>
+      <td style="text-align: left">Powerful dua for lost love +918696805715</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4242548701</td>
+      <td style="text-align: left">13.03 KB</td>
+      <td style="text-align: left">nan</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4405219434</td>
+      <td style="text-align: left">13.67 KB</td>
+      <td style="text-align: left">The Frequency and Incidence of QT Prolongation With Extended Use of Bedaquiline or Delamanid in a Large, Multi-Country Multidrug-Resistant/Rifampicin-Resistant Tuberculosis Cohort</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4396579258</td>
+      <td style="text-align: left">14.65 KB</td>
+      <td style="text-align: left">IT-Related Barriers and Facilitators to the Implementation of a New European eHealth Solution, the Digital Survivorship Passport (SurPass Version 2.0): Semistructured Digital Survey</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4409169081</td>
+      <td style="text-align: left">14.2 KB</td>
+      <td style="text-align: left">Editorial: Treatment of brain metastases from non-small cell lung cancer: preclinical, clinical, and translational research</td>
+      <td style="text-align: left">editorial</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W7019600339</td>
+      <td style="text-align: left">14.51 KB</td>
+      <td style="text-align: left">Grain Boundary Passivation of Multicrystalline Silicon Using Hydrogen Sulfide as a Sulfur Source</td>
+      <td style="text-align: left">dissertation</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4387019576</td>
+      <td style="text-align: left">14.8 KB</td>
+      <td style="text-align: left">Genome-wide enhancer-gene regulatory maps link causal variants to target genes underlying human cancer risk</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6950240078</td>
+      <td style="text-align: left">14.01 KB</td>
+      <td style="text-align: left">Grzegorzekia kerri Fitzgerald 2019, n. sp.</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6931786938</td>
+      <td style="text-align: left">13.77 KB</td>
+      <td style="text-align: left">Dental Enumeration and Diagnosis on Panoramic X-rays Challenge</td>
+      <td style="text-align: left">other</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W7067043463</td>
+      <td style="text-align: left">13.75 KB</td>
+      <td style="text-align: left">Környezettudatosság és a támogatások szerepe az ökológiai gazdálkodást folytató egyéni gazdaságokban</td>
+      <td style="text-align: left">other</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6939304370</td>
+      <td style="text-align: left">14.37 KB</td>
+      <td style="text-align: left">Unpublished Mediterranean and Black Sea records of marine alien, cryptogenic, and neonative species</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4361277700</td>
+      <td style="text-align: left">13.87 KB</td>
+      <td style="text-align: left">Tricuspid Regurgitation in Elderly Patients with Acute Heart Failure: Insights from the KCHF Registry</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6950347820</td>
+      <td style="text-align: left">14.13 KB</td>
+      <td style="text-align: left">Drepanaporus antillarum Waichert &amp; Rodriguez &amp; Von Dohlen &amp; Pitts 2012, comb. nov.</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4287125103</td>
+      <td style="text-align: left">14.28 KB</td>
+      <td style="text-align: left">Prayer for love to come back +918696805715</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4394812780</td>
+      <td style="text-align: left">14.48 KB</td>
+      <td style="text-align: left">Human skeletal muscle aging atlas</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6949045727</td>
+      <td style="text-align: left">13.95 KB</td>
+      <td style="text-align: left">Metaphern liste pdf</td>
+      <td style="text-align: left">other</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6911352952</td>
+      <td style="text-align: left">13.32 KB</td>
+      <td style="text-align: left">Anxious people pdf</td>
+      <td style="text-align: left">other</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6969088725</td>
+      <td style="text-align: left">13.54 KB</td>
+      <td style="text-align: left">watch! demon slayer mugen train (2020)</td>
+      <td style="text-align: left">full movies online `free</td>
+      <td>article</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4385514810</td>
+      <td style="text-align: left">13.07 KB</td>
+      <td style="text-align: left">Volatile Organic Compounds Emitted by the Biocontrol Agent Pythium oligandrum Contribute to Ginger Plant Growth and Disease Resistance</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W7048373832</td>
+      <td style="text-align: left">13.76 KB</td>
+      <td style="text-align: left">jual obat cytotec pontianak 0822-6164-1233 obat aborsi cytotec pontianak</td>
+      <td style="text-align: left">other</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4395358302</td>
+      <td style="text-align: left">13.5 KB</td>
+      <td style="text-align: left">Occurrence Download</td>
+      <td style="text-align: left">dataset</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6967962944</td>
+      <td style="text-align: left">13.58 KB</td>
+      <td style="text-align: left">Madeira wanderkarte pdf</td>
+      <td style="text-align: left">other</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W7037446107</td>
+      <td style="text-align: left">13.81 KB</td>
+      <td style="text-align: left">Estudio de la relación entre la dificultad quirúrgica en la exodoncia del tercer molar y las variables clínicas y séricas.</td>
+      <td style="text-align: left">dissertation</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6949805951</td>
+      <td style="text-align: left">14.64 KB</td>
+      <td style="text-align: left">Drusilla italica V. I. Gusarov</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W7005090577</td>
+      <td style="text-align: left">14.11 KB</td>
+      <td style="text-align: left">Prefatory Matter and Table of Contents</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6969062358</td>
+      <td style="text-align: left">14.36 KB</td>
+      <td style="text-align: left">Atanatolica bonita Costa &amp; Calor, 2014, new species</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6920165680</td>
+      <td style="text-align: left">13.11 KB</td>
+      <td style="text-align: left">Elimination of lymphatic filariasis as a public health problem in Malawi</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4392916898</td>
+      <td style="text-align: left">13.07 KB</td>
+      <td style="text-align: left">Etiologija subjektivne dobrobiti u prostoru modela ličnosti HEXACO</td>
+      <td style="text-align: left">dissertation</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6892885163</td>
+      <td style="text-align: left">13.39 KB</td>
+      <td style="text-align: left">Der verrat am selbst pdf</td>
+      <td style="text-align: left">other</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6958684128</td>
+      <td style="text-align: left">14.86 KB</td>
+      <td style="text-align: left">???????? LOST LOVE SPELLS CASTER ((+27640243780)) IN SPRINGBOK,NIGEL,PHUTHADITJHABA ,NOORDGESIG,MAPONYA (PIMVILLE),ETWATWA,BEDFORD,VANDERBIJLPARK,KEMPTON PARK</td>
+      <td style="text-align: left">dataset</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W7120705765</td>
+      <td style="text-align: left">13.56 KB</td>
+      <td style="text-align: left">A Reinvenção do Rural no Rio de Janeiro: A Experiência do Café na Roça no Bairro Campo Grande / Rural’s Reinvention in Rio de Janeiro: Café na Roça Experience in Campo Grande Neighborhood</td>
+      <td style="text-align: left">other</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6950155751</td>
+      <td style="text-align: left">13.46 KB</td>
+      <td style="text-align: left">Procollina stigmosa Sanborn 2018, n. sp.</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4407308766</td>
+      <td style="text-align: left">13.41 KB</td>
+      <td style="text-align: left">Revolutionizing Academic Medical Writing: The Role of AI</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6930046673</td>
+      <td style="text-align: left">13.36 KB</td>
+      <td style="text-align: left">Tajine pdf</td>
+      <td style="text-align: left">other</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6907560195</td>
+      <td style="text-align: left">13.96 KB</td>
+      <td style="text-align: left">Determination of Applied Water and Water Productivity in Barley Production in Iran</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W6950053553</td>
+      <td style="text-align: left">14.57 KB</td>
+      <td style="text-align: left">Pseudochromis erdmanni Gill &amp; Allen, 2011, new species</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4200229298</td>
+      <td style="text-align: left">13.3 KB</td>
+      <td style="text-align: left">Robotic NICE Procedure With Natural Orifice-Assisted Small-Bowel Resection and Anastomosis for Complicated Diverticulitis with Enterocolic Fistula</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W4385405849</td>
+      <td style="text-align: left">13.32 KB</td>
+      <td style="text-align: left">Identifying an optimal fludarabine exposure for improved outcomes after axi-cel therapy for aggressive B-cell non-Hodgkin lymphoma</td>
+      <td style="text-align: left">article</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">https://openalex.org/W7106853289</td>
+      <td style="text-align: left">14.2 KB</td>
+      <td style="text-align: left">Gammarus latispinus Piscart, Mabrouki &amp; Taybi, 2025, sp. nov.</td>
+      <td style="text-align: left"> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <nav class="post-nav">
+    <a class="post-nav-prev" href="/travel/2025/10/22/france-vat-free.html">&larr; Getting VAT Refund from French Online Stores</a>
+  </nav>
+</article>
+
+    </main>
+    <footer class="site-footer">
+  <div class="wrapper site-footer-inner">
+    <span>&copy; 2026 Mingi Ryu</span>
+    <div class="footer-links"><a href="https://github.com/ryumingi" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://www.linkedin.com/in/mryu/" target="_blank" rel="noopener noreferrer">LinkedIn</a><a href="/feed.xml">RSS</a>
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>

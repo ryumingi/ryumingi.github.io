@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Making Polars Faster | Mingi Ryu</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Making Polars Faster" />
+<meta name="author" content="Mingi Ryu" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Row-wise operation in Polars is procedural just like Pandas. Modin, Dask, etc can be used to speed up the runtime depending on the numeber of cores available in the compute." />
+<meta property="og:description" content="Row-wise operation in Polars is procedural just like Pandas. Modin, Dask, etc can be used to speed up the runtime depending on the numeber of cores available in the compute." />
+<link rel="canonical" href="https://ryumingi.github.io/dev/2025/04/04/making-polars-faster.html" />
+<meta property="og:url" content="https://ryumingi.github.io/dev/2025/04/04/making-polars-faster.html" />
+<meta property="og:site_name" content="Mingi Ryu" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-04-04T00:00:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Making Polars Faster" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Mingi Ryu"},"dateModified":"2025-04-04T00:00:00+00:00","datePublished":"2025-04-04T00:00:00+00:00","description":"Row-wise operation in Polars is procedural just like Pandas. Modin, Dask, etc can be used to speed up the runtime depending on the numeber of cores available in the compute.","headline":"Making Polars Faster","mainEntityOfPage":{"@type":"WebPage","@id":"https://ryumingi.github.io/dev/2025/04/04/making-polars-faster.html"},"url":"https://ryumingi.github.io/dev/2025/04/04/making-polars-faster.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link type="application/atom+xml" rel="alternate" href="https://ryumingi.github.io/feed.xml" title="Mingi Ryu" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+</head>
+
+  <body>
+    <header class="site-header">
+  <div class="wrapper site-header-inner">
+    <div>
+      <a class="site-title" href="/">Mingi Ryu</a>
+      <p class="site-description">Knowledge representation and reasoning</p>
+    </div>
+    <nav class="site-nav">
+        <a class="page-link" href="/archive/">Archive</a>
+        <a class="page-link" href="/tags/">Tags</a>
+        <a class="page-link" href="/links">Links</a>
+        <a class="page-link" href="/reading">Reading</a></nav>
+  </div>
+</header>
+
+    <main class="wrapper" id="content">
+      <article class="post">
+  <header class="post-header">
+    <h1 class="post-title">Making Polars Faster</h1>
+    <p class="post-meta">
+      <time datetime="2025-04-04T00:00:00+00:00">April 4, 2025</time>
+      &middot; 1 min read
+      &middot; <a href="/tags/#dev">dev</a>
+    </p>
+  </header>
+
+  <div class="post-content">
+    <p>Row-wise operation in Polars is procedural just like Pandas. Modin, Dask, etc can be used to speed up the runtime depending on the numeber of cores available in the compute.</p>
+
+<p>The following wrapper basically uses the the <code class="language-plaintext highlighter-rouge">multiprocessing</code> library to parallize the workload. It’s a simple trick that also works with Pandas. However, it may not work for all cases and there’s no lazy planning &amp; execution.</p>
+
+<div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">parallel_apply</span><span class="p">(</span><span class="n">func</span><span class="p">,</span> <span class="n">iterable</span><span class="p">,</span> <span class="n">chunksize</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">processes</span><span class="o">=</span><span class="mi">8</span><span class="p">):</span>
+    <span class="n">python_iterable</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">iterable</span><span class="p">.</span><span class="n">to_numpy</span><span class="p">())</span>
+
+    <span class="k">with</span> <span class="n">multiprocessing</span><span class="p">.</span><span class="n">get_context</span><span class="p">(</span><span class="s">"spawn"</span><span class="p">).</span><span class="n">Pool</span><span class="p">(</span><span class="n">processes</span><span class="o">=</span><span class="n">processes</span><span class="p">)</span> <span class="k">as</span> <span class="n">pool</span><span class="p">:</span>
+        <span class="n">result</span> <span class="o">=</span> <span class="n">pool</span><span class="p">.</span><span class="n">imap</span><span class="p">(</span><span class="n">func</span><span class="p">,</span> <span class="n">track</span><span class="p">(</span><span class="n">python_iterable</span><span class="p">),</span> <span class="n">chunksize</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">pl</span><span class="p">.</span><span class="n">Series</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
+</code></pre></div></div>
+
+<blockquote>
+  <p>https://stackoverflow.com/questions/77325464/how-can-i-improve-the-runtime-of-row-wise-operations-in-polars</p>
+</blockquote>
+
+<p>Writing the Polars DataFrame into partition parquets have been tricky since the beginning. As a result, the following helper functions have been used as a workaround in order to support downstream tasks that require partitioned parquet files.</p>
+
+<p>There are different ways to partition the parquet with Polars using any one of these parameters: <code class="language-plaintext highlighter-rouge">pyarrow_options</code>, <code class="language-plaintext highlighter-rouge">partition_by</code>, <code class="language-plaintext highlighter-rouge">partition_chunk_size_bytes</code> in <a href="https://docs.pola.rs/api/python/dev/reference/api/polars.DataFrame.write_parquet.html">polars.DataFrame.write_parquet</a>. However, each of the implementation is quite different than the traditional partition conception of repartitioning the dataset to N parts and each worker/core writing it to disk. Note that the memory usage is not optimized and quite unpredictable.</p>
+
+<div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">write_partitioned_parquet</span><span class="p">(</span>
+    <span class="n">df</span><span class="p">,</span> <span class="n">output_dir</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">num_partitions</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">100</span><span class="p">,</span> <span class="n">overwrite</span><span class="o">=</span><span class="bp">False</span>
+<span class="p">):</span>
+    <span class="k">if</span> <span class="n">overwrite</span><span class="p">:</span>
+        <span class="n">shutil</span><span class="p">.</span><span class="n">rmtree</span><span class="p">(</span><span class="n">output_dir</span><span class="p">,</span> <span class="n">ignore_errors</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+
+    <span class="n">os</span><span class="p">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">output_dir</span><span class="p">,</span> <span class="n">exist_ok</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
+
+    <span class="n">num_rows</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
+    <span class="n">rows_per_partition</span> <span class="o">=</span> <span class="n">num_rows</span> <span class="o">//</span> <span class="n">num_partitions</span>
+
+    <span class="n">logger</span><span class="p">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s">"Using </span><span class="si">{</span><span class="n">num_rows</span><span class="o">=</span><span class="si">}</span><span class="s">, </span><span class="si">{</span><span class="n">rows_per_partition</span><span class="o">=</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">tqdm</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="n">num_partitions</span><span class="p">)):</span>
+        <span class="n">output_file</span> <span class="o">=</span> <span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="n">output_dir</span><span class="p">,</span> <span class="sa">f</span><span class="s">"part-</span><span class="si">{</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="si">}</span><span class="s">.parquet"</span><span class="p">)</span>
+
+        <span class="n">start_idx</span> <span class="o">=</span> <span class="n">i</span> <span class="o">*</span> <span class="n">rows_per_partition</span>
+
+        <span class="k">if</span> <span class="n">i</span> <span class="o">==</span> <span class="n">num_partitions</span> <span class="o">-</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="n">end_idx</span> <span class="o">=</span> <span class="n">num_rows</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">end_idx</span> <span class="o">=</span> <span class="p">(</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">*</span> <span class="n">rows_per_partition</span>
+
+        <span class="n">partition_df</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">start_idx</span><span class="p">:</span><span class="n">end_idx</span><span class="p">]</span>
+        <span class="n">partition_df</span><span class="p">.</span><span class="n">write_parquet</span><span class="p">(</span><span class="n">output_file</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">sink_partitioned_parquet</span><span class="p">(</span>
+    <span class="n">df</span><span class="p">,</span> <span class="n">output_dir</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">num_partitions</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">100</span><span class="p">,</span> <span class="n">overwrite</span><span class="o">=</span><span class="bp">False</span>
+<span class="p">):</span>
+    <span class="k">if</span> <span class="n">overwrite</span><span class="p">:</span>
+        <span class="n">shutil</span><span class="p">.</span><span class="n">rmtree</span><span class="p">(</span><span class="n">output_dir</span><span class="p">,</span> <span class="n">ignore_errors</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+
+    <span class="n">os</span><span class="p">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">output_dir</span><span class="p">,</span> <span class="n">exist_ok</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
+
+    <span class="n">sink_path</span> <span class="o">=</span> <span class="sa">f</span><span class="s">"</span><span class="si">{</span><span class="n">output_dir</span><span class="si">}</span><span class="s">.sink"</span>
+
+    <span class="n">logger</span><span class="p">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s">"Sink to </span><span class="si">{</span><span class="n">sink_path</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+    <span class="n">df</span><span class="p">.</span><span class="n">sink_parquet</span><span class="p">(</span><span class="n">sink_path</span><span class="p">)</span>
+
+    <span class="n">logger</span><span class="p">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s">"Scan </span><span class="si">{</span><span class="n">sink_path</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+    <span class="n">df</span> <span class="o">=</span> <span class="n">pl</span><span class="p">.</span><span class="n">scan_parquet</span><span class="p">(</span><span class="n">sink_path</span><span class="p">)</span>
+
+    <span class="n">num_rows</span> <span class="o">=</span> <span class="n">df</span><span class="p">.</span><span class="n">select</span><span class="p">(</span><span class="n">pl</span><span class="p">.</span><span class="n">count</span><span class="p">()).</span><span class="n">collect</span><span class="p">().</span><span class="n">item</span><span class="p">()</span>
+    <span class="n">rows_per_partition</span> <span class="o">=</span> <span class="n">num_rows</span> <span class="o">//</span> <span class="n">num_partitions</span>
+
+    <span class="n">logger</span><span class="p">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s">"Using </span><span class="si">{</span><span class="n">num_rows</span><span class="o">=</span><span class="si">}</span><span class="s">, </span><span class="si">{</span><span class="n">rows_per_partition</span><span class="o">=</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">tqdm</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="n">num_partitions</span><span class="p">)):</span>
+        <span class="n">output_file</span> <span class="o">=</span> <span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="n">output_dir</span><span class="p">,</span> <span class="sa">f</span><span class="s">"part-</span><span class="si">{</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="si">}</span><span class="s">.parquet"</span><span class="p">)</span>
+
+        <span class="n">start_idx</span> <span class="o">=</span> <span class="n">i</span> <span class="o">*</span> <span class="n">rows_per_partition</span>
+
+        <span class="k">if</span> <span class="n">i</span> <span class="o">==</span> <span class="n">num_partitions</span> <span class="o">-</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="n">end_idx</span> <span class="o">=</span> <span class="n">num_rows</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">end_idx</span> <span class="o">=</span> <span class="p">(</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">*</span> <span class="n">rows_per_partition</span>
+
+        <span class="n">partition_df</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">start_idx</span><span class="p">:</span><span class="n">end_idx</span><span class="p">]</span>
+        <span class="n">partition_df</span><span class="p">.</span><span class="n">sink_parquet</span><span class="p">(</span><span class="n">output_file</span><span class="p">)</span>
+
+    <span class="n">os</span><span class="p">.</span><span class="n">remove</span><span class="p">(</span><span class="n">sink_path</span><span class="p">)</span>
+</code></pre></div></div>
+
+  </div>
+  <nav class="post-nav">
+    <a class="post-nav-prev" href="/dev/2025/01/24/dataframe-libraries.html">&larr; Comparison of Dataframe libaries and others</a>
+    <a class="post-nav-next" href="/dev/2025/04/29/es-parallel-bulk-on-ec2.html">Elasticsearch Parallel Bulk &rarr;</a>
+  </nav>
+</article>
+
+    </main>
+    <footer class="site-footer">
+  <div class="wrapper site-footer-inner">
+    <span>&copy; 2026 Mingi Ryu</span>
+    <div class="footer-links"><a href="https://github.com/ryumingi" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://www.linkedin.com/in/mryu/" target="_blank" rel="noopener noreferrer">LinkedIn</a><a href="/feed.xml">RSS</a>
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>
